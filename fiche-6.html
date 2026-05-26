@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comptabilité 4e — Fiche 6 : La TVA · IND Loverval</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-fiche="6">
+  <main class="main">
+    <div class="hero">
+      <div class="wrap">
+        <span class="kicker">Fiche 6 · Opérations</span>
+        <h1>La <span class="accent">TVA</span> : achats &amp; ventes</h1>
+        <p class="lede">À chaque achat et chaque vente, l'entreprise manipule la TVA pour le compte de l'État. Trois comptes suffisent à tout enregistrer. On commence à comptabiliser pour de vrai.</p>
+        <div class="objectifs">
+          <span class="obj"><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Calculer la <b>TVA</b> (21 / 12 / 6 %)</span>
+          <span class="obj"><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Comptabiliser un <b>achat</b></span>
+          <span class="obj"><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Comptabiliser une <b>vente</b></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <section>
+        <div class="eyebrow"><span class="dot">1</span><h2>Le principe</h2></div>
+        <p>La <b>TVA</b> (taxe sur la valeur ajoutée) est un impôt sur la consommation. L'entreprise la collecte sur ses ventes et la paie sur ses achats : elle ne fait que la transférer à l'État. On distingue toujours le montant <b>hors TVA</b> (HTVA) du montant <b>TVA comprise</b> (TVAC).</p>
+        <div class="keyrow">
+          <div class="keycard a"><div class="kt">21 %</div>Taux normal : la plupart des biens et services.</div>
+          <div class="keycard a"><div class="kt">12 %</div>Taux intermédiaire (ex. restauration, certains logements).</div>
+          <div class="keycard a"><div class="kt">6 %</div>Taux réduit (ex. produits de première nécessité).</div>
+        </div>
+        <div class="formula">TVAC <span class="op">=</span> HTVA <span class="op">+</span> <span class="a">TVA</span> &nbsp;&nbsp;avec&nbsp;&nbsp; TVA <span class="op">=</span> HTVA <span class="op">×</span> taux</div>
+      </section>
+
+      <section>
+        <div class="eyebrow"><span class="dot">2</span><h2>Calculateur de TVA</h2></div>
+        <p>Entre un montant hors TVA, choisis le taux, et observe la TVA et le total à payer.</p>
+        <div class="tva-calc js-tva" data-taux="21">
+          <div class="tva-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="11" x2="8" y2="11"/><line x1="12" y1="11" x2="12" y2="11"/><line x1="16" y1="11" x2="16" y2="11"/><line x1="8" y1="15" x2="8" y2="15"/><line x1="12" y1="15" x2="12" y2="15"/></svg> Calculateur de TVA</div>
+          <div class="tva-body">
+            <div class="tva-row"><label>Montant HTVA</label><input data-tva-base inputmode="decimal" placeholder="0">&nbsp;€</div>
+            <div class="tva-row"><label>Taux de TVA</label><div class="tva-taux"><button data-taux="21" class="on">21 %</button><button data-taux="12">12 %</button><button data-taux="6">6 %</button></div></div>
+            <div class="tva-out">
+              <div class="tva-cell htva"><div class="lbl">Hors TVA</div><div class="v" data-out="htva">—</div></div>
+              <div class="tva-cell tva"><div class="lbl">TVA</div><div class="v" data-out="tva">—</div></div>
+              <div class="tva-cell tvac"><div class="lbl">TVA comprise</div><div class="v" data-out="tvac">—</div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="eyebrow"><span class="dot">3</span><h2>Comptabiliser un achat</h2></div>
+        <p>À l'achat, la TVA payée est <b>déductible</b> (l'entreprise la récupérera auprès de l'État). On utilise trois comptes : la charge ou le bien acheté (HTVA), la TVA déductible, et la dette envers le fournisseur (TVAC).</p>
+        <table class="ecriture">
+          <caption>Achat de marchandises pour 2 000 € HTVA, à crédit (TVA 21 %)</caption>
+          <thead><tr><th>Compte</th><th class="amt">Débit</th><th class="amt">Crédit</th></tr></thead>
+          <tbody>
+            <tr><td class="cpt"><span class="no">604</span> Achats de marchandises <span class="hint">(HTVA)</span></td><td class="amt">2 000,00</td><td class="amt"></td></tr>
+            <tr><td class="cpt"><span class="no">4511</span> TVA sur achat <span class="hint">(déductible · 2 000 × 21 %)</span></td><td class="amt">420,00</td><td class="amt"></td></tr>
+            <tr class="credit"><td class="cpt"><span class="no">44</span> Fournisseurs <span class="hint">(TVAC)</span></td><td class="amt"></td><td class="amt">2 420,00</td></tr>
+          </tbody>
+        </table>
+        <div class="note">Deux variantes utiles : si l'achat est <b>payé comptant</b>, on remplace le compte 44 Fournisseurs par <b>550 Banque</b>. Si on achète un <b>bien durable</b> (mobilier, matériel), on remplace le 604 par le compte d'actif correspondant — par exemple <b>24 Mobilier et matériel roulant</b>.</p></div>
+      </section>
+
+      <section>
+        <div class="eyebrow"><span class="dot">4</span><h2>Comptabiliser une vente</h2></div>
+        <p>À la vente, la TVA facturée au client est <b>due</b> à l'État. Le client paie le total TVAC ; l'entreprise enregistre la vente HTVA et la TVA à reverser.</p>
+        <table class="ecriture">
+          <caption>Vente de 10 chaises à 75 € HTVA pièce, à crédit (TVA 21 %)</caption>
+          <thead><tr><th>Compte</th><th class="amt">Débit</th><th class="amt">Crédit</th></tr></thead>
+          <tbody>
+            <tr><td class="cpt"><span class="no">40</span> Créances sur clients <span class="hint">(TVAC)</span></td><td class="amt">907,50</td><td class="amt"></td></tr>
+            <tr class="credit"><td class="cpt"><span class="no">70</span> Ventes de marchandises <span class="hint">(HTVA · 10 × 75)</span></td><td class="amt"></td><td class="amt">750,00</td></tr>
+            <tr class="credit"><td class="cpt"><span class="no">4510</span> TVA sur ventes <span class="hint">(due · 750 × 21 %)</span></td><td class="amt"></td><td class="amt">157,50</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <div class="eyebrow"><span class="dot">5</span><h2>À toi de jouer</h2></div>
+        <p>L'entreprise achète du <b>mobilier</b> (étagères, comptoir, bureau, chaises) pour <b>1 900 € HTVA</b>, payé au comptant par banque, TVA 21 %. Complète les trois montants de l'écriture.</p>
+        <div class="js-fields" data-win="<b>Parfait&nbsp;!</b> TVA = 1 900 × 21 % = 399 € · total payé TVAC = 1 900 + 399 = 2 299 €. Le mobilier est un bien durable → compte d'actif 24.">
+          <table class="ecriture">
+            <thead><tr><th>Compte</th><th class="amt">Débit</th><th class="amt">Crédit</th></tr></thead>
+            <tbody>
+              <tr><td class="cpt"><span class="no">24</span> Mobilier et matériel <span class="hint">(HTVA)</span></td><td class="amt"><input data-exp="1900" inputmode="numeric"></td><td class="amt"></td></tr>
+              <tr><td class="cpt"><span class="no">4511</span> TVA sur achat <span class="hint">(déductible)</span></td><td class="amt"><input data-exp="399" inputmode="numeric"></td><td class="amt"></td></tr>
+              <tr class="credit"><td class="cpt"><span class="no">550</span> Banque <span class="hint">(TVAC)</span></td><td class="amt"></td><td class="amt"><input data-exp="2299" inputmode="numeric"></td></tr>
+            </tbody>
+          </table>
+          <div class="toolbar">
+            <button class="btn btn-primary" data-act="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Vérifier</button>
+            <button class="btn btn-ghost" data-act="reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg> Afficher la correction</button>
+            <button class="btn btn-ghost" data-act="reset"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg> Recommencer</button>
+          </div>
+          <div class="feedback"><svg class="fb-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"></svg><span class="fb-txt"></span></div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px">
+        <span>IND Loverval · Sciences économiques 4ᵉ · S. Molinari</span>
+        <span>Fiche 6 — La TVA</span>
+      </div>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

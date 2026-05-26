@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comptabilité 4e — Fiche 8 : Variations de stock · IND Loverval</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-fiche="8">
+  <main class="main">
+    <div class="hero">
+      <div class="wrap">
+        <span class="kicker">Fiche 8 · Opérations</span>
+        <h1>Les variations de <span class="accent">stock</span></h1>
+        <p class="lede">En fin d'année, on compte ce qui reste en stock. S'il a augmenté ou diminué, il faut l'ajuster en comptabilité — et cela influe directement sur le résultat.</p>
+        <div class="objectifs">
+          <span class="obj"><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Calculer la <b>variation</b></span>
+          <span class="obj"><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Les deux <b>cas</b> possibles</span>
+          <span class="obj"><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Comptes <b>34</b> et <b>6094</b></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <section>
+        <div class="eyebrow"><span class="dot">1</span><h2>Le principe</h2></div>
+        <p>Au 31/12, lors de l'<b>inventaire</b>, on valorise le stock final (SF). En le comparant au stock initial (SI), on mesure la <b>variation de stock</b> :</p>
+        <div class="formula">Variation <span class="op">=</span> Stock initial (SI) <span class="op">−</span> Stock final (SF)</div>
+        <p>Deux comptes interviennent : <b>34 Stocks de marchandises</b> (un compte d'<b>actif</b>) et <b>6094 Variations de stocks</b> (un compte de <b>charges</b>). Le compte 34 suit la règle des signes de l'actif ; le compte 6094 enregistre l'effet sur les charges.</p>
+      </section>
+
+      <section>
+        <div class="eyebrow"><span class="dot">2</span><h2>Cas 1 — le stock diminue (SF &lt; SI)</h2></div>
+        <p><b>Exemple.</b> SI = 300 000 € et SF = 180 000 €. Le stock a <b>diminué de 120 000 €</b> (variation = 300 000 − 180 000 = +120 000). On a puisé dans le stock : c'est une <b>charge</b> supplémentaire.</p>
+        <table class="ecriture">
+          <caption>Le stock baisse de 120 000 €</caption>
+          <thead><tr><th>Compte</th><th class="amt">Débit</th><th class="amt">Crédit</th></tr></thead>
+          <tbody>
+            <tr><td class="cpt"><span class="no">6094</span> Variations de stocks <span class="hint">(charge ↑)</span></td><td class="amt">120 000</td><td class="amt"></td></tr>
+            <tr class="credit"><td class="cpt"><span class="no">34</span> Stocks de marchandises <span class="hint">(actif ↓)</span></td><td class="amt"></td><td class="amt">120 000</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <div class="eyebrow"><span class="dot">3</span><h2>Cas 2 — le stock augmente (SF &gt; SI)</h2></div>
+        <p><b>Exemple.</b> SI = 300 000 € et SF = 450 000 €. Le stock a <b>augmenté de 150 000 €</b> (variation = 300 000 − 450 000 = −150 000). On a constitué du stock : cela vient en <b>diminution des charges</b>.</p>
+        <table class="ecriture">
+          <caption>Le stock augmente de 150 000 €</caption>
+          <thead><tr><th>Compte</th><th class="amt">Débit</th><th class="amt">Crédit</th></tr></thead>
+          <tbody>
+            <tr><td class="cpt"><span class="no">34</span> Stocks de marchandises <span class="hint">(actif ↑)</span></td><td class="amt">150 000</td><td class="amt"></td></tr>
+            <tr class="credit"><td class="cpt"><span class="no">6094</span> Variations de stocks <span class="hint">(charge ↓)</span></td><td class="amt"></td><td class="amt">150 000</td></tr>
+          </tbody>
+        </table>
+        <div class="callout c-retenir">
+          <h4><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Le réflexe</h4>
+          <p>Le compte <b>34</b> bouge comme l'actif qu'il est : il <b>augmente au débit</b>, diminue au crédit. Le compte <b>6094</b> fait toujours le mouvement inverse, pour équilibrer l'écriture.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="eyebrow"><span class="dot">4</span><h2>À toi de jouer</h2></div>
+        <p><b>Le stock passe de 150 000 € (SI) à 200 000 € (SF).</b> Calcule la variation et complète l'écriture.</p>
+        <div class="js-fields" data-win="<b>Parfait&nbsp;!</b> Le stock augmente de 50 000 € → on débite le compte 34 (actif ↑) et on crédite le 6094 (charge ↓) de 50 000 €.">
+          <table class="ecriture">
+            <thead><tr><th>Compte</th><th class="amt">Débit</th><th class="amt">Crédit</th></tr></thead>
+            <tbody>
+              <tr><td class="cpt"><span class="no">34</span> Stocks de marchandises</td><td class="amt"><input data-exp="50000" inputmode="numeric"></td><td class="amt"></td></tr>
+              <tr class="credit"><td class="cpt"><span class="no">6094</span> Variations de stocks</td><td class="amt"></td><td class="amt"><input data-exp="50000" inputmode="numeric"></td></tr>
+            </tbody>
+          </table>
+          <div class="toolbar">
+            <button class="btn btn-primary" data-act="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Vérifier</button>
+            <button class="btn btn-ghost" data-act="reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg> Afficher la correction</button>
+            <button class="btn btn-ghost" data-act="reset"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg> Recommencer</button>
+          </div>
+          <div class="feedback"><svg class="fb-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"></svg><span class="fb-txt"></span></div>
+        </div>
+
+        <h3>Et dans l'autre sens ?</h3>
+        <p>Pour bien fixer le réflexe : dans chaque situation, le compte <b>6094</b> est-il débité ou crédité ?</p>
+        <div class="js-quiz">
+          <div class="quiz">
+            <div class="q">
+              <div class="q-text"><span class="qn">1</span><span>Le stock <b>diminue</b> (SF &lt; SI). Le compte 6094 Variations de stocks est…</span></div>
+              <div class="q-opts">
+                <button class="opt" data-correct="1"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"></svg> Débité</button>
+                <button class="opt"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"></svg> Crédité</button>
+              </div>
+              <div class="q-fb" data-explain="Le stock baisse : c'est une charge supplémentaire → 6094 débité (et 34 crédité)."></div>
+            </div>
+            <div class="q">
+              <div class="q-text"><span class="qn">2</span><span>Le stock <b>augmente</b> (SF &gt; SI). Le compte 6094 Variations de stocks est…</span></div>
+              <div class="q-opts">
+                <button class="opt"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"></svg> Débité</button>
+                <button class="opt" data-correct="1"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"></svg> Crédité</button>
+              </div>
+              <div class="q-fb" data-explain="Le stock monte : cela réduit les charges → 6094 crédité (et 34 débité)."></div>
+            </div>
+            <div class="quiz-score"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px">
+        <span>IND Loverval · Sciences économiques 4ᵉ · S. Molinari</span>
+        <span>Fiche 8 — Variations de stock</span>
+      </div>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
