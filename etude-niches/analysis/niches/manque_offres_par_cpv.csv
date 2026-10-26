@@ -1,0 +1,201 @@
+nature,cpv4,libelle,avis_36m_population,avis_par_an,avis_echantillon,lots,lots_avec_nb_offres,offre_unique_%,aucune_offre_%,indice_manque_offres_%,IC90_bas,IC90_haut,infructueux_%,montant_median_EUR,n_montants
+SUPPLIES,3463,Pièces détachées pour locomotives ou matériel ferroviaire roulant,50,17,12,12,11,100,0,100,80,100,8,150604,11
+SERVICES,5010,Services de réparation et d'entretien de véhicules et d'équipements associés et services connexes,43,14,12,36,27,63,22,85,71,93,19,12000,17
+SUPPLIES,1589,Repas pour écoles,112,37,12,35,35,49,34,83,70,91,40,9770,13
+SERVICES,5100,Services d'installation (à l'exception des logiciels),77,26,12,12,12,83,0,83,60,94,0,46362,12
+SERVICES,7226,Services de maintenance et de réparation de logiciels,186,62,12,12,12,75,8,83,60,94,8,291607,10
+SERVICES,5000,Services de réparation et d'entretien,460,153,12,17,17,71,12,82,63,93,24,97344,11
+SERVICES,5032,Services de maintenance de systèmes,55,18,12,15,15,53,27,80,59,92,27,79219,10
+SERVICES,6351,Organisation de voyages à forfait,71,24,12,14,14,64,14,79,57,91,14,49475,12
+SUPPLIES,0345,Plantes,48,16,12,19,18,78,0,78,59,90,0,33759,16
+SUPPLIES,3369,Réactifs de laboratoire,93,31,12,35,35,31,46,77,64,87,46,242161,12
+SUPPLIES,3316,Endoscopes,79,26,12,13,12,75,0,75,51,90,0,74099,12
+SUPPLIES,3800,"Équipements de laboratoire, d'optique et de précision (excepté les lunettes)",450,150,12,12,12,75,0,75,51,90,0,156962,11
+SERVICES,9252,Services d'exposition dans les musées,40,13,12,19,19,68,5,74,55,87,21,45318,15
+SUPPLIES,3494,Équipement ferroviaire,80,27,12,12,11,73,0,73,48,89,17,887810,10
+SERVICES,5011,Services de réparation et d'entretien de véhicules à moteur et d'équipements connexes,177,59,12,32,32,31,41,72,57,83,50,34950,14
+SUPPLIES,3410,Véhicules à moteur,306,102,12,21,21,67,5,71,54,84,19,58250,16
+SUPPLIES,4410,Matériaux de construction et articles connexes,70,23,12,30,30,53,17,70,55,82,20,17074,23
+SERVICES,5031,Maintenance et réparation de matériel informatique,59,20,12,13,13,69,0,69,46,85,0,42864,13
+SERVICES,9071,Services de conseils environnementaux,55,18,12,13,13,31,38,69,46,85,46,93647,7
+SERVICES,8000,Services d'enseignement et de formation,153,51,12,28,28,50,18,68,52,80,18,32031,15
+SERVICES,8050,Services de formation,148,49,12,20,19,53,16,68,50,83,25,50000,9
+SUPPLIES,3843,Appareils de détection et d'analyse,128,43,12,18,18,56,11,67,47,82,33,85445,12
+SERVICES,7220,Services de programmation et de conseil en logiciels,59,20,12,12,12,50,17,67,43,84,25,192385,9
+SUPPLIES,3910,Mobilier,101,34,12,32,32,44,22,66,51,78,25,19256,24
+SUPPLIES,3430,Pièces détachées et accessoires pour véhicules et moteurs de véhicules,53,18,12,26,26,35,31,65,49,79,46,48839,13
+SUPPLIES,4422,Menuiserie pour la construction,64,21,12,19,17,59,6,65,45,81,26,29196,12
+SERVICES,5053,Services de réparation et d'entretien de chaudières,114,38,12,17,17,47,18,65,45,81,29,20040,11
+SUPPLIES,1631,Tondeuses à gazon,40,13,12,16,16,50,12,62,42,79,12,33765,14
+SUPPLIES,4296,Distributeurs de boissons,67,22,12,13,13,62,0,62,39,80,0,107050,11
+WORKS,4543,Carrelage de sols,107,36,12,14,13,62,0,62,39,80,7,53972,12
+SERVICES,5500,"Services d'hôtellerie, de restauration et de commerce au détail",43,14,12,16,16,50,12,62,42,79,12,61610,13
+SERVICES,6010,Services de transport routier,48,16,12,34,34,59,3,62,48,74,6,56120,31
+SUPPLIES,1616,Matériel de jardinage divers,46,15,12,23,23,52,9,61,44,76,13,16745,16
+SUPPLIES,3152,Éclairage extérieur,58,19,12,23,23,52,9,61,44,76,9,29341,21
+SUPPLIES,3400,Équipement de transport et produits auxiliaires pour le transport,81,27,12,15,15,60,0,60,39,78,47,90053,8
+SUPPLIES,4419,Matériaux divers de construction en bois,50,17,12,35,35,46,14,60,46,72,14,26090,28
+SERVICES,6000,Services de transport (à l'exclusion du transport des déchets),71,24,12,15,15,40,20,60,39,78,27,193725,8
+SERVICES,6013,Services spécialisés de transport routier de passagers,51,17,12,48,48,23,38,60,49,71,38,44785,30
+SUPPLIES,4821,Logiciels de gestion des licences,68,23,12,12,12,58,0,58,36,78,8,77928,10
+SERVICES,5071,Services de réparation et d'entretien d'installations électriques de bâtiment,67,22,12,26,26,46,12,58,42,72,12,46048,18
+SERVICES,7221,"Services de développement de logiciels analytiques, scientifiques, mathématiques ou prévisionnels",175,58,12,12,12,58,0,58,36,78,0,128273,10
+SERVICES,9062,Services de déneigement,77,26,12,71,71,46,11,58,48,67,20,34710,57
+SUPPLIES,4400,"Matériaux et structures de construction, produits auxiliaires pour la construction (à l'exception des appareils électriques)",99,33,12,21,21,43,14,57,40,73,19,28772,17
+SUPPLIES,3916,Fournitures scolaires,117,39,12,39,39,56,0,56,43,69,0,8998,30
+SUPPLIES,4200,Machines industrielles,83,28,12,16,16,38,19,56,36,74,31,123438,11
+SUPPLIES,4800,Logiciels et systèmes d'information,499,166,12,16,16,44,12,56,36,74,38,149940,9
+SERVICES,7982,Services de conception graphique,115,38,12,16,16,25,31,56,36,74,38,46616,8
+SUPPLIES,3300,"Matériels médicaux, pharmaceutiques et produits de soins personnnels",184,61,12,40,40,30,25,55,42,67,38,20603,21
+SERVICES,7300,Services de recherche et développement et services de conseil connexes,161,54,11,11,11,55,0,55,32,76,18,82037,8
+WORKS,4530,Travaux d'équipement du bâtiment,145,48,12,13,13,54,0,54,32,74,8,115494,12
+SERVICES,7120,Services d'architecture,247,82,12,13,13,38,15,54,32,74,54,40000,5
+SERVICES,7135,Services d'étude du sol,157,52,12,24,24,54,0,54,38,70,0,69329,20
+SERVICES,9200,"Services récréatifs, culturels et sportifs",54,18,12,14,13,54,0,54,32,74,7,55000,11
+SERVICES,9839,Autres services,89,30,12,13,13,46,8,54,32,74,8,39207,11
+SERVICES,7162,Services d'analyses,74,25,12,17,17,53,0,53,34,71,0,43770,16
+SERVICES,8512,Services prestés par les médecins généralistes,62,21,12,17,15,33,20,53,33,72,24,113772,6
+SUPPLIES,0931,Électricité,40,13,12,26,23,30,22,52,36,68,19,2505883,18
+SUPPLIES,4411,Matériel de plomberie,381,127,12,21,21,52,0,52,35,69,0,17986,17
+SERVICES,6017,Location de véhicules de transport de personnes avec chauffeur,79,26,12,27,27,33,19,52,37,67,26,10846,19
+SUPPLIES,3360,Produits pharmaceutiques,164,55,12,52,51,39,12,51,40,62,12,288128,25
+SUPPLIES,3311,Échographe,132,44,12,15,10,50,0,50,27,73,0,82941,11
+SUPPLIES,3971,Machines d'entretien des sols,68,23,12,16,16,44,6,50,31,69,44,90284,8
+WORKS,4500,Travaux de construction,2912,971,12,14,12,33,17,50,29,71,29,178498,10
+SUPPLIES,4890,Logiciels et systèmes informatiques divers,50,17,12,12,12,50,0,50,29,71,0,207708,12
+SERVICES,5072,Services de réparation et d'entretien de chauffage central,82,27,12,14,14,50,0,50,30,70,14,81615,12
+SERVICES,5075,Services d'entretien d'ascenseurs,92,31,12,12,12,50,0,50,29,71,17,52836,9
+SERVICES,5080,Services divers d'entretien et de réparation,57,19,12,16,14,50,0,50,30,70,6,36250,11
+SERVICES,6617,Services de conseils financiers,44,15,12,12,12,50,0,50,29,71,0,157025,6
+SERVICES,7920,"Services de comptabilité, services d'audit et services fiscaux",91,30,12,12,12,50,0,50,29,71,0,44230,10
+SERVICES,8041,Services des auto-écoles,45,15,12,18,18,50,0,50,32,68,17,132842,8
+SERVICES,8053,Services de formation professionnelle,220,73,12,45,45,31,18,49,37,61,38,32706,14
+SERVICES,7999,Services d'accompagnement professionnel,103,34,12,21,21,48,0,48,31,65,10,85317,10
+SUPPLIES,0900,"Produits pétroliers, combustibles, électricité et autres sources d'énergie",77,26,12,19,19,42,5,47,30,65,11,8145290,12
+SERVICES,6611,Services de leasing financier,57,19,12,15,15,33,13,47,28,67,27,47823,7
+SERVICES,7980,Services d'impression et services connexes,88,29,12,17,17,29,18,47,29,66,18,38585,13
+SUPPLIES,1511,Viande,63,21,12,25,24,46,0,46,30,62,4,88720,22
+SUPPLIES,3100,"Machines, appareils, équipements et consommables électriques, éclairage",93,31,12,13,13,46,0,46,26,68,0,111930,13
+SUPPLIES,3499,Panneaux de signalisation routière,86,29,12,28,28,46,0,46,32,62,4,10737,25
+SERVICES,5041,Services de réparation et d'entretien d'installations d'extinction d'incendie,154,51,12,26,26,46,0,46,31,62,0,67388,26
+SERVICES,9051,Élimination et traitement des ordures,183,61,12,26,26,31,15,46,31,62,15,104848,19
+SUPPLIES,1421,Tarmacadam,63,21,12,22,22,32,14,45,29,62,18,24103,15
+SUPPLIES,1580,Produits alimentaires divers,119,40,12,25,25,36,8,44,29,60,12,49607,21
+SUPPLIES,2200,Imprimés et produits connexes,72,24,12,16,16,44,0,44,26,64,0,70387,14
+SUPPLIES,3492,Sel de déneigement,230,77,12,17,16,38,6,44,26,64,12,25550,13
+SUPPLIES,3915,Mobilier et équipements divers,76,25,12,18,16,44,0,44,26,64,0,29452,18
+SERVICES,8500,Services de santé et services sociaux,49,16,12,16,16,44,0,44,26,64,0,117540,15
+SUPPLIES,3411,Voitures particulières,270,90,12,14,14,43,0,43,24,64,0,53624,13
+SUPPLIES,4441,Appareils sanitaires,51,17,12,14,14,43,0,43,24,64,14,55905,11
+SUPPLIES,4461,Conteneurs à déchets,62,21,12,14,14,43,0,43,24,64,7,537372,13
+SERVICES,6651,Services d'assurance,383,128,12,21,21,43,0,43,27,60,5,457800,13
+SERVICES,7971,Services de gardiennage,181,60,12,14,14,43,0,43,24,64,0,238814,10
+SUPPLIES,0913,Mazout,144,48,12,13,12,42,0,42,22,64,8,60422,3
+SUPPLIES,1500,"Produits alimentaires, boissons, tabac et produits connexes",121,40,12,36,36,39,3,42,29,55,3,211182,29
+SUPPLIES,4421,Bâtiments modulaires préfabriqués,78,26,12,12,12,33,8,42,22,64,17,135575,10
+WORKS,4525,Équipement de station d'épuration,66,22,12,12,12,42,0,42,22,64,8,374319,11
+WORKS,4533,"Travaux d'installation de matériel de chauffage, de ventilation et de climatisation",516,172,12,12,12,42,0,42,22,64,8,70905,11
+SERVICES,7311,Services de recherche,92,31,12,12,12,42,0,42,22,64,8,83341,11
+SERVICES,7513,Services d'appui aux pouvoirs publics,43,14,12,13,12,42,0,42,22,64,0,105504,10
+SERVICES,7931,Services d'études,254,85,12,12,12,33,8,42,22,64,8,66410,11
+SERVICES,7190,Services de laboratoire,41,14,12,17,17,41,0,41,24,61,0,53811,12
+SERVICES,9231,Services artistiques,67,22,12,27,27,26,15,41,27,56,26,34064,18
+SUPPLIES,3168,Fournitures et accessoires électriques,60,20,12,20,20,25,15,40,24,58,20,89051,16
+SUPPLIES,3922,Poubelles,108,36,12,20,20,40,0,40,24,58,15,52736,17
+SUPPLIES,3413,Camions à benne basculante,235,78,12,18,18,33,6,39,23,58,6,116128,14
+SUPPLIES,3512,Systèmes d'alarme,63,21,12,23,23,30,9,39,24,56,9,31878,21
+SUPPLIES,1581,Pain,43,14,12,21,21,38,0,38,23,56,14,66230,18
+SUPPLIES,3310,Équipements médicaux,209,70,12,14,13,31,8,38,20,61,14,79134,11
+SUPPLIES,3900,"Meubles (y compris les meubles de bureau), aménagements, appareils électroménagers (à l'exclusion de l'éclairage) et produits de nettoyage",60,20,12,46,46,24,13,37,26,49,13,24194,31
+SERVICES,7913,Services de certification,45,15,12,20,19,32,5,37,21,56,5,16591,18
+SERVICES,6421,Services de téléphonie et de transmission de données,77,26,12,14,14,36,0,36,19,57,21,72512,8
+SERVICES,7160,"Services d'essais techniques, services d'analyses et services de conseil",45,15,12,14,14,36,0,36,19,57,0,110450,11
+SERVICES,7222,Services de technologies de l'information,65,22,12,15,14,29,7,36,19,57,20,142000,7
+SERVICES,6600,Services financiers et d'assurance,98,33,12,18,17,29,6,35,19,55,11,109724,13
+SERVICES,7962,"Services de mise à disposition de personnel, y compris de personnel temporaire",85,28,12,17,17,35,0,35,19,55,6,100650,9
+SUPPLIES,1670,Tracteurs,54,18,12,15,15,27,7,33,17,54,13,93000,13
+SUPPLIES,1810,"Vêtements professionnels, vêtements de travail spéciaux et accessoires",114,38,12,24,24,33,0,33,20,50,0,10741,18
+SUPPLIES,3422,Conteneurs mobiles à usage spécifique,49,16,12,13,12,25,8,33,16,57,8,64831,10
+SERVICES,7231,Services de traitement de données,41,14,12,12,12,33,0,33,16,57,8,77641,10
+SERVICES,7730,Services horticoles,42,14,12,21,21,33,0,33,19,51,5,26047,15
+SERVICES,7910,Services juridiques,120,40,12,25,24,29,4,33,20,50,4,38213,5
+SERVICES,7941,Services de conseil et d'évaluation,187,62,12,17,15,20,13,33,17,54,18,83639,14
+SUPPLIES,3023,Matériel informatique,167,56,12,19,19,26,5,32,17,50,11,74060,15
+SUPPLIES,3414,Véhicules électriques,316,105,12,16,16,25,6,31,16,52,12,36794,14
+SUPPLIES,3511,Matériel de lutte contre l'incendie,93,31,12,16,16,25,6,31,16,52,6,51322,15
+SUPPLIES,4431,Quincaillerie,82,27,12,16,16,25,6,31,16,52,6,15675,12
+WORKS,4524,Ouvrages de protection contre les inondations,167,56,12,14,13,31,0,31,15,54,7,256383,11
+WORKS,4542,Travaux de menuiserie,484,161,12,13,13,23,8,31,15,54,8,80680,12
+WORKS,4544,Travaux de peinture,177,59,12,13,13,31,0,31,15,54,8,56527,11
+SERVICES,7124,"Études de faisabilité, service de conseil, analyse",164,55,12,16,16,31,0,31,16,52,0,36720,12
+SERVICES,7125,"Services d'architecture, d'ingénierie et de métrage",44,15,12,13,13,31,0,31,15,54,0,42940,11
+SERVICES,7921,Services de comptabilité et d'audit,274,91,12,13,13,23,8,31,15,54,15,79500,11
+SERVICES,7963,Services de formation de personnel,98,33,12,13,13,31,0,31,15,54,8,45229,10
+SUPPLIES,1800,"Vêtements, articles chaussants, bagages et accessoires",47,16,12,34,33,18,12,30,19,45,12,18136,26
+SUPPLIES,3020,Matériel et fournitures informatiques,149,50,12,23,23,30,0,30,17,48,4,38816,17
+SUPPLIES,3914,Cuisines équipées,47,16,12,23,23,26,4,30,17,48,13,26057,20
+SERVICES,7700,"Services agricoles, sylvicoles, horticoles, d'aquaculture et d'apiculture",51,17,12,27,27,26,4,30,18,45,15,21000,23
+WORKS,4521,Travaux de construction de bâtiments,688,229,12,27,24,21,8,29,17,46,22,94990,20
+SERVICES,7130,Services d'ingénierie,130,43,12,21,21,29,0,29,16,46,10,72473,16
+SERVICES,7721,Services d'élagage,66,22,12,51,51,25,4,29,20,41,6,2709,23
+SERVICES,7900,"Services aux entreprises: droit, marketing, conseil, recrutement, impression et sécurité",444,148,12,14,14,14,14,29,14,51,29,60000,11
+SERVICES,8514,Services de médecine du travail,127,42,12,24,24,29,0,29,17,46,4,319040,22
+SERVICES,9050,Services liés aux déchets et aux ordures,166,55,12,35,32,28,0,28,17,43,14,341565,20
+SERVICES,9090,Services de nettoyage et d'hygiène,72,24,12,32,32,28,0,28,17,43,38,211301,17
+SERVICES,3200,"Équipements et appareils de radio, de télévision, de communication, de télécommunication et équipements connexes",78,26,12,15,15,20,7,27,13,48,7,355000,13
+SUPPLIES,4442,Panneaux de signalisation et articles connexes,51,17,12,15,15,27,0,27,13,48,0,55602,13
+WORKS,4532,Travaux d'isolation,75,25,12,23,22,23,5,27,15,45,22,252017,18
+SERVICES,7100,"Services d'architecture, services de construction, services d'ingénierie et services d'inspection",593,198,12,15,15,20,7,27,13,48,13,66145,12
+SERVICES,7911,Services de conseils et de représentation juridiques,74,25,12,30,30,27,0,27,16,41,0,29152,14
+SERVICES,7940,Conseil en affaires et en gestion et services connexes,63,21,12,12,11,27,0,27,11,52,0,96473,11
+SERVICES,1600,Machines agricoles,49,16,12,23,23,26,0,26,14,43,4,41687,22
+SERVICES,5070,Services de réparation et d'entretien d'installations de bâtiments,164,55,12,19,19,21,5,26,13,45,16,94046,12
+SERVICES,7731,Réalisation et entretien d'espaces verts,295,98,12,38,31,26,0,26,15,40,32,28627,13
+SERVICES,7995,Services d'organisation d'événements,169,56,12,19,19,26,0,26,13,45,21,35200,14
+SUPPLIES,3012,Photocopieurs,75,25,12,12,12,25,0,25,10,49,8,65798,9
+SERVICES,6016,Transport routier postal,81,27,12,12,12,25,0,25,10,49,92,,0
+SERVICES,7200,"Services de technologies de l'information, conseil, développement de logiciels, internet et appui",1085,362,12,12,12,17,8,25,10,49,33,739908,8
+SERVICES,9831,Services de blanchisserie et de nettoyage à sec,118,39,12,24,24,25,0,25,14,42,17,281831,15
+SUPPLIES,3319,"Dispositifs de stérilisation, de désinfection et d'hygiène",183,61,12,21,21,24,0,24,12,41,10,45532,17
+SUPPLIES,4481,Peintures,56,19,12,18,17,24,0,24,11,43,17,27395,13
+SUPPLIES,3160,Matériel électrique,73,24,12,13,13,23,0,23,10,46,0,86304,12
+SUPPLIES,3232,Matériel audiovisuel,95,32,12,42,40,22,0,22,14,35,10,6507,33
+SUPPLIES,3314,Consommables médicaux,87,29,12,67,67,22,0,22,15,32,6,25431,59
+SUPPLIES,3929,Produits d'information et de promotion,64,21,12,33,33,21,0,21,12,35,0,60310,23
+SUPPLIES,4241,Matériel de levage et de manutention,96,32,12,24,24,21,0,21,11,37,0,35135,24
+WORKS,4545,Travaux de réfection,381,127,12,24,24,12,8,21,11,37,17,226359,19
+SUPPLIES,3021,Ordinateurs portables,79,26,12,20,20,20,0,20,9,38,20,70907,13
+SUPPLIES,3913,Mobilier de bureau,72,24,12,15,15,13,7,20,8,41,13,60822,10
+SERVICES,7934,Services de publicité et de marketing,234,78,12,15,15,20,0,20,8,41,7,174693,14
+SERVICES,7953,Services de traduction,43,14,12,20,20,20,0,20,9,38,0,39500,13
+SUPPLIES,3000,"Machines, matériel et fourniture informatique et de bureau, excepté les meubles et logiciels",76,25,12,18,16,19,0,19,8,39,17,47972,13
+SUPPLIES,4882,Serveurs informatiques,58,19,12,17,16,12,6,19,8,39,41,51081,9
+SERVICES,7960,Services de recrutement,73,24,12,16,16,12,6,19,8,39,12,98362,8
+WORKS,4520,Travaux de construction complète ou partielle et travaux de génie civil,233,78,12,12,11,18,0,18,6,43,8,1069988,11
+SERVICES,9000,"Services d'évacuation des eaux usées et d'élimination des déchets, services d'hygiénisation et services relatifs à l'environnement",96,32,11,17,17,18,0,18,7,37,0,172430,16
+SERVICES,9091,"Services de nettoyage de logements, de bâtiments et de vitres",454,151,12,17,17,18,0,18,7,37,24,53820,11
+SUPPLIES,3016,Cartes pour l'achat de carburant,49,16,12,18,18,17,0,17,7,35,0,145330,8
+SUPPLIES,3951,Stores d'intérieur,40,13,12,18,18,6,11,17,7,35,17,302973,12
+WORKS,4511,Travaux d'aménagement paysager de terrains de jeux,756,252,12,18,18,17,0,17,7,35,6,98907,17
+WORKS,4526,Travaux de transformation de bâtiments,1001,334,12,12,12,17,0,17,6,40,17,153701,10
+SERVICES,5552,Services traiteur,162,54,12,18,18,17,0,17,7,35,17,82342,12
+SERVICES,7141,Services d'urbanisme,66,22,12,12,12,17,0,17,6,40,0,80618,12
+SERVICES,7250,Services informatiques,148,49,12,37,37,16,0,16,9,28,0,112175,8
+WORKS,4522,Ouvrages d'art et de génie civil,326,109,12,14,13,15,0,15,5,37,0,248678,13
+WORKS,4540,Travaux de parachèvement de bâtiment,229,76,12,15,13,8,8,15,5,37,13,205363,10
+SUPPLIES,3983,Produits de nettoyage,75,25,12,32,31,13,0,13,6,26,3,18765,27
+WORKS,4531,Travaux d'installations électriques,747,249,12,15,15,13,0,13,5,33,13,96250,13
+WORKS,4534,Pose de clôtures,126,42,12,16,15,13,0,13,5,33,0,96224,14
+SERVICES,8531,Services d'orientation et de conseil professionnel,46,15,12,23,23,13,0,13,5,29,0,976800,22
+SUPPLIES,4416,Conduites d'eau potable,77,26,12,34,34,12,0,12,5,24,6,211814,18
+SERVICES,7133,Études techniques,74,25,12,24,24,12,0,12,5,27,17,35450,17
+SERVICES,9047,Services de curage des égouts,74,25,12,18,18,11,0,11,4,29,11,38440,13
+SERVICES,9092,Services de lutte contre les parasites,70,23,12,21,21,10,0,10,3,25,19,21308,15
+SERVICES,7122,Services d'architecte pour les bâtiments,76,25,12,13,11,9,0,9,2,32,8,67690,12
+WORKS,4523,Travaux routiers,2047,682,12,13,13,8,0,8,2,28,15,498224,11
+SUPPLIES,3019,Fournitures de bureau,168,56,12,30,30,7,0,7,2,18,7,48614,11
+SERVICES,7131,Énergie et services connexes,404,135,12,16,15,7,0,7,2,25,0,102875,11
+SERVICES,7163,Services d'inspection technique,116,39,12,27,27,7,0,7,2,20,7,35565,23
+SERVICES,7241,Services de conception de sites WWW (World Wide Web),52,17,12,16,14,7,0,7,2,27,0,45694,8
+SERVICES,7981,Services d'impression,62,21,12,14,14,7,0,7,2,27,0,36644,14
+SERVICES,9064,Services de nettoyage et de vidange des avaloirs,50,17,12,16,16,0,0,0,0,14,0,43206,12
