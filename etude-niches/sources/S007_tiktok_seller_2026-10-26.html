@@ -1,0 +1,1563 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  
+  <script nonce="d1c49d37defa4fc046b46829fcd852f5-argus">window.gfdatav1={"env":"prod","envName":"prod","runtime":"node","ver":"1.0.0.287","canary":0,"idc":"my","region":"ALISG","vdc":"my","vregion":"Singapore-Central","extra":{"canaryType":null}}</script><script nonce="d1c49d37defa4fc046b46829fcd852f5-argus" src="https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/pns/tiktok-cookie-banner-script/latest/cookie-banner/stub.js"></script>
+  <script nonce="d1c49d37defa4fc046b46829fcd852f5-argus"
+    async
+    src="https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/pns/tiktok-cookie-banner-script/latest/cookie-banner/loader.js"
+    data-app-id="1988"
+    data-api-domain="https://seller.tiktok.com"
+    data-consent-api-domain="https://seller.tiktok.com"
+    data-locale="en"
+  ></script>
+  
+  <link rel="canonical" href="https://seller.tiktok.com">
+  
+  <link rel="alternate" hreflang="en-US" href="https://seller.tiktok.com">
+  
+  <link rel="alternate" hreflang="es-MX" href="https://seller.tiktok.com/mx">
+  
+  <link rel="alternate" hreflang="pt-BR" href="https://seller.tiktok.com/br">
+  
+  <link rel="alternate" hreflang="en-BE" href="https://seller.tiktok.com/be">
+  
+  <link rel="alternate" hreflang="de-DE" href="https://seller.tiktok.com/de">
+  
+  <link rel="alternate" hreflang="es-ES" href="https://seller.tiktok.com/es">
+  
+  <link rel="alternate" hreflang="fr-FR" href="https://seller.tiktok.com/fr">
+  
+  <link rel="alternate" hreflang="en-IE" href="https://seller.tiktok.com/ie">
+  
+  <link rel="alternate" hreflang="it-IT" href="https://seller.tiktok.com/it">
+  
+  <link rel="alternate" hreflang="nl-NL" href="https://seller.tiktok.com/nl">
+  
+  <link rel="alternate" hreflang="pl-PL" href="https://seller.tiktok.com/pl">
+  
+  <link rel="alternate" hreflang="ja-JP" href="https://seller.tiktok.com/jp">
+  
+  <link rel="alternate" hreflang="ms-MY" href="https://seller.tiktok.com/my">
+  
+  <link rel="alternate" hreflang="en-PH" href="https://seller.tiktok.com/ph">
+  
+  <link rel="alternate" hreflang="en-SG" href="https://seller.tiktok.com/sg">
+  
+  <link rel="alternate" hreflang="th-TH" href="https://seller.tiktok.com/th">
+  
+  <link rel="alternate" hreflang="en-GB" href="https://seller.tiktok.com/uk">
+  
+  <link rel="alternate" hreflang="vi-VN" href="https://seller.tiktok.com/vn">
+  
+  <meta name="google-site-verification" content="k1K_P-_w_XeqYjli1ip69TPA-VxWwI1TrFfuYoKfqHA">
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/fontsource/fonts/tiktok-sans:vf@latest/latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/images/hero-placeholder.webp" fetchpriority="high">
+
+  <script nonce="d1c49d37defa4fc046b46829fcd852f5-argus">
+    function addTeaBootstrapObject(win, export_obj) {
+      win['LogAnalyticsObject'] = export_obj;
+      if (!win[export_obj]) {
+        function _collect() {
+          _collect.q.push(arguments);
+        }
+        _collect.q ??= [];
+        win[export_obj] = _collect;
+      }
+      win[export_obj].l = +new Date();
+    }
+    addTeaBootstrapObject(window, 'Tea');
+  </script>
+  <script nonce="d1c49d37defa4fc046b46829fcd852f5-argus" async src="https://lf16-cdn-tos.tiktokcdn-us.com/obj/static-tx/log-sdk/collect/5.2/collect.js"></script>
+  <script nonce="d1c49d37defa4fc046b46829fcd852f5-argus" type="module">
+    window.Tea('init', {
+      app_id: 4068,
+      report_channel: 'us_east_tt',
+      log: true,
+      enable_devtools: window.location.hostname === 'localhost',
+    });
+    window.Tea('start');
+  </script>
+  <script nonce="d1c49d37defa4fc046b46829fcd852f5-argus" type="module">
+    let pageLoadTime = performance.now();
+
+    const commonTeaParams = {
+      page_name: 'tts_portal_seller_page_v4',
+      region: "US",
+      EVENT_ORIGIN_FEATURE: 'TEMAI',
+      extra: 'v4_flag_20260616'
+    }
+
+    const sourceParamAllowlist = [
+      'channel',
+      'register_referrer',
+      'utm_source',
+      'utm_medium',
+      'utm_campaign',
+      'utm_term',
+      'utm_content',
+      'track_code',
+      'gclid',
+      'qhclickid',
+      'ad_platform_id',
+      'taskid',
+    ];
+    const hasOwn = (object, key) =>
+      Object.prototype.hasOwnProperty.call(object, key);
+    const portalNavigationChannels = new Set([
+      'portal_v4',
+      'portal_header_v4',
+      'global_portal_v4',
+    ]);
+
+    const getCurrentSourceParams = () => {
+      const currentSearch = new URL(window.location.href).searchParams;
+      const sourceParams = {};
+
+      for (const key of sourceParamAllowlist) {
+        const value = currentSearch.get(key);
+        if (value) {
+          sourceParams[key] = value;
+        }
+      }
+
+      if (!hasOwn(sourceParams, 'channel') && currentSearch.has('register_channel')) {
+        const registerChannel = currentSearch.get('register_channel');
+        if (registerChannel) {
+          sourceParams.channel = registerChannel;
+        }
+      }
+
+      if (!currentSearch.has('register_referrer') && document.referrer) {
+        sourceParams.register_referrer = document.referrer;
+      }
+
+      return sourceParams;
+    };
+
+    const isPortalV4PageUrl = (url) =>
+      url.hostname === 'seller.tiktok.com' &&
+      (url.searchParams.get('from') === 'portal_v4' ||
+        portalNavigationChannels.has(url.searchParams.get('channel')));
+
+    const isSellerAccountUrl = (url) => {
+      const isSellerHost =
+        url.hostname.startsWith('seller-') &&
+        (url.hostname.endsWith('.tiktok.com') ||
+          url.hostname.endsWith('.tokopedia.com'));
+      const isAccountPath = /^\/account\/(?:login|register)(?:\/|$)/.test(
+        url.pathname,
+      );
+
+      return isSellerHost && isAccountPath;
+    };
+
+    const getTrackedTargetUrl = (target, sourceParams) => {
+      const anchor = target?.closest?.('a[href]');
+      const href = anchor?.getAttribute('href');
+
+      if (!anchor || !href) return null;
+
+      const targetUrl = new URL(href, window.location.href);
+      if (!isPortalV4PageUrl(targetUrl) && !isSellerAccountUrl(targetUrl)) {
+        return targetUrl;
+      }
+
+      for (const key of sourceParamAllowlist) {
+        if (!targetUrl.searchParams.has(key) && hasOwn(sourceParams, key)) {
+          targetUrl.searchParams.set(key, sourceParams[key]);
+        }
+      }
+
+      anchor.setAttribute('href', targetUrl.toString());
+      return targetUrl;
+    };
+
+    const decorateSourceLinks = () => {
+      const sourceParams = getCurrentSourceParams();
+      document.querySelectorAll('a[href]').forEach((anchor) => {
+        getTrackedTargetUrl(anchor, sourceParams);
+      });
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', decorateSourceLinks, { once: true });
+    } else {
+      decorateSourceLinks();
+    }
+
+    // -----------page_show---------
+    const pageSourceParams = getCurrentSourceParams();
+    window.Tea('page_show', {
+      type: 'page',
+      page_type: 'page',
+      ...commonTeaParams,
+      ...pageSourceParams,
+      url: window.location.href,
+    })
+
+    // -----------button_click---------
+    const trackButtonClick = (moduleName, clickFor, target) => {
+      if (!moduleName || !clickFor) return;
+
+      const sourceParams = getCurrentSourceParams();
+      const targetUrl = getTrackedTargetUrl(target, sourceParams);
+
+      const params = {
+        module_name: moduleName,
+        click_for: clickFor,
+        ...(target?.dataset.teaEntrance
+          ? { entrance: target.dataset.teaEntrance }
+          : {}),
+        ...commonTeaParams,
+        ...sourceParams,
+        url: targetUrl?.toString() ?? '',
+      };
+
+      if (targetUrl) {
+        for (const key of sourceParamAllowlist) {
+          if (!targetUrl.searchParams.has(key)) continue;
+
+          const value = targetUrl.searchParams.get(key);
+          if (value) {
+            params[key] = value;
+          } else {
+            delete params[key];
+          }
+        }
+      }
+
+      if (target?.tagName?.toLowerCase() === 'a' && window.navigator?.sendBeacon) {
+        window.Tea('beaconEvent', 'button_click', params);
+        return;
+      }
+
+      window.Tea('button_click', params);
+    };
+
+    document.addEventListener('click', (event) => {
+      const target = event.target instanceof Element
+        ? event.target.closest('[data-tea-module-name][data-tea-click-for]')
+        : null;
+
+      if (!target) return;
+
+      trackButtonClick(target.dataset.teaModuleName, target.dataset.teaClickFor, target);
+    });
+
+    // Non-click interactions can dispatch mock-click to reuse button_click params.
+    document.addEventListener('mock-click', (event) => {
+      const detail = event.detail || {};
+
+      trackButtonClick(detail.moduleName, detail.clickFor);
+    });
+
+    // -----------module_show---------
+    const setupModuleShowTracking = () => {
+      if (!('IntersectionObserver' in window)) {
+        return;
+      }
+      const observer = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) {
+            continue;
+          }
+          const moduleName = entry.target.dataset.teaModuleShow;
+          if (moduleName) {
+            window.Tea('module_show', {
+              page_name: 'tts_portal_seller_page_v4',
+              region_code: "US",
+              module_name: moduleName,
+              EVENT_ORIGIN_FEATURE: 'TEMAI',
+              extra: 'v4_flag_20260616'
+            });
+          }
+          observer.unobserve(entry.target);
+        }
+      }, { threshold: 0.1 });
+      document.querySelectorAll('[data-tea-module-show]')
+        .forEach((element) => observer.observe(element));
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', setupModuleShowTracking, { once: true });
+    } else {
+      setupModuleShowTracking();
+    }
+
+    // -----------page_duration---------
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden') {
+        window.Tea('page_duration', {
+          duration: performance.now() - pageLoadTime,
+          ...commonTeaParams
+        });
+      } else {
+        pageLoadTime = performance.now();
+      }
+    });
+  </script>
+
+  <script nonce="d1c49d37defa4fc046b46829fcd852f5-argus">
+    const SLARDAR_NAME = "Slardar";
+    const sdkCdnUrl = "https://lf16-cdn-tos.tiktokcdn-us.com/obj/static-tx/slardar/fe/sdk-web/browser.oci.js";
+    const bid = "i18n_ecom_shop_seller_portal_page";
+    const bid2 = "i18n_ecom_shop";
+    function initSlardar(window, document, sdkUrl, bid, globalName) {
+      console.log("Initializing Slardar", { bid, globalName });
+      const PRECOLLECT = 'precollect';
+
+      const slardar = function (...args) {
+        args.push(Date.now(), location.href);
+        (args[0] === PRECOLLECT ? slardar.p.a : slardar.q).push(args);
+      };
+
+      slardar.pcErr = function (event) {
+        event = event ?? window.event;
+        const target = event.target ?? event.srcElement;
+        if (target instanceof Element || target instanceof HTMLElement) {
+          if (target.getAttribute('integrity')) {
+            window[globalName](PRECOLLECT, 'sri', target.getAttribute('href') ?? target.getAttribute('src'));
+          } else {
+            window[globalName](PRECOLLECT, 'st', {
+              tagName: target.tagName,
+              url: target.getAttribute('href') ?? target.getAttribute('src'),
+            });
+          }
+        } else {
+          window[globalName](PRECOLLECT, 'err', event.error);
+        }
+      };
+
+      slardar.pcRej = function (event) {
+        event = event ?? window.event;
+        window[globalName](PRECOLLECT, 'reject', event.reason ?? (event.detail?.reason));
+      };
+
+      slardar.q = [];
+      slardar.p = { a: [] };
+      window[globalName] = slardar;
+
+      const script = document.createElement('script');
+      script.src = `${sdkUrl}?bid=${bid}&globalName=${globalName}`;
+      script.crossOrigin = sdkUrl.includes('sdk-web') ? 'anonymous' : 'use-credentials';
+      document.head.appendChild(script);
+
+      window.addEventListener('error', slardar.pcErr, true);
+      window.addEventListener('unhandledrejection', slardar.pcRej, true);
+
+      if ('PerformanceLongTaskTiming' in window) {
+        slardar.pp = { entries: [] };
+        slardar.pp.observer = new PerformanceObserver((list) => {
+          slardar.pp.entries.push(...list.getEntries());
+        });
+        slardar.pp.observer.observe({ entryTypes: ['longtask'] });
+      }
+    }
+    initSlardar(window, document, sdkCdnUrl, bid, SLARDAR_NAME);
+    initSlardar(window, document, sdkCdnUrl, bid2, "Slardar2");
+  </script>
+  <script nonce="d1c49d37defa4fc046b46829fcd852f5-argus" type="module">
+    window.Slardar('init', {
+      domain: 'https://mon.tiktokv.com',
+      bid: 'i18n_ecom_shop_seller_portal_page',
+      sample: {
+        sample_rate: 1,
+        include_users: [],
+        sample_granularity: "session",
+        rules: {},
+      },
+      release: "SELLER_TIKTOK_COM@1.0.0.287"
+    });
+    window.Slardar('start');
+    window.Slardar2('init', {
+      domain: 'https://mon.tiktokv.com',
+      bid: 'i18n_ecom_shop',
+      sample: {
+        sample_rate: 1,
+        include_users: [],
+        sample_granularity: "session",
+        rules: {},
+      },
+      release: "SELLER_TIKTOK_COM@1.0.0.287"
+    });
+    window.Slardar2('start');
+  </script>
+<link rel="icon" href="https://lf16-cdn-tos.tiktokcdn-us.com/obj/static-tx/i18n/ecom/TTS/normal/tts.ico"><title>TikTok Shop US | Sell Through Content, Creators, and LIVE</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Start selling on TikTok Shop and earn new seller incentives worth up to $23,630. Open your shop today."><meta property="og:type" content="website"><meta property="og:title" content="TikTok Shop US | Sell Through Content, Creators, and LIVE"><meta property="og:description" content="Start selling on TikTok Shop and earn new seller incentives worth up to $23,630. Open your shop today."><meta property="og:image" content="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/images/ogpicture.png"><meta property="og:url" content="https://seller.tiktok.com/"><meta property="og:site_name" content="TikTok Shop"><meta name="keywords" content="TikTok Shop, TikTok Shop Seller Center, TikTok Shop seller TikTok Shop Seller, sell on TikTok, shoppable video, LIVE shopping, LIVE selling, partner with creators, TikTok ecommerce"><script nonce="d1c49d37defa4fc046b46829fcd852f5-argus" defer>!function(){"use strict";var r,n,t,e,o={585:function(){}},i={};function u(r){var n=i[r];if(void 0!==n)return n.exports;var t=i[r]={exports:{}};return o[r](t,t.exports,u),t.exports}u.m=o,u.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},r=[],u.O=function(n,t,e,o){if(t){o=o||0;for(var i=r.length;i>0&&r[i-1][2]>o;i--)r[i]=r[i-1];r[i]=[t,e,o];return}for(var f=1/0,i=0;i<r.length;i++){for(var t=r[i][0],e=r[i][1],o=r[i][2],c=!0,s=0;s<t.length;s++)(!1&o||f>=o)&&Object.keys(u.O).every(function(r){return u.O[r](t[s])})?t.splice(s--,1):(c=!1,o<f&&(f=o));if(c){r.splice(i--,1);var l=e();void 0!==l&&(n=l)}}return n},n={6920:0,8410:0},u.O.j=function(r){return 0===n[r]},t=function(r,t){var e,o,i=t[0],f=t[1],c=t[2],s=0;if(i.some(function(r){return 0!==n[r]})){for(e in f)u.o(f,e)&&(u.m[e]=f[e]);if(c)var l=c(u)}for(r&&r(t);s<i.length;s++)o=i[s],u.o(n,o)&&n[o]&&n[o][0](),n[o]=0;return u.O(l)},(e=self.rspackChunkseller_tiktok_com=self.rspackChunkseller_tiktok_com||[]).forEach(t.bind(null,0)),e.push=t.bind(null,e.push.bind(e));var f=u.O(void 0,["6920"],function(){return u(585)});u.O(f)}();</script><style>@font-face{font-family:TikTok Text;font-style:normal;font-weight:300 900;font-display:swap;src:url(https://cdn.jsdelivr.net/fontsource/fonts/tiktok-sans:vf@latest/latin-wght-normal.woff2)format("woff2-variations");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+304,U+308,U+329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:TikTok Text-Fallback;src:local(Arial);size-adjust:95%;ascent-override:90%;descent-override:20%}*,:before,:after{box-sizing:border-box}:root,html,body{scrollbar-width:none;scrollbar-color:transparent transparent}:root::-webkit-scrollbar{width:0;height:0;display:none}html::-webkit-scrollbar{width:0;height:0;display:none}body::-webkit-scrollbar{width:0;height:0;display:none}@media (prefers-reduced-motion:no-preference){html{interpolate-size:allow-keywords}}body{-webkit-font-smoothing:antialiased;line-height:1.5}img,picture,video,canvas,svg{max-width:100%;display:block}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}p{text-wrap:pretty}h1,h2,h3,h4,h5,h6{text-wrap:balance}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}#root{isolation:isolate;overflow-x:clip}@view-transition{navigation:auto}:root{--brand-red:#e80047;--brand-red-hover:#f33965;--brand-cyan:#37f1ec;--brand-black:#0b0b0b;--brand-white:white;--text-primary:#0e111b;--text-secondary:#525252;--text-tertiary:#898c92;--bg-light:#f5f5f5;--bg-white:white;--bg-soft-rose:#fff4f3;--max-width:82rem;--gutter:1.5rem;--layer-hero-video-0:0;--layer-hero-overlay-1:1;--layer-hero-content-2:2;--layer-features-media-1:1;--layer-features-content-3:3;--layer-header-100:100;--layer-dropdown-200:200;--layer-mobile-menu-9999:9999;--font-ui:"TikTok Text", "TikTok Text-Fallback", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;color:var(--text-primary);background:var(--bg-white);--lightningcss-light:initial;--lightningcss-dark: ;--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light dark;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;font-size:100%;line-height:1.5}@media (prefers-color-scheme:dark){:root{--lightningcss-light: ;--lightningcss-dark:initial}}@supports (color:lab(0% 0 0)){:root{--brand-red:lab(49.7915% 77.4355 32.3273);--brand-red-hover:lab(55.7448% 71.336 21.6917);--brand-cyan:lab(86.4694% -46.7615 -11.1698);--brand-black:lab(3.04863% 0 0);--text-primary:lab(5.15808% .562236 -6.58819);--text-secondary:lab(35.04% -.0000149012 0);--text-tertiary:lab(58.207% -.503033 -3.72663);--bg-light:lab(96.52% -.0000298023 .0000119209);--bg-soft-rose:lab(96.9878% 3.69775 1.8999)}}html{scroll-behavior:smooth;overflow:clip auto}@supports (container-type:scroll-state){html{container-type:scroll-state}}body{min-height:100dvh;font-family:var(--font-ui);margin:0;overflow-x:clip}img,video{max-width:100%;height:auto;display:block}a{color:inherit;text-decoration:none}ul,ol{list-style:none}.landing-container{max-width:var(--max-width);padding-inline:var(--gutter);margin-inline:auto}.site-header{--site-header-height:4rem;--site-header-actions-gap:1.25rem;--site-header-container-gap:clamp(1.25rem, 3vw, 3rem);--site-header-custom-logo-max-width:18rem;--site-header-nav-gap:clamp(1.5rem, 3vw, 3rem);--site-header-padding-inline:clamp(1.25rem, 4.5vw, 4rem);z-index:var(--layer-header-100);font-family:var(--font-ui);background:0 0;background:lab(0% 0 0/0);margin-block-end:calc(-1 * var(--site-header-height));transition:background-color .3s;position:sticky;inset-block-start:0;inset-inline:0}@supports (container-type:scroll-state){@container scroll-state(scrollable:top){.site-header{background:#000;background:lab(0% 0 0)}}}@supports not (container-type:scroll-state){.site-header{-webkit-backdrop-filter:blur(.5rem);backdrop-filter:blur(.5rem);background:rgba(0,0,0,.65);background:lab(0% 0 0/.65)}}.site-header .landing-container{justify-content:flex-start;align-items:center;gap:var(--site-header-container-gap);width:100%;min-width:0;height:var(--site-header-height);max-width:none;padding-inline:var(--site-header-padding-inline);display:flex}.site-header .site-header__logo{flex:none;align-items:center;min-width:0;display:flex}.site-header .site-header__logo img{width:9.75rem;height:1.875rem}.site-header .site-header__logo .site-header__custom-logo{width:auto;max-width:var(--site-header-custom-logo-max-width);object-fit:contain;height:1.875rem}.site-header .site-header__nav{align-items:center;gap:var(--site-header-nav-gap);flex:auto;min-width:0;display:flex}.site-header .site-header__nav a{white-space:nowrap;color:var(--brand-white);font-size:1.25rem;font-weight:500;line-height:1.75rem;transition:color .2s}.site-header .site-header__nav a:hover{color:var(--brand-red)}.site-header .site-header__actions{align-items:center;gap:var(--site-header-actions-gap);display:flex}.site-header .site-header__actions .site-header__login{height:2.8125rem;color:var(--brand-white);align-items:center;padding-inline:.25rem;font-size:.875rem;font-weight:500;line-height:1.25rem;transition:color .2s;display:inline-flex}.site-header .site-header__actions .site-header__login:hover{color:var(--brand-red)}.site-header .site-header__actions .btn-join{min-height:2.25rem;color:var(--brand-white);background:var(--brand-red);cursor:pointer;border:none;border-radius:.25rem;justify-content:center;align-items:center;padding:.5rem 1.25rem;font-size:.875rem;font-weight:500;line-height:1.375rem;transition:background .2s;display:inline-flex}.site-header .site-header__actions .btn-join:hover{background:var(--brand-red-hover)}.site-header .site-header__end{place-items:center end;gap:var(--site-header-actions-gap);flex:none;grid-auto-flow:column;min-width:max-content;margin-inline-start:auto;display:grid}body.success-stories-video-modal-open .site-header{z-index:1001;background:#000;background:lab(0% 0 0);position:fixed;inset-block-start:0;inset-inline:0}.site-header--custom-logo{--site-header-actions-gap:clamp(.875rem, calc(.875rem + (100vw - 80rem) / 40), 1.25rem);--site-header-container-gap:clamp(1rem, calc(1rem + (100vw - 80rem) / 36), 1.5rem);--site-header-custom-logo-max-width:18rem;--site-header-nav-gap:clamp(.875rem, calc(.875rem + (100vw - 80rem) / 32), 1.75rem)}.nav-dropdown{position:relative}.nav-dropdown:after{content:"";z-index:calc(var(--layer-dropdown-200) - 1);block-size:.875rem;display:none;position:absolute;inset-block-start:100%;inset-inline:-.75rem}.nav-dropdown:hover:after{display:block}.nav-dropdown:focus-within:after{display:block}.nav-dropdown .nav-dropdown__trigger{appearance:none;height:2.8125rem;font:inherit;white-space:nowrap;color:var(--brand-white);cursor:pointer;background:0 0;border:0;justify-content:space-between;align-items:center;gap:.25rem;padding:0 .25rem;font-size:1.25rem;font-weight:500;line-height:1.75rem;transition:color .2s;display:flex}.nav-dropdown .nav-dropdown__trigger:hover{color:var(--brand-red)}.nav-dropdown .nav-dropdown__trigger .chevron{flex:0 0 .75rem;width:.75rem;height:.75rem;transition:transform .2s}.nav-dropdown:hover>.nav-dropdown__trigger{color:var(--brand-red)}.nav-dropdown:focus-within>.nav-dropdown__trigger{color:var(--brand-red)}.nav-dropdown:hover>.nav-dropdown__trigger .chevron{transform:rotate(180deg)}.nav-dropdown:focus-within>.nav-dropdown__trigger .chevron{transform:rotate(180deg)}.nav-dropdown .nav-dropdown__menu{z-index:var(--layer-dropdown-200);background:var(--brand-white);transform-origin:top;visibility:hidden;opacity:0;pointer-events:none;box-shadow:0 .5rem 1.25rem rgba(0,0,0,.12);border-radius:.5rem;min-width:12.5rem;max-height:none;padding:1rem;transition:opacity .18s,transform .18s,visibility 0s linear .18s;position:absolute;inset-block-start:calc(100% + .25rem);inset-inline-start:0;transform:translateY(.5rem)scale(.98);box-shadow:0 .5rem 1.25rem lab(0% 0 0/.12)}.nav-dropdown .nav-dropdown__menu:before{content:"";block-size:2rem;position:absolute;inset-block-end:100%;inset-inline:-2rem}.nav-dropdown .nav-dropdown__menu li{list-style:none}.nav-dropdown .nav-dropdown__menu a{white-space:nowrap;min-height:2.25rem;color:var(--text-primary);opacity:1;border-radius:.25rem;align-items:center;padding:.5rem .75rem;font-size:.875rem;font-weight:500;line-height:1.25rem;transition:background-color .15s,color .15s;display:flex}.nav-dropdown .nav-dropdown__menu a:hover{color:var(--brand-red);background:linear-gradient(0deg, rgba(232,0,71,.1) 0%, rgba(232,0,71,.1) 100%), var(--brand-white)}@supports (color:lab(0% 0 0)){.nav-dropdown .nav-dropdown__menu a:hover{background:linear-gradient(0deg, lab(49.7915% 77.4355 32.3273/.1) 0%, lab(49.7915% 77.4355 32.3273/.1) 100%), var(--brand-white)}}.nav-dropdown:hover>.nav-dropdown__menu{visibility:visible;opacity:1;pointer-events:auto;transition-delay:0s;transform:translateY(0)scale(1)}.nav-dropdown:focus-within>.nav-dropdown__menu{visibility:visible;opacity:1;pointer-events:auto;transition-delay:0s;transform:translateY(0)scale(1)}.nav-dropdown .nav-dropdown__group+.nav-dropdown__group{margin-block-start:.5rem}.nav-dropdown .nav-dropdown__group-links{padding-inline-start:0}.nav-dropdown .nav-dropdown__section{color:var(--text-tertiary);margin:0 0 .25rem;padding:0 0 .25rem;font-size:.75rem;font-weight:600;line-height:1.4}.nav-dropdown.region-selector>.nav-dropdown__trigger{padding-inline:.75rem;font-size:.875rem;line-height:1.375rem}.nav-dropdown.region-selector .nav-dropdown__menu{overscroll-behavior:contain;width:min(58rem,100vw - 2rem);min-width:0;max-block-size:calc(100dvh - 5rem);padding:2.5rem;inset-inline:auto 0;overflow-y:auto}.region-selector__menu{grid-template-columns:1fr;gap:2rem;display:grid}.region-selector__heading{color:#121212;color:lab(5.26802% 0 0);border-block-end:1px solid rgba(0,0,0,.1);border-block-end:1px solid lab(0% 0 0/.1);margin:0 0 .5rem;padding-block-end:.75rem;font-size:1rem;font-weight:500;line-height:1.75rem}.region-selector__links{grid-template-columns:repeat(4,minmax(0,1fr));gap:.5rem 1rem;display:grid}.region-selector__links a{text-overflow:ellipsis;min-width:0;min-height:2.25rem;padding:.5rem;font-weight:400;overflow:hidden}.region-selector__links a[aria-current=page]{color:var(--brand-red);background-color:#fff6f6;background-color:lab(97.4763% 6.3808 2.55308)}.login-menu{position:relative}.login-menu>.nav-dropdown__menu{min-width:11rem;padding:.5rem;inset-inline:0 auto}.language-selector>.nav-dropdown__trigger{padding-inline:.25rem;font-size:.875rem;line-height:1.375rem}.language-selector>.nav-dropdown__menu{min-width:9rem;padding:.5rem;inset-inline:0 auto}.language-selector>.nav-dropdown__menu a[aria-current=true]{color:var(--brand-red);background-color:#fff6f6;background-color:lab(97.4763% 6.3808 2.55308)}.mobile-region-selector{font-family:var(--font-ui);display:none}.mobile-region-selector .mobile-region-selector__control{clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;width:1px;height:1px;position:absolute;overflow:hidden}.mobile-region-selector .mobile-region-selector__trigger{height:2.25rem;color:var(--brand-white);cursor:pointer;align-items:center;gap:.25rem;padding:0 .25rem;font-size:.875rem;font-weight:500;line-height:1.25rem;list-style:none;display:flex}.mobile-region-selector .mobile-region-selector__trigger .mobile-region-selector__label{text-overflow:ellipsis;white-space:nowrap;min-width:0;overflow:hidden}.mobile-region-selector .mobile-region-selector__trigger .chevron{flex:none;width:.75rem;height:.75rem}.mobile-region-selector .mobile-region-selector__mask{z-index:var(--layer-mobile-menu-9999);cursor:pointer;background:rgba(0,0,0,.45);display:none;position:fixed;inset:0}.mobile-region-selector .mobile-region-selector__panel{z-index:calc(var(--layer-mobile-menu-9999) + 1);background:var(--brand-white);border-radius:.5rem .5rem 0 0;flex-direction:column;height:100dvh;max-height:100dvh;display:none;position:fixed;inset-block-end:0;inset-inline:0;overflow:hidden}.mobile-region-selector .mobile-region-selector__control:checked~.mobile-region-selector__mask{display:block}.mobile-region-selector .mobile-region-selector__control:checked~.mobile-region-selector__panel{animation:.25s ease-out portal-pull-panel-in;display:flex}.mobile-region-selector .mobile-region-selector__header{height:3.25rem;color:var(--text-primary);border-block-end:1px solid rgba(22,24,35,.2);flex-shrink:0;justify-content:center;align-items:center;padding:0 2.5rem;display:flex;position:relative}.mobile-region-selector .mobile-region-selector__header strong{font-size:1.0625rem;font-weight:700;line-height:1.3}.mobile-region-selector .mobile-region-selector__close{width:1.5rem;height:1.5rem;color:var(--text-primary);cursor:pointer;background:0 0;border:0;padding:0;position:absolute;inset-block-start:.875rem;inset-inline-end:1rem}.mobile-region-selector .mobile-region-selector__close:before,.mobile-region-selector .mobile-region-selector__close:after{content:"";background:currentColor;border-radius:999px;width:1.25rem;height:.125rem;position:absolute;inset-block-start:50%;inset-inline-start:.125rem}.mobile-region-selector .mobile-region-selector__close:before{transform:rotate(45deg)}.mobile-region-selector .mobile-region-selector__close:after{transform:rotate(-45deg)}.mobile-region-selector .mobile-region-selector__body{flex:auto;padding:1.5rem 1.25rem 1.25rem;overflow-y:auto}.mobile-region-selector .mobile-region-selector__group+.mobile-region-selector__group{margin-block-start:1rem}.mobile-region-selector .mobile-region-selector__group h3{color:#121212;color:lab(5.26802% 0 0);border-block-end:1px solid rgba(0,0,0,.1);border-block-end:1px solid lab(0% 0 0/.1);margin:0 0 .5rem;padding-block-end:.5rem;font-size:1rem;font-weight:500;line-height:1.5rem;display:flex}.mobile-region-selector .mobile-region-selector__items{flex-direction:column;gap:.5rem;display:flex}.mobile-region-selector .mobile-region-selector__items a{color:var(--text-primary);border-radius:.5rem;justify-content:space-between;align-items:center;padding:.5rem;font-size:.875rem;font-weight:400;line-height:1.25rem;display:flex}.mobile-region-selector .mobile-region-selector__items a[aria-current=page]{color:var(--brand-red);background:#fff2f0}.mobile-region-selector .mobile-region-selector__items a[aria-current=page]:after{content:"";border-block-end:.125rem solid;border-inline-start:.125rem solid;width:.625rem;height:.375rem;margin-inline-start:1rem;transform:rotate(-45deg)}.mobile-menu{font-family:var(--font-ui);display:none}.mobile-menu .mobile-menu__toggle{box-sizing:content-box;width:1.5rem;height:1.5rem;color:var(--brand-white);cursor:pointer;justify-content:center;align-items:center;padding:.5rem .25rem;list-style:none;display:flex}.mobile-menu .mobile-menu__toggle::-webkit-details-marker{display:none}.mobile-menu .mobile-menu__toggle img{width:1.5rem;height:1.5rem}.mobile-menu .mobile-menu__toggle .mobile-menu__close-icon{display:none}.mobile-menu .mobile-menu__nav{z-index:var(--layer-mobile-menu-9999);background:var(--bg-white);flex-direction:column;gap:0;width:100vw;height:100dvh;padding:0 1.25rem 1.25rem;display:flex;position:fixed;top:0;right:0;overflow-y:auto}.mobile-menu .mobile-menu__nav .btn-join{text-align:center;border-radius:.5rem;width:100%;padding:.875rem;font-size:1rem}.mobile-menu[open] .mobile-menu__nav{animation:.25s ease-out portal-mobile-menu-in}.mobile-menu[open] .mobile-menu__toggle{z-index:calc(var(--layer-mobile-menu-9999) + 1);color:var(--text-primary);position:fixed;top:.75rem;right:1.25rem}.mobile-menu[open] .mobile-menu__toggle .mobile-menu__hamburger-icon{display:none}.mobile-menu[open] .mobile-menu__toggle .mobile-menu__close-icon{width:1.25rem;height:1.25rem;display:block}.mobile-menu .mobile-menu__header{flex-shrink:0;justify-content:space-between;align-items:center;height:3.75rem;display:flex}.mobile-menu .mobile-menu__logo{align-items:center;display:flex}.mobile-menu .mobile-menu__logo img{width:7.5rem;height:auto}.mobile-menu .mobile-menu__logo .site-header__custom-logo{object-fit:contain;width:auto;max-width:13rem;height:1.875rem}.mobile-menu .mobile-menu__tabs{flex-direction:column;display:flex}.mobile-menu .mobile-menu__category{border:0}.mobile-menu .mobile-menu__item{width:100%;min-height:2.875rem;color:var(--text-primary);cursor:pointer;background:0 0;border:0;justify-content:space-between;align-items:center;padding:0;padding-inline-end:.375rem;font-size:1.0625rem;font-weight:500;line-height:1.375rem;text-decoration:none;list-style:none;display:flex}.mobile-menu .mobile-menu__item::-webkit-details-marker{display:none}.mobile-menu .mobile-menu__item .chevron{width:1rem;height:1rem;transition:transform .2s}.mobile-menu .mobile-menu__category[open]>.mobile-menu__item .chevron{transform:rotate(180deg)}.mobile-menu .mobile-language-selector__value{min-width:0;color:var(--text-tertiary);align-items:center;gap:.5rem;font-size:.9375rem;font-weight:400;line-height:1.25rem;display:inline-flex}.mobile-menu .mobile-language-selector__trigger .chevron{transform:rotate(270deg)}.mobile-menu .mobile-language-panel{z-index:calc(var(--layer-mobile-menu-9999) + 2);justify-content:stretch;align-items:flex-end;display:none;position:fixed;inset:0}.mobile-menu .mobile-language-panel__mask{cursor:pointer;background:rgba(0,0,0,.45);background:lab(0% 0 0/.45);border:0;padding:0;position:absolute;inset:0}.mobile-menu .mobile-language-panel__sheet{z-index:1;background:var(--bg-white);border-radius:.5rem .5rem 0 0;flex-direction:column;width:100%;max-height:100dvh;animation:.25s ease-out portal-pull-panel-in;display:flex;position:relative;overflow:hidden}.mobile-menu .mobile-language-panel__header{box-sizing:border-box;height:3.25rem;color:var(--text-primary);border-bottom:1px solid rgba(0,0,0,.2);border-bottom:1px solid lab(0% 0 0/.2);flex-shrink:0;justify-content:center;align-items:center;padding:0 2.5rem;display:flex;position:relative}.mobile-menu .mobile-language-panel__header h2{margin:0;font-size:1.0625rem;font-weight:700;line-height:1.375rem}.mobile-menu .mobile-language-panel__close{width:1.5rem;height:1.5rem;color:var(--text-primary);cursor:pointer;background:0 0;border:0;justify-content:center;align-items:center;padding:0;display:inline-flex;position:absolute;top:.875rem;right:1rem}.mobile-menu .mobile-language-panel__list{flex-direction:column;display:flex;overflow-y:auto}.mobile-menu .mobile-language-panel__item{box-sizing:border-box;min-height:3.3125rem;color:var(--text-primary);align-items:center;padding:.75rem 1rem;font-size:.9375rem;font-weight:400;line-height:1.1875rem;text-decoration:none;display:flex}.mobile-menu .mobile-language-panel__item[aria-current=true]{color:var(--brand-red)}.mobile-menu .mobile-menu__submenu{flex-direction:column;padding-block-end:.3125rem;display:flex}.mobile-menu .mobile-menu__subgroup+.mobile-menu__subgroup{margin-block-start:.3125rem}.mobile-menu .mobile-menu__group-label{color:var(--text-tertiary);align-items:center;margin:0;padding:.625rem 0;font-size:.8125rem;font-weight:500;line-height:1.0625rem;display:flex}.mobile-menu .mobile-menu__subitem{color:var(--text-primary);align-items:center;padding:.625rem 0 .625rem 1.25rem;font-size:.9375rem;font-weight:400;line-height:1.1875rem;display:flex}.mobile-menu .mobile-menu__subitem[aria-current=true]{color:var(--brand-red)}.mobile-menu .mobile-menu__divider{background:rgba(0,0,0,.1);background:lab(0% 0 0/.1);height:1px;margin:1.25rem 0 0;display:flex}.mobile-menu .mobile-language-selector{margin-block-start:1.25rem}.mobile-menu .mobile-language-selector__control{clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;width:1px;height:1px;position:absolute;overflow:hidden}.mobile-menu .mobile-language-selector__control:checked~.mobile-language-panel{display:flex}.mobile-menu .mobile-menu__footer{flex-direction:column;margin-block-start:2.5rem;display:flex}.mobile-menu .mobile-menu__footer>:not([hidden])~:not([hidden]){margin-block-start:.625rem}.mobile-menu .mobile-menu__footer .btn-join{width:100%;min-height:2.25rem;color:var(--brand-white);background-color:var(--brand-red);border:0;border-radius:.25rem;justify-content:center;align-items:center;padding:0 1rem;font-size:.875rem;font-weight:500;line-height:1.25rem;display:inline-flex}.mobile-menu .mobile-menu__footer .btn-login{color:var(--text-primary);background-color:rgba(0,0,0,.05);background-color:lab(0% 0 0/.05)}@keyframes portal-mobile-menu-in{0%{transform:translate(100%)}to{transform:translate(0)}}@keyframes portal-pull-panel-in{0%{transform:translateY(100%)}to{transform:translateY(0)}}.btn-cta{height:2.75rem;color:var(--brand-white);background:var(--brand-red);cursor:pointer;border:none;border-radius:.25rem;justify-content:center;align-items:center;padding:0 1.25rem;font-size:1rem;font-weight:700;line-height:1.5;transition:background .2s;display:inline-flex}.btn-cta:hover{background:var(--brand-red-hover)}.site-footer{box-sizing:border-box;color:rgba(255,255,255,.6);color:lab(100% 0 0/.6);background:#000;width:100%}.site-footer a{text-decoration:none}.site-footer .landing-container{flex-direction:column;width:100%;max-width:1200px;margin:0 auto;padding:0 40px;display:flex}.site-footer .site-footer__top{width:100%;padding:64px 0;display:flex}.site-footer .site-footer__columns{flex-wrap:wrap;flex-shrink:0;gap:80px;display:flex}.site-footer .site-footer__col{flex-direction:column;min-width:140px;max-width:190px;display:flex}.site-footer .site-footer__col>:not([hidden])~:not([hidden]){margin-block-start:12px}.site-footer .site-footer__col h4{color:var(--brand-white);margin:0;font-size:20px;font-weight:500;line-height:28px}.site-footer .site-footer__col a{font-size:14px;font-weight:400;line-height:20px;transition:color .2s;display:block}.site-footer .site-footer__col a:hover{color:var(--brand-red)}.site-footer .site-footer__link-button{color:inherit;cursor:pointer;font-size:14px;font-weight:400;line-height:20px;transition:color .2s;display:block}.site-footer .site-footer__link-button:hover{color:var(--brand-red)}.site-footer .site-footer__bottom{border-block-start:1px solid rgba(255,255,255,.15);justify-content:space-between;align-items:center;width:100%;padding:24px 0;display:flex}.site-footer .site-footer__social{justify-content:flex-end;gap:16px;width:100%;display:flex;position:relative}.site-footer .site-footer__social img{width:24px;height:24px}.site-footer .site-footer__social a{cursor:pointer;width:24px;height:24px;display:flex}.site-footer .site-footer__contact-toggle,.site-footer .site-footer__social-toggle{clip:rect(0, 0, 0, 0);border:0;width:1px;height:1px;margin:-1px;padding:0;position:absolute;overflow:hidden}.site-footer .site-footer__modal-backdrop{z-index:var(--layer-mobile-menu-9999);cursor:pointer;opacity:0;pointer-events:none;background:rgba(0,0,0,.45);transition:opacity .2s;display:block;position:fixed;inset:0}.site-footer .site-footer__contact-panel{z-index:calc(var(--layer-mobile-menu-9999) + 1);box-sizing:border-box;width:min(37.5rem,100vw - 2rem);color:var(--text-primary);background:var(--brand-white);opacity:0;pointer-events:none;visibility:hidden;border-radius:.5rem;padding:2rem;transition:opacity .2s,transform .2s,visibility 0s linear .2s;position:fixed;top:50%;left:50%;transform:translate(-50%,calc(.5rem - 50%));box-shadow:0 1rem 3rem rgba(0,0,0,.2)}.site-footer .site-footer__contact-toggle:checked~.site-footer__modal-backdrop,.site-footer .site-footer__social-toggle:checked~.site-footer__modal-backdrop{opacity:1;pointer-events:auto}.site-footer .site-footer__contact-toggle:checked~.site-footer__contact-panel{opacity:1;pointer-events:auto;visibility:visible;transition:opacity .2s,transform .2s,visibility;transform:translate(-50%,-50%)}.site-footer .site-footer__panel-header{justify-content:space-between;align-items:center;gap:1rem;display:flex}.site-footer .site-footer__panel-header h3{margin:0;font-size:1.25rem;font-weight:700;line-height:1.3}.site-footer .site-footer__panel-close{cursor:pointer;width:1.5rem;height:1.5rem;position:relative}.site-footer .site-footer__panel-close:before,.site-footer .site-footer__panel-close:after{content:"";background:rgba(0,0,0,.56);border-radius:999px;width:1rem;height:.125rem;position:absolute;top:50%;left:50%}.site-footer .site-footer__panel-close:before{transform:translate(-50%,-50%)rotate(45deg)}.site-footer .site-footer__panel-close:after{transform:translate(-50%,-50%)rotate(-45deg)}.site-footer .site-footer__contact-content{flex-direction:column;gap:1.5rem;margin-top:2rem;display:flex}.site-footer .site-footer__contact-item{flex-direction:column;align-items:flex-start;gap:.5rem;font-size:1rem;line-height:1.5;display:flex}.site-footer .site-footer__contact-item strong{color:var(--text-primary);font-size:1rem;font-weight:700;line-height:1.5}.site-footer .site-footer__contact-panel .site-footer__contact-link{color:#337ff8;align-items:center;gap:.25rem;width:auto;height:auto;font-size:1rem;line-height:1.5;text-decoration:none;display:inline-flex}.site-footer .site-footer__contact-panel .site-footer__contact-link:hover{color:#337ff8;text-decoration:underline}.site-footer .site-footer__contact-link-icon{flex:none;width:1rem;height:1rem}.site-footer .site-footer__contact-email{color:rgba(0,0,0,.56);font-size:1rem;line-height:1.5}.site-footer .site-footer__contact-email span{color:var(--text-primary)}.site-footer .site-footer__social-menu{width:24px;height:24px;display:flex;position:relative}.site-footer .site-footer__social-trigger{cursor:pointer;width:24px;height:24px;display:flex}.site-footer .site-footer__social-trigger img{width:24px;height:24px}.site-footer .site-footer__social-menu .site-footer__modal-backdrop{background:0 0}.site-footer .site-footer__social-popover{z-index:calc(var(--layer-mobile-menu-9999) + 1);box-sizing:border-box;background:var(--brand-white);opacity:0;pointer-events:none;visibility:hidden;border-radius:.5rem;width:max-content;min-width:10.3125rem;max-width:calc(100vw - 2rem);padding:.25rem;transition:opacity .2s,transform .2s,visibility 0s linear .2s;position:absolute;top:calc(100% + .5rem);left:0;transform:translateY(-.25rem);box-shadow:0 .125rem .5rem rgba(33,37,51,.06)}.site-footer .site-footer__social-toggle:checked~.site-footer__social-popover{opacity:1;pointer-events:auto;visibility:visible;transition:opacity .2s,transform .2s,visibility;transform:translateY(0)}.site-footer .site-footer__social-list a{box-sizing:border-box;width:100%;height:auto;min-height:2.5rem;color:var(--text-primary);border-radius:.25rem;align-items:center;gap:.25rem;padding:0 .75rem;font-size:.875rem;font-weight:500;line-height:1.25rem;display:flex}.site-footer .site-footer__social-list a .site-footer__social-mini-icon{flex:none;width:1rem;height:1rem}.site-footer .site-footer__social-list a span{white-space:nowrap;min-width:0}.site-footer .site-footer__social-list a:hover{color:var(--brand-red);background:linear-gradient(0deg, rgba(234,61,76,.1) 0%, rgba(234,61,76,.1) 100%), var(--brand-white)}.site-footer .site-footer__social-list a+a{margin-top:.125rem}.site-footer .site-footer__social-cancel{display:none}.site-footer .site-footer__privacy{color:var(--brand-white);gap:16px;margin-inline-start:auto;font-size:12px;font-weight:400;line-height:18px;display:flex}.site-footer .site-footer__legal{gap:16px;display:flex}.site-footer .site-footer__legal a{color:var(--brand-white)}.site-footer .site-footer__copyright{white-space:nowrap}@media (width<=80rem){.site-footer .landing-container{gap:40px;padding:48px 40px 40px}.site-footer .site-footer__top{flex-direction:column;align-items:center;gap:40px;width:100%;padding:0}.site-footer .site-footer__columns{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;width:100%;display:grid}.site-footer .site-footer__col{width:100%;min-width:0;max-width:none}.site-footer .site-footer__col h4{font-size:17px;font-weight:500;line-height:22px}.site-footer .site-footer__col a,.site-footer .site-footer__col .site-footer__link-button{font-size:14px;font-weight:400;line-height:20px}.site-footer .site-footer__social{justify-content:center;width:100%;padding-block-start:41px;position:relative}.site-footer .site-footer__social:before{content:"";background-color:rgba(255,255,255,.15);height:1px;position:absolute;inset-block-start:0;inset-inline:0}.site-footer .site-footer__contact-panel{width:100%;box-shadow:none;border-radius:.5rem .5rem 0 0;padding:0 0 2rem;inset:auto 0 0;transform:translateY(100%)}.site-footer .site-footer__contact-toggle:checked~.site-footer__contact-panel{transform:translateY(0)}.site-footer .site-footer__panel-header{border-bottom:1px solid rgba(0,0,0,.12);justify-content:center;min-height:4.25rem;padding:0 4rem;position:relative}.site-footer .site-footer__panel-header h3{text-align:center;font-size:1rem;line-height:1.3}.site-footer .site-footer__panel-close{position:absolute;top:50%;right:1.5rem;transform:translateY(-50%)}.site-footer .site-footer__contact-content{gap:2rem;margin-top:0;padding:1.5rem 1.5rem 0}.site-footer .site-footer__contact-item{gap:.75rem}.site-footer .site-footer__contact-item strong{font-size:1rem;font-weight:500;line-height:1.5}.site-footer .site-footer__contact-link,.site-footer .site-footer__contact-email{font-size:1rem;line-height:1.5}.site-footer .site-footer__social-menu{position:static}.site-footer .site-footer__social-menu .site-footer__modal-backdrop{background:rgba(0,0,0,.45)}.site-footer .site-footer__social-popover{width:100%;max-width:none;box-shadow:none;border-radius:.5rem .5rem 0 0;padding:0;position:fixed;inset:auto 0 0;overflow:hidden;transform:translateY(100%)}.site-footer .site-footer__social-toggle:checked~.site-footer__social-popover{transform:translateY(0)}.site-footer .site-footer__social-list{background:var(--brand-white)}.site-footer .site-footer__social-list a{justify-content:center;min-height:3.25rem;padding:0 1.5rem;font-size:.9375rem;font-weight:500;line-height:1.3}.site-footer .site-footer__social-list a .site-footer__social-mini-icon{display:none}.site-footer .site-footer__social-list a+a{border-top:.5px solid rgba(22,24,35,.12);margin-top:0}.site-footer .site-footer__social-cancel{color:rgba(0,0,0,.72);background:var(--brand-white);cursor:pointer;border-top:.5rem solid rgba(22,24,35,.03);justify-content:center;align-items:center;min-height:3.25rem;font-size:.9375rem;line-height:1.3;display:flex}.site-footer .site-footer__bottom{border-block-start:0;flex-direction:column;align-items:center;gap:40px;padding:0}.site-footer .site-footer__privacy{color:rgba(255,255,255,.6);flex-direction:column-reverse;align-items:center;gap:40px;margin-inline-start:0;font-size:13px;line-height:17px}.site-footer .site-footer__legal{flex-direction:column;align-items:center;gap:10px}.site-footer .site-footer__legal a{color:rgba(255,255,255,.6)}.site-header{--site-header-height:3.75rem}.site-header .landing-container{gap:1.25rem;padding-inline:1.25rem}.site-header .site-header__nav,.site-header .site-header__actions,.site-header .language-selector,.site-header .region-selector{display:none}.site-header .site-header__end{flex:auto;justify-content:flex-end;gap:.5rem;min-width:0;display:flex}.mobile-menu{flex:none;display:block}.mobile-region-selector{flex:0 auto;min-width:0;display:block}}@media (width<=766px){.mobile-region-selector .mobile-region-selector__trigger{width:100%;max-width:100px}}@media (width<=40rem){.mobile-region-selector .mobile-region-selector__trigger{padding-inline:.25rem;font-size:.75rem;line-height:1.25rem}.nav-dropdown.region-selector .nav-dropdown__menu{padding:1.25rem}.region-selector__menu,.region-selector__links{grid-template-columns:1fr}.site-footer .landing-container{padding:48px 20px 40px}.site-footer .site-footer__col a{font-size:13px;line-height:17px}}@media (width<=22rem){.site-footer .site-footer__columns{grid-template-columns:1fr}}.learn-more-top{background:#000;background:lab(0% 0 0)}.learn-more-top__inner{flex-wrap:wrap;justify-content:center;align-items:center;gap:.5rem;width:min(100%,90rem);margin:0 auto;padding:1.125rem 0;display:flex}.learn-more-top__inner p{color:var(--brand-white);text-align:center;white-space:nowrap;font-size:1rem;font-weight:400;line-height:1.3}.learn-more-top__cta,.learn-more-bottom__cta{color:var(--brand-white);white-space:nowrap;align-items:center;gap:.125rem;font-size:1rem;font-weight:700;line-height:1.3;text-decoration:none;display:inline-flex}:is(.learn-more-top__cta,.learn-more-bottom__cta):after{content:"↗";font-size:1rem;line-height:1}:is(.learn-more-top__cta,.learn-more-bottom__cta):hover{color:var(--brand-white)}.hero{width:100%;height:43.75rem;color:var(--brand-white);background-color:#161616;background-color:lab(7.22637% -.0000149012 0);flex-direction:column;justify-content:center;align-items:center;padding:8.75rem max(5.375rem,50vw - 39.625rem);display:flex;position:relative;overflow:hidden}.hero__video{z-index:var(--layer-hero-video-0);pointer-events:none;filter:brightness(40%);object-fit:cover;width:100%;height:100%;position:absolute;top:0;left:0}.hero__title{z-index:var(--layer-hero-content-2);text-align:center;word-break:break-word;max-width:100%;margin-bottom:3rem}.hero__title h1{font-size:5rem;font-weight:800;line-height:1.08}.hero__content{z-index:var(--layer-hero-content-2);text-align:center;word-break:break-word;max-width:100%;font-size:1.25rem;font-weight:500;line-height:1.4}.hero__cta{z-index:var(--layer-hero-content-2);margin-top:1.5rem}.incentive{background:var(--bg-white);border-radius:2rem 2rem 0 0;margin-top:-2rem;padding-top:2rem;position:relative;overflow:hidden}.incentive__shell{box-sizing:border-box;grid-template-columns:30.625rem 37.3125rem;justify-content:space-between;align-items:center;width:min(100% - 10.75rem,79.25rem);margin:0 auto;padding:5rem 0;display:grid}.incentive__image-wrap{flex:0 0 30.625rem;width:30.625rem;height:28.125rem;margin:0;position:relative}.incentive__image-wrap img,.incentive__image-wrap video{object-fit:cover;background:#eee;background:lab(94.2% 0 0);border-radius:2rem;width:29.51%;height:57.63%;display:block;position:absolute}.incentive__image-left{z-index:var(--layer-features-media-1);top:21.19%;left:0}.incentive__image-middle{z-index:var(--layer-features-content-3);top:0;left:24.49%;width:51.02%!important;height:100%!important}.incentive__image-right{z-index:var(--layer-features-media-1);top:21.19%;left:70.33%}.incentive__content{flex-direction:column;gap:2.625rem;width:100%;min-width:0;display:flex}.incentive__content h2{color:#000;color:lab(0% 0 0);font-size:3rem;font-weight:400;line-height:1.15}.incentive__content h2 span{color:var(--brand-red);font-weight:800}.incentive__card{box-sizing:border-box;background:#ffeced;background:lab(95.0722% 8.54105 2.32264);border-radius:2rem;width:100%;padding:2rem 2.5rem}.incentive__card ul{gap:1.5rem;margin:0;padding:0;list-style:none;display:grid}.incentive__card li{color:#000;color:lab(0% 0 0);align-items:flex-start;gap:.5rem;font-size:1.25rem;font-weight:700;line-height:1.4;display:flex}.incentive__card li img{flex:0 0 1.5rem;width:1.5rem;height:1.5rem;margin-top:.125rem}.success-stories{background:var(--bg-white)}.success-stories__input{opacity:0;pointer-events:none;block-size:1px;inline-size:1px;position:absolute;overflow:hidden}.success-stories__grid{box-sizing:border-box;grid-template-columns:18.75rem minmax(0,1fr);align-items:start;gap:7.29688rem;width:min(100% - 10.75rem,79.25rem);margin:0 auto;padding:0 0 7.17313rem;display:grid;position:relative}.success-stories__nav{flex-direction:column;align-self:start;gap:2rem;width:18.75rem;display:flex;position:sticky;top:max(4rem,50vh - 11.5rem)}.success-stories__title{color:#000;color:lab(0% 0 0);font-size:3rem;font-weight:400;line-height:1.15}.success-stories__tabs{flex-direction:column;gap:.5rem;width:100%;display:flex}.success-stories__tabs label{cursor:pointer;box-sizing:border-box;color:rgba(0,0,0,.65);color:lab(0% 0 0/.65);opacity:.5;background-color:transparent;border-radius:.5rem;width:100%;padding:.75rem 1rem;font-size:1.25rem;font-weight:700;line-height:1.3;transition:background-color .28s,color .28s,opacity .28s}.success-stories__panels{contain:none;--success-stories-card-gap:1.5rem;--success-stories-feather-size:19px;box-sizing:border-box;grid-column:2;width:100%;min-width:0;height:auto;min-height:0;margin-block:0;padding-block:0;overflow:visible}.success-stories--is-switching .success-stories__panels{-webkit-mask-image:linear-gradient(to bottom, transparent 0, black var(--success-stories-feather-size), black calc(100% - var(--success-stories-feather-size)), transparent 100%);-webkit-mask-image:linear-gradient(to bottom, transparent 0, black var(--success-stories-feather-size), black calc(100% - var(--success-stories-feather-size)), transparent 100%);-webkit-mask-image:linear-gradient(to bottom, transparent 0, black var(--success-stories-feather-size), black calc(100% - var(--success-stories-feather-size)), transparent 100%);mask-image:linear-gradient(to bottom, transparent 0, black var(--success-stories-feather-size), black calc(100% - var(--success-stories-feather-size)), transparent 100%)}.success-stories__track{gap:var(--success-stories-card-gap);backface-visibility:hidden;width:100%;height:auto;transform-style:preserve-3d;will-change:auto;flex-direction:column;transition:none;display:flex;transform:translate(0,0)}.success-stories__panel{backface-visibility:hidden;flex:none;scroll-margin-top:8rem;display:grid;transform:translateZ(0)}#success-story-story-1:checked~.success-stories__grid .success-stories__tab--story-1,#success-story-story-2:checked~.success-stories__grid .success-stories__tab--story-2,#success-story-story-3:checked~.success-stories__grid .success-stories__tab--story-3,#success-story-story-4:checked~.success-stories__grid .success-stories__tab--story-4{color:#000;color:lab(0% 0 0);opacity:1}#success-story-story-1:checked~.success-stories__grid .success-stories__tab--story-1,.success-stories__panel--story-1{--success-stories-quote-color:#93b998;background:#edf9ee;background:lab(96.7606% -5.2079 3.59397)}@supports (color:lab(0% 0 0)){#success-story-story-1:checked~.success-stories__grid .success-stories__tab--story-1,.success-stories__panel--story-1{--success-stories-quote-color:lab(71.822% -18.2924 12.7746)}}#success-story-story-2:checked~.success-stories__grid .success-stories__tab--story-2,.success-stories__panel--story-2{--success-stories-quote-color:#f4bd99;background:#ffeee3;background:lab(95.2776% 5.12171 8.25757)}@supports (color:lab(0% 0 0)){#success-story-story-2:checked~.success-stories__grid .success-stories__tab--story-2,.success-stories__panel--story-2{--success-stories-quote-color:lab(81.1274% 16.8736 26.4767)}}#success-story-story-3:checked~.success-stories__grid .success-stories__tab--story-3,.success-stories__panel--story-3{--success-stories-quote-color:#85c1c0;background:#d1f3f2;background:lab(93.4313% -11.8064 -3.39962)}@supports (color:lab(0% 0 0)){#success-story-story-3:checked~.success-stories__grid .success-stories__tab--story-3,.success-stories__panel--story-3{--success-stories-quote-color:lab(73.9913% -20.366 -5.80436)}}#success-story-story-4:checked~.success-stories__grid .success-stories__tab--story-4,.success-stories__panel--story-4{--success-stories-quote-color:#d5b9dc;background:#fdf5ff;background:lab(97.4443% 4.65524 -4.42905)}@supports (color:lab(0% 0 0)){#success-story-story-4:checked~.success-stories__grid .success-stories__tab--story-4,.success-stories__panel--story-4{--success-stories-quote-color:lab(78.3506% 14.8477 -13.8663)}}#success-story-story-1:checked~.success-stories__grid .success-stories__track,#success-story-story-2:checked~.success-stories__grid .success-stories__track,#success-story-story-3:checked~.success-stories__grid .success-stories__track,#success-story-story-4:checked~.success-stories__grid .success-stories__track{transform:translate(0,0)}#success-story-story-1:checked~.success-stories__grid .success-stories__panel--story-1,#success-story-story-2:checked~.success-stories__grid .success-stories__panel--story-2,#success-story-story-3:checked~.success-stories__grid .success-stories__panel--story-3,#success-story-story-4:checked~.success-stories__grid .success-stories__panel--story-4{pointer-events:auto}.success-stories__card{box-sizing:border-box;contain:layout paint;border-radius:2rem;grid-template-columns:15.625rem minmax(0,1fr);align-items:start;gap:2.625rem;width:100%;height:auto;min-height:35.625rem;margin:0;padding:3.75rem;overflow:hidden}.success-stories__media{flex-direction:column;align-items:flex-start;width:15.625rem;min-width:0;display:flex}@media (prefers-reduced-motion:reduce){.success-stories__tabs label,.success-stories__track{transition:none}}.success-stories__image{aspect-ratio:250/450;background:var(--bg-white);border-radius:2rem;width:15.625rem;margin:0;display:block;position:relative;overflow:hidden}.success-stories__image img,.success-stories__image video{object-fit:cover;width:100%;height:100%;display:block}.success-stories__image video:fullscreen{object-fit:contain;background:#000;background:lab(0% 0 0)}.success-stories__image video:fullscreen{object-fit:contain;background:#000;background:lab(0% 0 0)}.success-stories__video-shell{background:#000;background:lab(0% 0 0);width:100%;height:100%;position:relative}.success-stories__video-shell video::-webkit-media-controls{opacity:0!important;display:none!important}.success-stories__video-shell video::-webkit-media-controls-enclosure{opacity:0!important;display:none!important}.success-stories__video-shell video::-webkit-media-controls-panel{opacity:0!important;display:none!important}.success-stories__video-controls{z-index:2;box-sizing:border-box;pointer-events:none;background:linear-gradient(transparent 0%,rgba(0,0,0,.65) 40%,#000 100%);flex-direction:column;gap:1.25rem;padding:.625rem 2rem;display:flex;position:absolute;bottom:0;left:0;right:0}@media (width>=47.9375rem){.success-stories__video-shell .success-stories__video-controls{padding-inline:1rem}}@media (hover:hover) and (pointer:fine){.success-stories__video-shell .success-stories__video-controls{opacity:0;transition:opacity .2s}.success-stories__video-shell:hover .success-stories__video-controls{opacity:1}.success-stories__video-shell:focus-within .success-stories__video-controls{opacity:1}.success-stories__video-shell:not(:hover):not(:focus-within) .success-stories__video-button{pointer-events:none}.success-stories__video-shell:not(:hover):not(:focus-within) .success-stories__video-progress{pointer-events:none}}.success-stories__video-controls-row{justify-content:space-between;align-items:center;gap:1rem;display:flex}.success-stories__video-actions{align-items:center;gap:1.25rem;display:flex}.success-stories__video-button{cursor:pointer;color:#fff;color:lab(100% 0 0);appearance:none;pointer-events:auto;background:0 0;border:0;justify-content:center;align-items:center;width:2rem;height:2rem;padding:0;display:inline-flex}.success-stories__video-button img,.success-stories__video-button svg{width:2rem;height:2rem;display:block}.success-stories__video-button .success-stories__video-exit-icon{width:2rem;height:2rem}.success-stories__video-icon{width:2rem;height:2rem;display:none}.success-stories__video-shell--playing .success-stories__video-icon--pause,.success-stories__video-modal.success-stories__video-shell--playing .success-stories__video-icon--pause,.success-stories__video-shell:not(.success-stories__video-shell--playing) .success-stories__video-icon--play,.success-stories__video-modal:not(.success-stories__video-shell--playing) .success-stories__video-icon--play,.success-stories__video-shell--muted .success-stories__video-icon--muted,.success-stories__video-modal.success-stories__video-shell--muted .success-stories__video-icon--muted,.success-stories__video-shell:not(.success-stories__video-shell--muted) .success-stories__video-icon--unmuted,.success-stories__video-modal:not(.success-stories__video-shell--muted) .success-stories__video-icon--unmuted{display:block}.success-stories__video-progress{appearance:none;cursor:pointer;background:linear-gradient(to right, rgba(255,255,255,.96) 0, rgba(255,255,255,.96) var(--video-progress,0%), #5d5d5d var(--video-progress,0%), #5d5d5d 100%);pointer-events:auto;border-radius:999px;width:100%;height:.25rem;margin:0 0 1.25rem}@supports (color:lab(0% 0 0)){.success-stories__video-progress{background:linear-gradient(to right, lab(100% 0 0/.96) 0, lab(100% 0 0/.96) var(--video-progress,0%), lab(39.68% 0 0) var(--video-progress,0%), lab(39.68% 0 0) 100%)}}.success-stories__video-progress::-webkit-slider-runnable-track{background:0 0;border-radius:999px;height:.25rem}.success-stories__video-progress::-webkit-slider-thumb{appearance:none;width:0;height:0;box-shadow:none;background:0 0;border:0;margin-top:0}.success-stories__video-progress::-moz-range-track{background:#5d5d5d;background:lab(39.68% 0 0);border-radius:999px;height:.25rem}.success-stories__video-progress::-moz-range-progress{background:rgba(255,255,255,.96);background:lab(100% 0 0/.96);border-radius:999px;height:.25rem}.success-stories__video-progress::-moz-range-thumb{width:0;height:0;box-shadow:none;background:0 0;border:0}.success-stories__video-modal[hidden]{display:none}.success-stories__video-modal{--success-stories-modal-top-offset:4rem;top:var(--success-stories-modal-top-offset);z-index:1000;box-sizing:border-box;cursor:pointer;background:rgba(0,0,0,.8);background:lab(0% 0 0/.8);justify-content:center;align-items:center;padding:3.75rem min(20vw,24rem);display:flex;position:fixed;bottom:0;left:0;right:0}@media (width<=80rem){.success-stories__video-modal{--success-stories-modal-top-offset:3.75rem}}.success-stories__video-modal-card{width:min(25rem, calc((100vh - var(--success-stories-modal-top-offset) - 7.5rem) * 9 / 16));aspect-ratio:9/16;cursor:default;background:#000;background:lab(0% 0 0);border-radius:2rem;max-width:calc(100vw - 2*min(20vw,24rem));position:relative;overflow:hidden}.success-stories__video-modal-card video{object-fit:contain;width:100%;height:100%;display:block}.success-stories__metric-date{color:#000;color:lab(0% 0 0);letter-spacing:.00115625rem;white-space:nowrap;margin:0;font-size:.625rem;font-weight:400;line-height:1.3}.success-stories__metric-date--desktop{margin-top:.625rem}.success-stories__metric-date--mobile{display:none}.success-stories__body{flex-direction:column;justify-content:flex-start;min-width:0;min-height:28.125rem;display:flex}.success-stories__body p{color:rgba(0,0,0,.9);color:lab(0% 0 0/.9);margin:3.1875rem 0 1rem;font-size:2.625rem;font-weight:300;line-height:1.25;position:relative}.success-stories__body p b{font-weight:800}.success-stories__body p:before{content:"";background:linear-gradient(105deg, transparent 0 16%, var(--success-stories-quote-color) 16% 38%, transparent 38% 56%, var(--success-stories-quote-color) 56% 78%, transparent 78% 100%);width:3.455rem;height:2.216rem;position:absolute;top:-3.216rem;left:0}.success-stories__body strong{color:#000;color:lab(0% 0 0);font-size:1.25rem;font-weight:700;line-height:1.2}.success-stories__body strong span{font-weight:400}.success-stories__stats{justify-content:flex-start;align-items:flex-start;width:100%;margin-top:auto;padding-top:3.15625rem;display:flex;position:relative}.success-stories__stats:before{content:none}.success-stories__stats>div{box-sizing:border-box;text-align:left;flex:0 auto;min-width:0;max-width:11.25rem}.success-stories__stats>div:first-child{max-width:50%;padding-right:0}.success-stories__stats>div+div{border-left:1px solid rgba(0,0,0,.12);border-left:1px solid lab(0% 0 0/.12);flex:1 1 0;max-width:none;margin-left:2.125rem;padding-left:2.125rem}.success-stories__stats>div>span{color:#000;color:lab(0% 0 0);overflow-wrap:anywhere;white-space:normal;flex-wrap:wrap;align-items:baseline;gap:.25rem;font-size:3rem;font-weight:400;line-height:1.15;display:flex}.success-stories__stats>div>span em{font-size:1.5rem;font-style:normal;line-height:1.56}.success-stories__stats small{color:#000;color:lab(0% 0 0);overflow-wrap:anywhere;white-space:normal;margin-top:.25rem;font-size:1rem;font-weight:400;line-height:1.3;display:block}.success-stories__card--compact-stats .success-stories__stats>div>span{font-size:1.875rem;line-height:1.15}.success-stories__card--compact-stats .success-stories__stats>div>span em{font-size:inherit;line-height:inherit}.success-stories__card--compact-quote .success-stories__body>p{font-size:1.875rem;line-height:1.25}.success-stories__card--compact-quote .success-stories__body>strong{font-size:1rem;line-height:1.2}.success-stories__card--compact-quote .success-stories__stats>div>span{font-size:1.875rem;line-height:1.15}.success-stories__card--compact-quote .success-stories__stats>div>span em{font-size:1rem;line-height:1.56}.success-stories__card--compact-quote .success-stories__stats small{font-size:1rem;line-height:1.3}.success-stories__metric-value{overflow-wrap:anywhere;white-space:normal;display:inline}.success-stories__metric-value-unit{white-space:nowrap;align-items:baseline;display:inline-flex}.success-stories__controls,.success-stories__control-set{display:none}.transactions{background:var(--bg-light)}.transactions>div{box-sizing:border-box;flex-direction:column;justify-content:center;align-items:center;gap:3.75rem;width:100%;padding:5rem max(5.375rem,50vw - 39.625rem);display:flex}.transactions__header{text-align:center;width:62.5rem;max-width:100%;margin:0 auto}.transactions__header h2{color:#000;color:lab(0% 0 0);font-size:3rem;font-weight:400;line-height:1.15}.transactions__header p{display:none}.transactions__cards{grid-template-columns:repeat(3,15.625rem);justify-content:center;align-items:start;gap:2rem 1.5rem;width:79.25rem;margin:0 auto;padding:0;display:grid}.transactions__cards figure{grid-template-rows:subgrid;text-align:center;flex:0 0 15.625rem;grid-row:span 2;place-items:start center;row-gap:2rem;margin:0;display:grid}.transactions__cards img{aspect-ratio:1;object-fit:cover;background:#d4d4d4;background:lab(84.92% 0 -.0000119209);border-radius:2rem;width:15.625rem;display:block}.transactions__cards figcaption{color:#000;color:lab(0% 0 0);order:-1;align-self:start;width:100%;font-size:1.125rem;font-weight:500;line-height:1.3}.special-offer{color:#000;color:lab(0% 0 0);background:var(--bg-white);flex-direction:column;justify-content:center;align-items:center;gap:3.75rem;width:100%;padding:6.25rem 2.5rem;display:flex}.special-offer__header{text-align:center;flex-direction:column;align-items:center;gap:.75rem;width:100%;display:flex}.special-offer__header h2{width:100%;font-size:3rem;font-weight:400;line-height:1.15}.special-offer__eyebrow{width:100%;color:var(--brand-red);text-transform:uppercase;font-size:.875rem;font-weight:700;line-height:1.5}.special-offer__description{letter-spacing:.00231875rem;width:min(100%,62.5rem);font-size:1.25rem;font-weight:400;line-height:1.3}.special-offer__content{justify-content:center;align-items:center;gap:6.25rem;width:min(100%,75rem);display:flex}.special-offer__visual{flex:0 0 25.125rem;width:25.125rem;height:33.6875rem;margin:0;position:relative;overflow:hidden}.special-offer__visual-backdrop{background:var(--brand-cyan);border-radius:2.07644rem;width:64.57%;height:86.68%;position:absolute;top:6.7%;left:23.61%;transform:rotate(6.46deg)}.special-offer__video{object-fit:cover;border-radius:2rem;width:62.19%;height:83.49%;position:absolute;top:8.3%;left:5.47%}.special-offer__details{flex-direction:column;flex:0 0 23.3125rem;align-items:flex-start;gap:2.5rem;width:23.3125rem;min-width:0;display:flex}.special-offer__benefits{flex-direction:column;gap:2.5rem;width:100%;display:flex}.special-offer__benefit{letter-spacing:.00185rem;flex-direction:column;gap:.375rem;width:100%;font-size:1rem;line-height:1.3;display:flex}.special-offer__benefit h3,.special-offer__benefit p{width:100%}.special-offer__benefit h3{font-size:inherit;font-weight:700;line-height:inherit}.special-offer__benefit p{font-weight:400}.special-offer__terms-icon{vertical-align:-.4375rem;width:1.4375rem;height:1.4375rem;display:inline-block;position:relative;overflow:hidden}.special-offer__terms-icon:focus-visible{outline-offset:.0625rem;outline:.125rem solid}.special-offer__terms-icon span{width:.6875rem;height:.6875rem;position:absolute;top:.375rem;left:.375rem;overflow:hidden}.special-offer__terms-icon img{width:100%;max-width:none;height:100%;position:absolute;inset:0}.special-offer__terms-icon img:last-child{transform:translate(-146.74%,146.74%)}.special-offer__cta{border-radius:999rem;height:auto;min-height:3rem;padding:.75rem 1.25rem;font-weight:600;line-height:1.3}.special-offer__cta:focus-visible{outline-offset:.125rem;outline:.25rem solid #a6f7ec;outline:.25rem solid lab(91.6735% -27.2209 -3.381)}@media (hover:hover) and (pointer:fine){.special-offer__visual-backdrop,.special-offer__video{will-change:transform;transition:transform .44s cubic-bezier(.34,1.12,.64,1)}.special-offer__visual:hover .special-offer__visual-backdrop{transform:rotate(12.92deg)}.special-offer__visual:hover .special-offer__video{transform:rotate(-6.46deg)}.special-offer__terms-icon img{will-change:transform;transition:transform .32s cubic-bezier(.34,1.12,.64,1)}.special-offer__terms-icon:is(:hover,:focus-visible) img:first-child{transform:translate(146.74%,-146.74%)}.special-offer__terms-icon:is(:hover,:focus-visible) img:last-child{transform:translate(0)}}@media (width<=72.1875rem){.special-offer{padding:5rem 2.5rem}.special-offer__description{letter-spacing:.00185rem;font-size:1rem}.special-offer__content{gap:1.5rem}.special-offer__visual{flex-basis:22.375rem;width:22.375rem;height:30rem}.special-offer__details{flex:1 1 0;width:auto}}@media (width<=47.875rem){.special-offer{gap:1.5rem;padding:2.5rem 1.5rem}.special-offer__header h2{font-size:2rem}.special-offer__content{flex-direction:column;gap:1.5rem}.special-offer__visual{aspect-ratio:327/438.44;flex-basis:auto;width:min(100%,20.4375rem);height:auto}.special-offer__details{flex-basis:auto;gap:1.5rem;width:100%}.special-offer__benefits{gap:1.5rem}.special-offer__benefit{letter-spacing:.0013875rem;gap:.25rem;font-size:.75rem}.special-offer__benefit h3{line-height:normal}.special-offer__cta{align-self:center;min-height:3.0625rem;padding:.875rem 1.75rem}}@media (prefers-reduced-motion:reduce){.special-offer__visual-backdrop,.special-offer__video,.special-offer__terms-icon img{transition:none}.special-offer__visual:hover .special-offer__visual-backdrop{transform:rotate(6.46deg)}.special-offer__visual:hover .special-offer__video{transform:none}.special-offer__terms-icon:is(:hover,:focus-visible) img:first-child{transform:none}.special-offer__terms-icon:is(:hover,:focus-visible) img:last-child{transform:translate(-146.74%,146.74%)}}.stats{background:var(--bg-white);flex-direction:column;justify-content:center;align-items:center;gap:5rem;padding:5rem 2.5rem;display:flex}.stats__header{text-align:center;width:100%}.stats__header h2{color:var(--text-primary);font-family:TikTok Text,TikTok Text-Fallback,sans-serif;font-size:3rem;font-weight:400;line-height:1.15}.stats__grid{justify-content:center;align-items:stretch;gap:8rem;width:100%;margin:0 auto;padding:0;display:flex}.stats__card{text-align:center;flex-direction:column;flex:0 0 15rem;align-items:center;gap:1rem;max-width:18.75rem;display:flex;position:relative}.stats__card dd{width:100%;color:var(--text-primary);margin:0;font-size:1rem;font-weight:400;line-height:1.5}.stats__card sup{color:var(--text-primary);margin-left:.1875rem;font-size:.625rem;font-weight:400;line-height:0}.stats__card+.stats__card:before{content:"";background:#d1d1d1;background:lab(83.76% -.0000298023 0);width:1px;position:absolute;top:0;bottom:0;left:-4rem}.stats__value{color:var(--text-primary);white-space:nowrap;justify-content:center;align-items:flex-end;font-size:7.5rem;font-weight:700;line-height:1;display:flex}.stats__value .stats__number{color:var(--text-primary);font-size:inherit;font-weight:inherit;letter-spacing:0;white-space:pre;line-height:1;transform:none}.stats__value .stats__affix{color:var(--brand-red);letter-spacing:-.06rem;white-space:pre;font-size:3rem;font-weight:700;line-height:1;transform:translateY(-.23em)}.stats__number{line-height:1;display:inline-block}.stats__note{width:min(100%,62.5rem);color:var(--text-tertiary);text-align:center;margin:0 auto;font-size:.75rem;line-height:1.5}.faq{background:var(--bg-white)}.faq>div{background:var(--bg-light);border-radius:1.875rem;width:min(100%,79.25rem);margin:0 auto;padding:5.625rem 5rem 6.25rem}.faq>div h2{color:var(--text-primary);margin:0;font-size:3rem;font-weight:400;line-height:1.15}.faq__list{flex-direction:column;display:flex;overflow:hidden}.faq__item{border-bottom:1px solid #e4e4e4;border-bottom:1px solid lab(90.72% .0000298023 -.0000119209);margin-top:3.375rem;padding-bottom:3.375rem}.faq__item+.faq__item{margin-top:0;padding-top:3.375rem}.faq__item:last-child{border-bottom:0}.faq__item summary{width:100%;color:var(--text-primary);text-align:left;cursor:pointer;grid-template-columns:minmax(0,1fr) 1.5rem;align-items:center;column-gap:1rem;padding:0;list-style:none;display:grid}.faq__item summary::-webkit-details-marker{display:none}.faq__item summary>span{letter-spacing:.015rem;font-size:1.5rem;font-weight:500;line-height:1.25}.faq__item i{color:#000;color:lab(0% 0 0);justify-self:end;width:1.5rem;height:1.5rem;display:block;position:relative}.faq__item i:before,.faq__item i:after{content:"";background:currentColor;border-radius:999px;transition:opacity .24s;display:block;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.faq__item i:before{width:1.125rem;height:.125rem}.faq__item i:after{width:.125rem;height:1.125rem}.faq__item p{color:var(--text-primary);white-space:pre-line;margin:0;font-size:1rem;line-height:1.5}.faq__item b,.faq__item strong{font-weight:700}.faq__item a{color:#fe2c55;font-weight:400;text-decoration:none}.faq__item a:after{content:"↗";color:#fe2c55;margin-left:.125em;text-decoration:none;display:inline-block}.faq__item a:hover{color:#fe2c55}.faq__item::details-content{opacity:0;block-size:0;transition:block-size .28s ease, opacity .22s ease, content-visibility .28s ease allow-discrete;overflow:hidden}.faq__item[open]::details-content{opacity:1;block-size:auto}.faq__item[open] i:after{opacity:0}.faq__answer{opacity:0;grid-template-rows:0fr;margin-top:1.5rem;transition:grid-template-rows .28s,opacity .22s;display:grid}.faq__answer p{white-space:pre-line;overflow:hidden}.faq__item[open] .faq__answer{opacity:1;grid-template-rows:1fr}@media (width>=90rem){.faq>div{background:0 0;border-radius:0;width:min(100% - 32.5rem,57.5rem);padding:5.5rem 0 4.5rem}.faq>div h2{margin-bottom:2.875rem;font-size:3rem;font-weight:300;line-height:1.15}.faq__list{overflow:visible}.faq__item{border-bottom-color:#dedede;border-bottom-color:lab(88.4% 0 .0000119209);margin-top:0;padding:1.875rem 0}.faq__item:first-child{padding-top:0}.faq__item+.faq__item{margin-top:0;padding-top:1.875rem}.faq__item summary{grid-template-columns:minmax(0,1fr) 1.5rem;column-gap:2rem}.faq__item summary>span{letter-spacing:0;font-size:1rem;font-weight:700;line-height:1.4}.faq__item p{font-size:1rem;line-height:1.5}.faq__answer{margin-top:1.5rem}}@media (prefers-reduced-motion:reduce){.faq__answer,.faq__item i{transition:none}.faq__item::details-content{transition:none}}.bottom-cta{background:var(--bg-white)}.bottom-cta__inner{text-align:center;flex-direction:column;align-items:center;gap:2.5rem;width:min(100%,38.25rem);margin:0 auto;padding:5rem 5.375rem;display:flex}.bottom-cta__inner h2{color:var(--text-primary);font-size:1.75rem;font-weight:800;line-height:1.15}.bottom-cta__inner .btn-cta{min-width:0}.learn-more-bottom{background:#005c5b;background:lab(34.6866% -24.5727 -6.35357)}.learn-more-bottom__inner{justify-content:center;align-items:center;gap:.5rem;width:min(100%,90rem);min-height:3.25rem;margin:0 auto;padding:1.125rem 5.375rem;display:flex}.learn-more-bottom__inner p{color:var(--brand-white);text-align:center;font-size:1rem;font-weight:400;line-height:1.3}@media (width<=89.9375rem){.hero{padding:8.75rem 2.5rem}.incentive__shell{grid-template-columns:30.625rem minmax(0,1fr);gap:6.25rem;width:100%;padding-left:2.5rem;padding-right:2.5rem}.success-stories__grid{grid-template-columns:18.75rem minmax(0,1fr);gap:3.875rem;width:100%;padding:0 2.5rem 7.17313rem}.success-stories__nav{left:2.5rem}.success-stories__card,.success-stories__panels{width:100%}.success-stories__body p{font-size:2.1875rem}.success-stories__stats>div>span{font-size:2.5rem;line-height:1.15}.success-stories__stats>div>span em{font-size:1.5rem;line-height:1.56}.success-stories__stats small{font-size:.75rem;line-height:1.3}.transactions>div,.bottom-cta__inner,.learn-more-bottom__inner{padding-left:2.5rem;padding-right:2.5rem}.faq>div{width:calc(100% - 5rem);padding:5.625rem 5rem 6.25rem}.faq>div h2{font-size:3rem}}@media (width>=72.25rem) and (width<=89.9375rem){.faq>div{background:0 0;border-radius:0;width:min(100% - 7.5rem,57.5rem);padding:5.5rem 0 4.5rem}.faq>div h2{margin-bottom:2.875rem;font-size:3rem;font-weight:300;line-height:1.15}.faq__list{overflow:visible}.faq__item{border-bottom-color:#dedede;border-bottom-color:lab(88.4% 0 .0000119209);margin-top:0;padding:1.875rem 0}.faq__item:first-child{padding-top:0}.faq__item+.faq__item{margin-top:0;padding-top:1.875rem}.faq__item summary{grid-template-columns:minmax(0,1fr) 1.5rem;column-gap:2rem}.faq__item summary>span{letter-spacing:0;font-size:1rem;font-weight:700;line-height:1.4}.faq__item p{font-size:1rem;line-height:1.5}.faq__answer{margin-top:1.5rem}}@media (width<=72.1875rem){.incentive__shell{flex-direction:column;justify-content:center;align-items:center;gap:2.625rem;width:100%;padding:5rem 2.5rem;display:flex}.incentive__image-wrap{aspect-ratio:490/450;flex:none;order:2;width:min(30.625rem,100%);height:auto}.incentive__content{display:contents}.incentive__content h2{text-align:center;order:1;width:100%;font-size:3rem}.incentive__card{order:3}.success-stories__grid{flex-direction:column;align-items:center;gap:0;width:100%;padding:0 2.5rem 2.73625rem;display:flex}.success-stories__nav{width:100%;padding-top:0;display:block;position:static;transform:none}.success-stories__title{text-align:center;white-space:nowrap;font-size:3rem}.success-stories__tabs{display:none}.success-stories__controls{margin-top:.851875rem;display:block}.success-stories__control-set{justify-content:center;align-items:center;gap:2rem}#success-story-story-1:checked~.success-stories__grid .success-stories__control-set--story-1,#success-story-story-2:checked~.success-stories__grid .success-stories__control-set--story-2,#success-story-story-3:checked~.success-stories__grid .success-stories__control-set--story-3,#success-story-story-4:checked~.success-stories__grid .success-stories__control-set--story-4{display:flex}.success-stories__control{cursor:pointer;aspect-ratio:1;color:rgba(0,0,0,.9);color:lab(0% 0 0/.9);border:.09025rem solid rgba(0,0,0,.55);border:.09025rem solid lab(0% 0 0/.55);border-radius:50%;place-items:center;width:3.60988rem;display:grid}.success-stories__control img{width:1.46875rem;height:1.46875rem;display:block}.success-stories__control-next img{transform:rotate(180deg)}.success-stories__card{grid-template-columns:15.625rem minmax(0,1fr);gap:2.625rem;height:auto}.success-stories__panels{contain:paint;--success-stories-card-gap:6rem;touch-action:pan-y;width:calc(100% + var(--success-stories-feather-size) * 2);margin-block:3rem 0;margin-inline:calc(-1 * var(--success-stories-feather-size));padding-block:0;padding-inline:var(--success-stories-feather-size);height:auto;min-height:0;display:block;overflow:hidden}.success-stories--is-switching .success-stories__panels{-webkit-mask-image:linear-gradient(to right, transparent 0, black var(--success-stories-feather-size), black calc(100% - var(--success-stories-feather-size)), transparent 100%);-webkit-mask-image:linear-gradient(to right, transparent 0, black var(--success-stories-feather-size), black calc(100% - var(--success-stories-feather-size)), transparent 100%);-webkit-mask-image:linear-gradient(to right, transparent 0, black var(--success-stories-feather-size), black calc(100% - var(--success-stories-feather-size)), transparent 100%);mask-image:linear-gradient(to right, transparent 0, black var(--success-stories-feather-size), black calc(100% - var(--success-stories-feather-size)), transparent 100%)}.success-stories__image{border-radius:2rem;width:15.625rem}.success-stories__body p{letter-spacing:.021875rem;margin:3.1875rem 0 1rem;font-size:2.1875rem;font-weight:300;line-height:1.25}.success-stories__body strong{font-size:1.25rem;line-height:1.2}.success-stories__stats{justify-content:flex-start;align-items:start;padding-top:3.15625rem;display:flex}.success-stories__stats:before{display:block}.success-stories__stats>div{box-sizing:border-box;text-align:left;flex:0 auto;align-self:start;min-width:0;max-width:11.25rem}.success-stories__stats>div:first-child{max-width:min(11.25rem,50%);padding-right:0}.success-stories__stats>div+div{border-left:1px solid rgba(0,0,0,.12);border-left:1px solid lab(0% 0 0/.12);flex:1 1 0;max-width:none;margin-left:2.125rem;padding-left:2.125rem}.success-stories__stats>div>span{overflow-wrap:anywhere;white-space:normal;flex-wrap:wrap;align-items:baseline;gap:.25rem;min-height:2.73125rem;font-size:2.5rem;line-height:1.15;display:flex}.success-stories__stats>div>span em{font-size:1.5rem;font-weight:300;line-height:1.56}.success-stories__stats small{letter-spacing:.001275rem;margin-top:0;font-size:.75rem;line-height:1.3}.success-stories__track{align-items:flex-start;gap:var(--success-stories-card-gap);will-change:transform;flex-direction:row;height:auto;transition:transform .56s cubic-bezier(.65,0,.35,1);display:flex}.success-stories__panel{opacity:1;pointer-events:auto;visibility:visible;flex:0 0 100%;align-self:flex-start;display:grid;transform:none}#success-story-story-1:checked~.success-stories__grid .success-stories__panel--story-1,#success-story-story-2:checked~.success-stories__grid .success-stories__panel--story-2,#success-story-story-3:checked~.success-stories__grid .success-stories__panel--story-3,#success-story-story-4:checked~.success-stories__grid .success-stories__panel--story-4{display:grid}.transactions__cards{grid-template-columns:repeat(3,13.125rem);justify-content:space-between;gap:2rem 0;width:100%;padding:0}.transactions__cards figure{flex:0 0 13.125rem;gap:2rem}.transactions__cards img{width:13.125rem}.transactions__cards figcaption{font-size:1rem}.stats{gap:3.75rem}.stats__header{padding:0}.stats__header h2{font-size:3rem}.stats__grid{flex-direction:column;align-items:center;gap:4rem;padding:0}.stats__card{flex-basis:auto;width:min(100%,15rem)}.stats__card+.stats__card:before{display:none}.stats__value{font-size:7.5rem}.stats__value .stats__affix{letter-spacing:-.06rem;font-size:3rem}.stats__note{text-align:center;padding:0}.faq>div{width:calc(100% - 5rem);padding:5.625rem 5rem 6.25rem}}@media (width>=47.9375rem) and (width<=72.1875rem){.faq>div{background:0 0;border-radius:0;width:min(100% - 7.5rem,57.5rem);padding:5.5rem 0 4.5rem}.faq>div h2{margin-bottom:2.875rem;font-size:3rem;font-weight:300;line-height:1.15}.faq__list{overflow:visible}.faq__item{border-bottom-color:#dedede;border-bottom-color:lab(88.4% 0 .0000119209);margin-top:0;padding:1.875rem 0}.faq__item:first-child{padding-top:0}.faq__item+.faq__item{margin-top:0;padding-top:1.875rem}.faq__item summary{grid-template-columns:minmax(0,1fr) 1.5rem;column-gap:2rem}.faq__item summary>span{letter-spacing:0;font-size:1rem;font-weight:700;line-height:1.4}.faq__item p{font-size:1rem;line-height:1.5}.faq__answer{margin-top:1.5rem}}@media (width<=47.875rem){.learn-more-top__inner{gap:.375rem;padding:1.125rem 0}.learn-more-top__inner p,.learn-more-top__cta,.learn-more-bottom__cta{font-size:.8125rem}.hero{height:43.75rem;padding:6.25rem 1.5rem 8.75rem!important}.hero__title{margin-bottom:3rem}.hero__title h1{font-size:3rem}.hero__content{font-size:1.25rem;line-height:1.4}.hero__cta{margin-top:1.5rem}.incentive__shell{padding:3.125rem 1.5rem 5rem}.incentive__content h2{font-size:2rem}.incentive__card li{align-items:center;font-size:.875rem;line-height:normal}.incentive__card li img{margin-top:0}.incentive__card li span{flex:0 auto}.success-stories__grid{gap:2rem;padding:1.5rem 1.5rem 5rem}.success-stories__tabs{display:none}.success-stories__controls{margin-top:0;display:block}.success-stories__control-set{justify-content:center;align-items:center;gap:2rem}.success-stories__panels{margin-block:0}.success-stories__title{white-space:normal;font-size:2rem;line-height:1.15}.success-stories__card{border-radius:2rem;flex-direction:column;gap:1.875rem;width:100%;padding:0 1.5rem 1.875rem;display:flex;overflow:hidden;container-type:inline-size}.success-stories__panel{flex:0 0 100%;display:flex}#success-story-story-1:checked~.success-stories__grid .success-stories__panel--story-1,#success-story-story-2:checked~.success-stories__grid .success-stories__panel--story-2,#success-story-story-3:checked~.success-stories__grid .success-stories__panel--story-3,#success-story-story-4:checked~.success-stories__grid .success-stories__panel--story-4{display:flex}.success-stories__image{aspect-ratio:250/450;border-radius:2rem;width:calc(100% + 3rem);max-width:none;height:auto;margin:0 -1.5rem}.success-stories__media{width:100%}.success-stories__metric-date--desktop{display:none}.success-stories__metric-date--mobile{margin-top:18px;display:block}@container (width>=21.5625rem){.success-stories__image{width:21.5rem;max-width:100%;margin:1.5rem auto 0}}.success-stories__body{min-height:0;display:block}.success-stories__body p{letter-spacing:.015rem;margin:2.875rem 0 .5rem;font-size:1.5rem;line-height:1.25}.success-stories__body p:before{width:3.455rem;height:2.216rem;top:-2.8125rem}.success-stories__body strong{font-size:.75rem;line-height:1.3}.success-stories__stats{justify-content:flex-start;align-items:flex-start;gap:0;width:100%;margin-top:0;padding-top:1.875rem;display:flex}.success-stories__stats:before{display:block;top:1.875rem;bottom:0;left:50%}.success-stories__stats>div{box-sizing:border-box;text-align:left;flex:0 auto;min-width:0;max-width:11.25rem}.success-stories__stats>div:first-child{max-width:50%;padding-right:0}.success-stories__stats>div+div{border-left:1px solid rgba(0,0,0,.12);border-left:1px solid lab(0% 0 0/.12);flex:1 1 0;max-width:none;margin-left:2.125rem;padding-left:2.125rem}.success-stories__stats>div>span{overflow-wrap:anywhere;white-space:normal;flex-wrap:wrap;align-items:baseline;gap:.125rem;min-height:0;font-size:1rem;line-height:1.3;display:flex}.success-stories__stats>div>span em{font-size:1rem;font-weight:300;line-height:1.3}.success-stories__stats .success-stories__metric-value{font-weight:700}.success-stories__stats small{letter-spacing:.00115625rem;white-space:normal;margin-top:0;font-size:.625rem;line-height:1.3}@media (width<=24.3125rem){.success-stories__stats>div+div{margin-left:1.09375rem;padding-left:1.09375rem}}.transactions>div{gap:3.75rem;padding:5rem 2.5rem}.transactions__header h2{font-size:2rem;line-height:1.15}.transactions__cards{grid-template-columns:13.125rem;justify-content:center;align-items:center;gap:4rem 0;width:100%;padding:0}.transactions__cards figure{flex:none;gap:1.25rem;width:13.125rem}.transactions__cards img{width:13.125rem}.transactions__cards figcaption{font-size:1rem;line-height:1.3}.stats__header,.stats__grid,.stats__note{padding-left:0;padding-right:0}.stats{gap:3.75rem;padding:5rem 2.5rem}.stats__header h2{font-size:2rem;line-height:1.15}.stats__grid{gap:4rem}.stats__card{width:min(100%,15rem)}.stats__card dd{font-size:1rem;line-height:1.5}.stats__value{font-size:6.25rem}.stats__value .stats__affix{letter-spacing:-.06rem;font-size:3rem}.stats__note{text-align:center;padding-bottom:0;font-size:.75rem;line-height:1.5}.faq>div{background:0 0;border-radius:0;width:min(100% - 5rem,57.5rem);padding:2.5rem 0}.faq>div h2{margin-bottom:2.875rem;font-size:3rem;font-weight:300;line-height:1.15}.faq__list{overflow:visible}.faq__item{border-bottom-color:#dedede;border-bottom-color:lab(88.4% 0 .0000119209);margin-top:0;padding:1.875rem 0}.faq__item:first-child{padding-top:0}.faq__item+.faq__item{margin-top:0;padding-top:1.875rem}.faq__item summary{grid-template-columns:minmax(0,1fr) 1.5rem;column-gap:2rem;padding:0}.faq__item summary>span{letter-spacing:0;font-size:1rem;font-weight:700;line-height:1.4}.faq__item p{font-size:1rem;line-height:1.5}.faq__answer{margin-top:1.5rem}.bottom-cta__inner{gap:2.5rem;width:100%;padding:5rem 1.5rem}.bottom-cta__inner h2{font-size:1.75rem;line-height:normal}.bottom-cta__inner .btn-cta{height:2.75rem;padding:0 1.25rem;font-size:1rem;line-height:1.5}.learn-more-bottom__inner{flex-direction:row;gap:.5rem;min-height:0;padding:1.125rem 1.5rem}.learn-more-bottom__inner p{letter-spacing:.0013875rem;white-space:nowrap;max-width:none;font-size:.75rem}.learn-more-bottom__inner .learn-more-bottom__cta{gap:.125rem;font-size:.75rem}}@media (width>=24.375rem) and (width<=44.3125rem){.transactions__cards{grid-template-columns:13.125rem;justify-content:center;gap:4rem 0;overflow:visible}}@media (width<=24.3125rem){.transactions__cards{grid-template-columns:13.125rem;justify-content:center;align-items:center;gap:4rem 0;overflow:visible}.transactions__cards figure{gap:1.25rem;width:13.125rem}}</style></head>
+
+<body>
+  <div id="root">
+    <link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/tiktok-logo.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/tiktok-logo-black.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-money.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-trend.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-congrats.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-check.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-discount.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/pause.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/play.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-off.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-on.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/Full_Screen_Fill.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/success-story-arrow.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/Exit_Full_Screen_Fill.svg"/><link rel="preload" as="image" href="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/special-offer-arrow-up-right.svg"/><section class="learn-more-top" aria-label="New seller incentive" data-tea-module-show="LearnMoreTop"><div class="learn-more-top__inner"><p>Earn new seller incentives worth up to $23,630</p><a class="learn-more-top__cta" href="#seller-home-incentive" data-tea-module-name="LearnMoreTop" data-tea-click-for="Learn more">Learn more</a></div></section><header class="site-header" data-tea-module-show="SiteHeader"><div class="landing-container"><a href="https://seller.tiktok.com/?channel=portal_header_v4" class="site-header__logo" aria-label="TikTok Shop"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/tiktok-logo.svg" alt="TikTok Shop" width="160" height="30"/></a><nav class="site-header__nav"><div class="nav-dropdown"><button type="button" class="nav-dropdown__trigger" aria-haspopup="true" data-tea-module-name="SiteHeader" data-tea-click-for="Seller">Seller <svg class="chevron" width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 5.44a.33.33 0 00-.47 0L8 9.19 4.25 5.44a.33.33 0 00-.47 0l-.47.47a.33.33 0 000 .47l4.22 4.22a.47.47 0 00.94 0l4.22-4.22a.33.33 0 000-.47l-.47-.47z"></path></svg></button><ul class="nav-dropdown__menu"><li class="nav-dropdown__group"><p class="nav-dropdown__section">Get started</p><ul class="nav-dropdown__group-links"><li><a href="https://seller.tiktok.com/how-to-register?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="How to sell on TikTok Shop: A step-by-step seller guide">How to sell on TikTok Shop: A step-by-step seller guide</a></li></ul></li><li class="nav-dropdown__group"><p class="nav-dropdown__section">Learn how to sell</p><ul class="nav-dropdown__group-links"><li><a href="https://seller.tiktok.com/shop-set-up?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="How to set up TikTok Shop: Account, shipping, and shop setup">How to set up TikTok Shop: Account, shipping, and shop setup</a></li><li><a href="https://seller.tiktok.com/list-manage-product?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="How to list and manage products on TikTok Shop">How to list and manage products on TikTok Shop</a></li><li><a href="https://seller.tiktok.com/shopify?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Connect Shopify store">Connect Shopify store</a></li><li><a href="https://seller-us.tiktok.com/account/register?page=live&amp;channel=liveauction&amp;entrance=seller_portal_navbar" data-tea-module-name="SiteHeader" data-tea-click-for="live_auction_entry" data-tea-entrance="seller_portal_navbar">Start selling through LIVE and LIVE Auctions</a></li></ul></li><li class="nav-dropdown__group"><p class="nav-dropdown__section">Solutions and guides</p><ul class="nav-dropdown__group-links"><li><a href="https://seller-us.tiktok.com/university/new-policies?identity=1&amp;role=seller&amp;menu=policy&amp;content_id=7090222812497710&amp;from=new-and-updated&amp;module_id=latest_policies#main" data-tea-module-name="SiteHeader" data-tea-click-for="Understand policies">Understand policies</a></li><li><a href="https://seller-us.tiktok.com/partners/us?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Find partners and service providers">Find partners and service providers</a></li></ul></li></ul></div><div class="nav-dropdown"><button type="button" class="nav-dropdown__trigger" aria-haspopup="true" data-tea-module-name="SiteHeader" data-tea-click-for="Creator">Creator <svg class="chevron" width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 5.44a.33.33 0 00-.47 0L8 9.19 4.25 5.44a.33.33 0 00-.47 0l-.47.47a.33.33 0 000 .47l4.22 4.22a.47.47 0 00.94 0l4.22-4.22a.33.33 0 000-.47l-.47-.47z"></path></svg></button><ul class="nav-dropdown__menu"><li><a href="https://business.tiktokshop.com/us/creator?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="TikTok Shop for Creators">TikTok Shop for Creators</a></li><li><a href="https://business.tiktokshop.com/us/creator/live?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="LIVE shopping">LIVE shopping</a></li></ul></div><div class="nav-dropdown"><button type="button" class="nav-dropdown__trigger" aria-haspopup="true" data-tea-module-name="SiteHeader" data-tea-click-for="Partner">Partner <svg class="chevron" width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 5.44a.33.33 0 00-.47 0L8 9.19 4.25 5.44a.33.33 0 00-.47 0l-.47.47a.33.33 0 000 .47l4.22 4.22a.47.47 0 00.94 0l4.22-4.22a.33.33 0 000-.47l-.47-.47z"></path></svg></button><ul class="nav-dropdown__menu"><li><a href="https://partner.us.tiktokshop.com/?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Become a partner">Become a partner</a></li><li><a href="https://partner.tiktokshop.com/docv2/page/about-partner-center-console?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Partner guide">Partner guide</a></li></ul></div><a href="https://tiktok.com/shop?source=tts_portal_seller_page" data-tea-module-name="SiteHeader" data-tea-click-for="Customer">Customer</a><a href="https://seller.tiktok.com/blog?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Blog">Blog</a></nav><div class="site-header__end"><div class="nav-dropdown region-selector"><button type="button" class="nav-dropdown__trigger" aria-haspopup="true">United States <svg class="chevron" width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 5.44a.33.33 0 00-.47 0L8 9.19 4.25 5.44a.33.33 0 00-.47 0l-.47.47a.33.33 0 000 .47l4.22 4.22a.47.47 0 00.94 0l4.22-4.22a.33.33 0 000-.47l-.47-.47z"></path></svg></button><div class="nav-dropdown__menu region-selector__menu"><section class="region-selector__group"><h3 class="region-selector__heading">The Americas</h3><ul class="region-selector__links"><li><a href="https://seller.tiktok.com/?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="United States" aria-current="page">United States</a></li><li><a href="https://seller.tiktok.com/mx?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Mexico">Mexico</a></li><li><a href="https://seller.tiktok.com/br?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Brazil">Brazil</a></li></ul></section><section class="region-selector__group"><h3 class="region-selector__heading">Asia</h3><ul class="region-selector__links"><li><a href="https://www.tiktokshopglobalselling.com?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Global Selling">Global Selling</a></li><li><a href="https://seller.tiktok.com/ph?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Philippines">Philippines</a></li><li><a href="https://seller.tiktok.com/sg?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Singapore">Singapore</a></li><li><a href="https://seller.tiktok.com/th?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Thailand">Thailand</a></li><li><a href="https://seller.tiktok.com/vn?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Vietnam">Vietnam</a></li><li><a href="https://shop-id.tokopedia.com/id/seller?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Indonesia">Indonesia</a></li><li><a href="https://seller.tiktok.com/my?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Malaysia">Malaysia</a></li><li><a href="https://seller.tiktok.com/jp?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Japan">Japan</a></li></ul></section><section class="region-selector__group"><h3 class="region-selector__heading">Europe</h3><ul class="region-selector__links"><li><a href="https://seller.tiktok.com/de?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Germany">Germany</a></li><li><a href="https://seller.tiktok.com/fr?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="France">France</a></li><li><a href="https://seller.tiktok.com/es?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Spain">Spain</a></li><li><a href="https://seller.tiktok.com/ie?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Ireland">Ireland</a></li><li><a href="https://seller.tiktok.com/it?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Italy">Italy</a></li><li><a href="https://seller.tiktok.com/pl?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Poland">Poland</a></li><li><a href="https://seller.tiktok.com/nl?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Netherlands">Netherlands</a></li><li><a href="https://seller.tiktok.com/be?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Belgium">Belgium</a></li><li><a href="https://seller.tiktok.com/uk?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="United Kingdom">United Kingdom</a></li></ul></section></div></div><div class="mobile-region-selector"><input id="mobile-region-selector-toggle" type="checkbox" class="mobile-region-selector__control" aria-hidden="true"/><label for="mobile-region-selector-toggle" class="mobile-region-selector__trigger" aria-label="United States"><span class="mobile-region-selector__label">United States</span><svg class="chevron" width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 5.44a.33.33 0 00-.47 0L8 9.19 4.25 5.44a.33.33 0 00-.47 0l-.47.47a.33.33 0 000 .47l4.22 4.22a.47.47 0 00.94 0l4.22-4.22a.33.33 0 000-.47l-.47-.47z"></path></svg></label><label for="mobile-region-selector-toggle" class="mobile-region-selector__mask" aria-label="Close country selector"></label><div class="mobile-region-selector__panel" role="dialog" aria-modal="true" aria-labelledby="mobile-region-selector-title"><header class="mobile-region-selector__header"><strong id="mobile-region-selector-title">Select region</strong><label for="mobile-region-selector-toggle" class="mobile-region-selector__close" aria-label="Close country selector"></label></header><div class="mobile-region-selector__body"><section class="mobile-region-selector__group"><h3>The Americas</h3><div class="mobile-region-selector__items"><a href="https://seller.tiktok.com/?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="United States" aria-current="page">United States</a><a href="https://seller.tiktok.com/mx?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Mexico">Mexico</a><a href="https://seller.tiktok.com/br?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Brazil">Brazil</a></div></section><section class="mobile-region-selector__group"><h3>Asia</h3><div class="mobile-region-selector__items"><a href="https://www.tiktokshopglobalselling.com?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Global Selling">Global Selling</a><a href="https://seller.tiktok.com/ph?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Philippines">Philippines</a><a href="https://seller.tiktok.com/sg?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Singapore">Singapore</a><a href="https://seller.tiktok.com/th?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Thailand">Thailand</a><a href="https://seller.tiktok.com/vn?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Vietnam">Vietnam</a><a href="https://shop-id.tokopedia.com/id/seller?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Indonesia">Indonesia</a><a href="https://seller.tiktok.com/my?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Malaysia">Malaysia</a><a href="https://seller.tiktok.com/jp?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Japan">Japan</a></div></section><section class="mobile-region-selector__group"><h3>Europe</h3><div class="mobile-region-selector__items"><a href="https://seller.tiktok.com/de?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Germany">Germany</a><a href="https://seller.tiktok.com/fr?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="France">France</a><a href="https://seller.tiktok.com/es?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Spain">Spain</a><a href="https://seller.tiktok.com/ie?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Ireland">Ireland</a><a href="https://seller.tiktok.com/it?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Italy">Italy</a><a href="https://seller.tiktok.com/pl?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Poland">Poland</a><a href="https://seller.tiktok.com/nl?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Netherlands">Netherlands</a><a href="https://seller.tiktok.com/be?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Belgium">Belgium</a><a href="https://seller.tiktok.com/uk?channel=global_portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="United Kingdom">United Kingdom</a></div></section></div></div></div><details class="mobile-menu"><summary class="mobile-menu__toggle" aria-label="Menu"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/hamburger-icon.svg" alt="Menu" width="24" height="24" fetchPriority="low" class="mobile-menu__hamburger-icon"/><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/mobile-menu-close.svg" alt="" width="20" height="20" fetchPriority="low" class="mobile-menu__close-icon"/></summary><nav class="mobile-menu__nav"><div class="mobile-menu__header"><a href="https://seller.tiktok.com/?channel=portal_header_v4" class="mobile-menu__logo" aria-label="TikTok Shop"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/tiktok-logo-black.svg" alt="TikTok Shop" width="160" height="30"/></a></div><div class="mobile-menu__tabs"><details class="mobile-menu__category"><summary class="mobile-menu__item" data-tea-module-name="SiteHeader" data-tea-click-for="Seller">Seller<svg class="chevron" width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 5.44a.33.33 0 00-.47 0L8 9.19 4.25 5.44a.33.33 0 00-.47 0l-.47.47a.33.33 0 000 .47l4.22 4.22a.47.47 0 00.94 0l4.22-4.22a.33.33 0 000-.47l-.47-.47z"></path></svg></summary><div class="mobile-menu__submenu"><section class="mobile-menu__subgroup"><p class="mobile-menu__group-label">Get started</p><a class="mobile-menu__subitem" href="https://seller.tiktok.com/how-to-register?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="How to sell on TikTok Shop: A step-by-step seller guide">How to sell on TikTok Shop: A step-by-step seller guide</a></section><section class="mobile-menu__subgroup"><p class="mobile-menu__group-label">Learn how to sell</p><a class="mobile-menu__subitem" href="https://seller.tiktok.com/shop-set-up?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="How to set up TikTok Shop: Account, shipping, and shop setup">How to set up TikTok Shop: Account, shipping, and shop setup</a><a class="mobile-menu__subitem" href="https://seller.tiktok.com/list-manage-product?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="How to list and manage products on TikTok Shop">How to list and manage products on TikTok Shop</a><a class="mobile-menu__subitem" href="https://seller.tiktok.com/shopify?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Connect Shopify store">Connect Shopify store</a><a class="mobile-menu__subitem" href="https://seller-us.tiktok.com/account/register?page=live&amp;channel=liveauction&amp;entrance=seller_portal_navbar" data-tea-module-name="SiteHeader" data-tea-click-for="live_auction_entry" data-tea-entrance="seller_portal_navbar">Start selling through LIVE and LIVE Auctions</a></section><section class="mobile-menu__subgroup"><p class="mobile-menu__group-label">Solutions and guides</p><a class="mobile-menu__subitem" href="https://seller-us.tiktok.com/university/new-policies?identity=1&amp;role=seller&amp;menu=policy&amp;content_id=7090222812497710&amp;from=new-and-updated&amp;module_id=latest_policies#main" data-tea-module-name="SiteHeader" data-tea-click-for="Understand policies">Understand policies</a><a class="mobile-menu__subitem" href="https://seller-us.tiktok.com/partners/us?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Find partners and service providers">Find partners and service providers</a></section></div></details><details class="mobile-menu__category"><summary class="mobile-menu__item" data-tea-module-name="SiteHeader" data-tea-click-for="Creator">Creator<svg class="chevron" width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 5.44a.33.33 0 00-.47 0L8 9.19 4.25 5.44a.33.33 0 00-.47 0l-.47.47a.33.33 0 000 .47l4.22 4.22a.47.47 0 00.94 0l4.22-4.22a.33.33 0 000-.47l-.47-.47z"></path></svg></summary><div class="mobile-menu__submenu"><a class="mobile-menu__subitem" href="https://business.tiktokshop.com/us/creator?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="TikTok Shop for Creators">TikTok Shop for Creators</a><a class="mobile-menu__subitem" href="https://business.tiktokshop.com/us/creator/live?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="LIVE shopping">LIVE shopping</a></div></details><details class="mobile-menu__category"><summary class="mobile-menu__item" data-tea-module-name="SiteHeader" data-tea-click-for="Partner">Partner<svg class="chevron" width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 5.44a.33.33 0 00-.47 0L8 9.19 4.25 5.44a.33.33 0 00-.47 0l-.47.47a.33.33 0 000 .47l4.22 4.22a.47.47 0 00.94 0l4.22-4.22a.33.33 0 000-.47l-.47-.47z"></path></svg></summary><div class="mobile-menu__submenu"><a class="mobile-menu__subitem" href="https://partner.us.tiktokshop.com/?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Become a partner">Become a partner</a><a class="mobile-menu__subitem" href="https://partner.tiktokshop.com/docv2/page/about-partner-center-console?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Partner guide">Partner guide</a></div></details><a class="mobile-menu__item" href="https://tiktok.com/shop?source=tts_portal_seller_page" data-tea-module-name="SiteHeader" data-tea-click-for="Customer">Customer</a><a class="mobile-menu__item" href="https://seller.tiktok.com/blog?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Blog">Blog</a></div><div class="mobile-menu__divider"></div><section class="mobile-menu__footer"><a href="https://seller-us.tiktok.com/account/register?channel=portal_header_v4" class="btn-join" data-tea-module-name="SiteHeader" data-tea-click-for="Join now">Join now</a><a href="https://seller-us.tiktok.com/account/login?channel=portal_header_v4" class="btn-join btn-login" data-tea-module-name="SiteHeader" data-tea-click-for="Log in">Log in</a></section></nav></details><div class="site-header__actions"><div class="nav-dropdown login-menu"><a href="https://seller-us.tiktok.com/account/login?channel=portal_header_v4" class="site-header__login" data-tea-module-name="SiteHeader" data-tea-click-for="Log in">Log in</a><ul class="nav-dropdown__menu"><li><a href="https://seller-us.tiktok.com/account/login?channel=portal_header_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Seller Center">Seller Center</a></li><li><a href="https://partner.us.tiktokshop.com/account/login?from=portal_v4" data-tea-module-name="SiteHeader" data-tea-click-for="Partner Desktop">Partner Desktop</a></li><li><a href="https://shop.tiktok.com/streamer/welcome?enter_from=official_website" data-tea-module-name="SiteHeader" data-tea-click-for="LIVE Manager">LIVE Manager</a></li></ul></div><a href="https://seller-us.tiktok.com/account/register?channel=portal_header_v4" class="btn-join" data-tea-module-name="SiteHeader" data-tea-click-for="Join now">Join now</a></div></div></div></header><main><section class="hero" data-tea-module-show="Hero"><video class="hero__video" autoPlay="" muted="" loop="" playsInline="" preload="auto" poster="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/images/hero-placeholder.webp"><source src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/videos/hero-short-1000.mp4" type="video/mp4"/></video><div class="hero__title"><h1>Where discovery powers growth</h1></div><p class="hero__content">Reach customers through creators, shoppable video, and LIVE</p><a id="hero-cta" href="https://seller-us.tiktok.com/account/register?channel=portal_hero_v4" class="btn-cta hero__cta" data-tea-module-name="Hero" data-tea-click-for="Start selling">Start selling</a></section><section id="seller-home-incentive" class="incentive" data-tea-module-show="Incentives"><div class="incentive__shell"><figure class="incentive__image-wrap"><img class="incentive__image-left" src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/US_primary-left_3x.jpg" alt="TikTok Shop seller example" width="600" height="1076" fetchPriority="low"/><video class="incentive__image-middle" autoPlay="" muted="" loop="" playsInline=""><source src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/US_primary-center_3x.mp4" type="video/mp4"/></video><img class="incentive__image-right" src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/US_primary-right_3x.jpg" alt="TikTok Shop seller example" width="600" height="1076" fetchPriority="low"/></figure><article class="incentive__content"><h2>Start selling with up to <span>$23,630</span> in incentives</h2><div class="incentive__card"><ul><li><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-money.svg" alt=""/><span>Earn up to $2,800 in rewards when you launch</span></li><li><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-trend.svg" alt=""/><span>Scale your business with up to $20,830 in ad credits</span></li><li><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-congrats.svg" alt=""/><span>Increase visibility with TikTok Shop-funded discounts and campaigns</span></li><li><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-check.svg" alt=""/><span>Get started with no setup fees</span></li><li><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/modules/icon-discount.svg" alt=""/><span>Exclusive growth support for strategic key sellers</span></li></ul></div></article></div></section><section class="success-stories" data-tea-module-show="SuccessStories"><input class="success-stories__input" type="radio" id="success-story-story-1" data-tea-module-name="SuccessStories" data-tea-click-for="switch_tts_portal_tt_acount_1_US" name="success-story" checked=""/><input class="success-stories__input" type="radio" id="success-story-story-2" data-tea-module-name="SuccessStories" data-tea-click-for="switch_tts_portal_tt_acount_2_US" name="success-story"/><input class="success-stories__input" type="radio" id="success-story-story-3" data-tea-module-name="SuccessStories" data-tea-click-for="switch_tts_portal_tt_acount_3_US" name="success-story"/><input class="success-stories__input" type="radio" id="success-story-story-4" data-tea-module-name="SuccessStories" data-tea-click-for="switch_tts_portal_tt_acount_4_US" name="success-story"/><div class="success-stories__grid"><div class="success-stories__nav"><h2 class="success-stories__title">Success stories</h2><div class="success-stories__tabs"><label class="success-stories__tab success-stories__tab--story-1" for="success-story-story-1" data-tea-module-name="SuccessStories" data-tea-click-for="switch_tts_portal_tt_acount_1_US">Rhino USA</label><label class="success-stories__tab success-stories__tab--story-2" for="success-story-story-2" data-tea-module-name="SuccessStories" data-tea-click-for="switch_tts_portal_tt_acount_2_US">Bloom Nutrition</label><label class="success-stories__tab success-stories__tab--story-3" for="success-story-story-3" data-tea-module-name="SuccessStories" data-tea-click-for="switch_tts_portal_tt_acount_3_US">Bask and Lather Co</label><label class="success-stories__tab success-stories__tab--story-4" for="success-story-story-4" data-tea-module-name="SuccessStories" data-tea-click-for="switch_tts_portal_tt_acount_4_US">Noely Fajas</label></div></div><div class="success-stories__panels"><div class="success-stories__track"><article class="success-stories__card success-stories__panel success-stories__panel--story-1"><div class="success-stories__media"><figure class="success-stories__image"><div class="success-stories__video-shell success-stories__video-shell--muted"><video data-success-story-video="story-1" data-success-story-account="tts_portal_tt_acount_1_US" autoPlay="" muted="" loop="" playsInline="" disablePictureInPicture="" preload="metadata"><source src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/Q3-NEW-case-US_1.mp4" type="video/mp4"/></video><div class="success-stories__video-controls"><div class="success-stories__video-controls-row"><button type="button" class="success-stories__video-button success-stories__video-play-toggle" data-success-story-video-action="toggle-play" data-success-story-video-target="story-1" aria-label="Pause video"><span class="success-stories__video-icon success-stories__video-icon--pause"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/pause.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--play"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/play.svg" alt="" aria-hidden="true"/></span></button><div class="success-stories__video-actions"><button type="button" class="success-stories__video-button success-stories__video-mute-toggle" data-success-story-video-action="toggle-muted" data-success-story-video-target="story-1" aria-label="Unmute video"><span class="success-stories__video-icon success-stories__video-icon--muted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-off.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--unmuted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-on.svg" alt="" aria-hidden="true"/></span></button><button type="button" class="success-stories__video-button" data-success-story-video-action="open-fullscreen" data-success-story-video-target="story-1" aria-label="Open fullscreen video"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/Full_Screen_Fill.svg" alt="" aria-hidden="true"/></button></div></div><input type="range" min="0" max="100" step="0.1" class="success-stories__video-progress" data-success-story-video-action="seek" data-success-story-video-target="story-1" aria-label="Video progress" value="0"/></div></div></figure><p class="success-stories__metric-date success-stories__metric-date--desktop">2026 seller results</p></div><div class="success-stories__body"><p>Creators drive around <b>75%</b> of our overall sales on TikTok Shop.</p><strong>Thomas Nielsen <span>Sr. Marketplace Manager of Rhino USA</span></strong><div class="success-stories__stats"><div><span><span class="success-stories__metric-value"><span class="success-stories__metric-value-unit">$40<em>M+</em></span></span></span><small>TikTok Shop sales</small></div><div><span><span class="success-stories__metric-value"><span class="success-stories__metric-value-unit">75<em>%</em></span></span></span><small>Creator generated sales</small></div></div><div class="success-stories__metric-date success-stories__metric-date--mobile">2026 seller results</div></div></article><article class="success-stories__card success-stories__panel success-stories__panel--story-2"><div class="success-stories__media"><figure class="success-stories__image"><div class="success-stories__video-shell success-stories__video-shell--muted"><video data-success-story-video="story-2" data-success-story-account="tts_portal_tt_acount_2_US" autoPlay="" muted="" loop="" playsInline="" disablePictureInPicture="" preload="metadata"><source src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/Q3-NEW-case-US_2.mp4" type="video/mp4"/></video><div class="success-stories__video-controls"><div class="success-stories__video-controls-row"><button type="button" class="success-stories__video-button success-stories__video-play-toggle" data-success-story-video-action="toggle-play" data-success-story-video-target="story-2" aria-label="Pause video"><span class="success-stories__video-icon success-stories__video-icon--pause"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/pause.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--play"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/play.svg" alt="" aria-hidden="true"/></span></button><div class="success-stories__video-actions"><button type="button" class="success-stories__video-button success-stories__video-mute-toggle" data-success-story-video-action="toggle-muted" data-success-story-video-target="story-2" aria-label="Unmute video"><span class="success-stories__video-icon success-stories__video-icon--muted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-off.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--unmuted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-on.svg" alt="" aria-hidden="true"/></span></button><button type="button" class="success-stories__video-button" data-success-story-video-action="open-fullscreen" data-success-story-video-target="story-2" aria-label="Open fullscreen video"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/Full_Screen_Fill.svg" alt="" aria-hidden="true"/></button></div></div><input type="range" min="0" max="100" step="0.1" class="success-stories__video-progress" data-success-story-video-action="seek" data-success-story-video-target="story-2" aria-label="Video progress" value="0"/></div></div></figure><p class="success-stories__metric-date success-stories__metric-date--desktop">2026 seller results</p></div><div class="success-stories__body"><p>We went from selling <b>a few hundred items</b> to now <b>seven figures</b> in monthly sales.</p><strong>Joel Contartese <span>Head of TikTok Shop &amp; International Growth at Bloom Nutrition</span></strong><div class="success-stories__stats"><div><span><span class="success-stories__metric-value"><span class="success-stories__metric-value-unit">30,000<em>+</em></span></span></span><small>monthly creator videos</small></div><div><span><span class="success-stories__metric-value"><span class="success-stories__metric-value-unit">$12<em>M+</em></span></span></span><small>annual TikTok Shop sales</small></div></div><div class="success-stories__metric-date success-stories__metric-date--mobile">2026 seller results</div></div></article><article class="success-stories__card success-stories__panel success-stories__panel--story-3"><div class="success-stories__media"><figure class="success-stories__image"><div class="success-stories__video-shell success-stories__video-shell--muted"><video data-success-story-video="story-3" data-success-story-account="tts_portal_tt_acount_3_US" autoPlay="" muted="" loop="" playsInline="" disablePictureInPicture="" preload="metadata"><source src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/Q3-NEW-case-US_3.mp4" type="video/mp4"/></video><div class="success-stories__video-controls"><div class="success-stories__video-controls-row"><button type="button" class="success-stories__video-button success-stories__video-play-toggle" data-success-story-video-action="toggle-play" data-success-story-video-target="story-3" aria-label="Pause video"><span class="success-stories__video-icon success-stories__video-icon--pause"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/pause.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--play"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/play.svg" alt="" aria-hidden="true"/></span></button><div class="success-stories__video-actions"><button type="button" class="success-stories__video-button success-stories__video-mute-toggle" data-success-story-video-action="toggle-muted" data-success-story-video-target="story-3" aria-label="Unmute video"><span class="success-stories__video-icon success-stories__video-icon--muted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-off.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--unmuted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-on.svg" alt="" aria-hidden="true"/></span></button><button type="button" class="success-stories__video-button" data-success-story-video-action="open-fullscreen" data-success-story-video-target="story-3" aria-label="Open fullscreen video"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/Full_Screen_Fill.svg" alt="" aria-hidden="true"/></button></div></div><input type="range" min="0" max="100" step="0.1" class="success-stories__video-progress" data-success-story-video-action="seek" data-success-story-video-target="story-3" aria-label="Video progress" value="0"/></div></div></figure><p class="success-stories__metric-date success-stories__metric-date--desktop">2025 seller results</p></div><div class="success-stories__body"><p>We have over <b>half a million</b> active creators who are promoting our products.</p><strong>Shaina Rainford <span>Founder &amp; CEO of Bask and Lather Co</span></strong><div class="success-stories__stats"><div><span><span class="success-stories__metric-value"><span class="success-stories__metric-value-unit">500,000<em>+</em></span></span></span><small>TikTok Shop creators</small></div><div><span><span class="success-stories__metric-value"><span class="success-stories__metric-value-unit">100<em>%+</em></span></span></span><small>year-over-year growth</small></div></div><div class="success-stories__metric-date success-stories__metric-date--mobile">2025 seller results</div></div></article><article class="success-stories__card success-stories__panel success-stories__panel--story-4"><div class="success-stories__media"><figure class="success-stories__image"><div class="success-stories__video-shell success-stories__video-shell--muted"><video data-success-story-video="story-4" data-success-story-account="tts_portal_tt_acount_4_US" autoPlay="" muted="" loop="" playsInline="" disablePictureInPicture="" preload="metadata"><source src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/Q3-NEW-case-US_4.mp4" type="video/mp4"/></video><div class="success-stories__video-controls"><div class="success-stories__video-controls-row"><button type="button" class="success-stories__video-button success-stories__video-play-toggle" data-success-story-video-action="toggle-play" data-success-story-video-target="story-4" aria-label="Pause video"><span class="success-stories__video-icon success-stories__video-icon--pause"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/pause.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--play"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/play.svg" alt="" aria-hidden="true"/></span></button><div class="success-stories__video-actions"><button type="button" class="success-stories__video-button success-stories__video-mute-toggle" data-success-story-video-action="toggle-muted" data-success-story-video-target="story-4" aria-label="Unmute video"><span class="success-stories__video-icon success-stories__video-icon--muted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-off.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--unmuted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-on.svg" alt="" aria-hidden="true"/></span></button><button type="button" class="success-stories__video-button" data-success-story-video-action="open-fullscreen" data-success-story-video-target="story-4" aria-label="Open fullscreen video"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/Full_Screen_Fill.svg" alt="" aria-hidden="true"/></button></div></div><input type="range" min="0" max="100" step="0.1" class="success-stories__video-progress" data-success-story-video-action="seek" data-success-story-video-target="story-4" aria-label="Video progress" value="0"/></div></div></figure><p class="success-stories__metric-date success-stories__metric-date--desktop">2025 seller results</p></div><div class="success-stories__body"><p>We started with $40. Now on <b>TikTok Shop</b>, we sold over <b>$6M</b> last year.</p><strong>Noely Mena <span>Founder of Noely Fajas</span></strong><div class="success-stories__stats"><div><span><span class="success-stories__metric-value"><span class="success-stories__metric-value-unit">$6<em>M</em></span></span></span><small>TikTok Shop sales</small></div><div><span><span class="success-stories__metric-value"><span class="success-stories__metric-value-unit">$1<em>M+</em></span></span></span><small>sales in a single campaign LIVE</small></div></div><div class="success-stories__metric-date success-stories__metric-date--mobile">2025 seller results</div></div></article></div></div><div class="success-stories__controls" aria-label="Story controls"><div class="success-stories__control-set success-stories__control-set--story-1"><label class="success-stories__control success-stories__control-prev" for="success-story-story-4" aria-label="Previous story: Noely Fajas"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/success-story-arrow.svg" alt=""/></label><label class="success-stories__control success-stories__control-next" for="success-story-story-2" aria-label="Next story: Bloom Nutrition"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/success-story-arrow.svg" alt=""/></label></div><div class="success-stories__control-set success-stories__control-set--story-2"><label class="success-stories__control success-stories__control-prev" for="success-story-story-1" aria-label="Previous story: Rhino USA"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/success-story-arrow.svg" alt=""/></label><label class="success-stories__control success-stories__control-next" for="success-story-story-3" aria-label="Next story: Bask and Lather Co"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/success-story-arrow.svg" alt=""/></label></div><div class="success-stories__control-set success-stories__control-set--story-3"><label class="success-stories__control success-stories__control-prev" for="success-story-story-2" aria-label="Previous story: Bloom Nutrition"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/success-story-arrow.svg" alt=""/></label><label class="success-stories__control success-stories__control-next" for="success-story-story-4" aria-label="Next story: Noely Fajas"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/success-story-arrow.svg" alt=""/></label></div><div class="success-stories__control-set success-stories__control-set--story-4"><label class="success-stories__control success-stories__control-prev" for="success-story-story-3" aria-label="Previous story: Bask and Lather Co"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/success-story-arrow.svg" alt=""/></label><label class="success-stories__control success-stories__control-next" for="success-story-story-1" aria-label="Next story: Rhino USA"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/success-story-arrow.svg" alt=""/></label></div></div></div><div class="success-stories__video-modal" hidden=""><div class="success-stories__video-modal-card"><video data-success-story-modal-video="true" loop="" playsInline="" disablePictureInPicture="" preload="metadata"></video><div class="success-stories__video-controls success-stories__video-controls--fullscreen"><div class="success-stories__video-controls-row"><button type="button" class="success-stories__video-button success-stories__video-play-toggle" data-success-story-video-action="toggle-play" data-success-story-video-target="modal" aria-label="Pause video"><span class="success-stories__video-icon success-stories__video-icon--pause"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/pause.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--play"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/play.svg" alt="" aria-hidden="true"/></span></button><div class="success-stories__video-actions"><button type="button" class="success-stories__video-button success-stories__video-mute-toggle" data-success-story-video-action="toggle-muted" data-success-story-video-target="modal" aria-label="Unmute video"><span class="success-stories__video-icon success-stories__video-icon--muted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-off.svg" alt="" aria-hidden="true"/></span><span class="success-stories__video-icon success-stories__video-icon--unmuted"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/volume-on.svg" alt="" aria-hidden="true"/></span></button><button type="button" class="success-stories__video-button" data-success-story-video-action="close-fullscreen" data-success-story-video-target="modal" aria-label="Exit fullscreen video"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/Exit_Full_Screen_Fill.svg" alt="" aria-hidden="true" class="success-stories__video-exit-icon"/></button></div></div><input type="range" min="0" max="100" step="0.1" class="success-stories__video-progress" data-success-story-video-action="seek" data-success-story-video-target="modal" aria-label="Video progress" value="0"/></div></div></div><script nonce="d1c49d37defa4fc046b46829fcd852f5-argus">
+(() => {
+	const root = document.querySelector('.success-stories');
+	if (!root) return;
+
+	const inputSelector = '.success-stories__input';
+	const desktopQuery = window.matchMedia('(min-width: 72.25rem)');
+	const tabletQuery = window.matchMedia('(min-width: 47.9375rem) and (max-width: 72.1875rem)');
+	const mobileQuery = window.matchMedia('(max-width: 47.875rem)');
+	const transitionDuration = 560;
+	let layoutSyncFrame = 0;
+	let switchingTimer = 0;
+	let controlScrollPosition = null;
+	let scrollSyncFrame = 0;
+	let videoSyncTimer = 0;
+	let programmaticScrollTarget = null;
+	let programmaticScrollTimer = 0;
+	let suppressScrollVideoSyncUntil = 0;
+	let swipeStartX = 0;
+	let swipeStartY = 0;
+	let swipeStartTime = 0;
+	let swipeStartOffset = 0;
+	let swipeDragFrame = 0;
+	let swipeDragX = 0;
+	let swipeIsDragging = false;
+	let fullscreenStoryId = null;
+	let videoProgressFrame = 0;
+	let activeStoryVideoId = null;
+	const programmaticVideoUntil = new WeakMap();
+
+	const trackStoryButtonClick = (clickFor) => {
+		// Swipe and native video controls do not reliably bubble as click events.
+		root.dispatchEvent(new CustomEvent('mock-click', {
+			bubbles: true,
+			detail: {
+				moduleName: 'SuccessStories',
+				clickFor,
+			},
+		}));
+	};
+
+	const markProgrammaticVideo = (video) => {
+		programmaticVideoUntil.set(video, window.performance.now() + 2000);
+	};
+
+	const isProgrammaticVideo = (video) => {
+		return (programmaticVideoUntil.get(video) || 0) > window.performance.now();
+	};
+
+	const getStoryVideos = () =>
+		Array.from(root.querySelectorAll('video[data-success-story-video]')).filter(
+			(video) => video instanceof HTMLVideoElement,
+		);
+
+	const getRealStoryVideos = () =>
+		getStoryVideos().filter((video) => !video.closest('[data-carousel-clone]'));
+
+	const getModal = () => root.querySelector('.success-stories__video-modal');
+
+	const getModalVideo = () => {
+		const modalVideo = root.querySelector('video[data-success-story-modal-video]');
+
+		return modalVideo instanceof HTMLVideoElement ? modalVideo : null;
+	};
+
+	const getVideoControlsScope = (video) =>
+		video?.closest('.success-stories__video-shell') || getModal();
+
+	const syncVideoControls = (video) => {
+		if (!(video instanceof HTMLVideoElement)) return;
+
+		const scope = getVideoControlsScope(video);
+		if (!(scope instanceof HTMLElement)) return;
+
+		scope.classList.toggle('success-stories__video-shell--playing', !video.paused);
+		scope.classList.toggle('success-stories__video-shell--muted', video.muted);
+
+		const playButton = scope.querySelector('[data-success-story-video-action="toggle-play"]');
+		if (playButton instanceof HTMLButtonElement) {
+			playButton.setAttribute('aria-label', video.paused ? 'Play video' : 'Pause video');
+		}
+
+		const muteButton = scope.querySelector('[data-success-story-video-action="toggle-muted"]');
+		if (muteButton instanceof HTMLButtonElement) {
+			muteButton.setAttribute('aria-label', video.muted ? 'Unmute video' : 'Mute video');
+		}
+
+		const progress = scope.querySelector('.success-stories__video-progress');
+		const duration = video.duration || 0;
+		const progressValue = duration > 0 ? (video.currentTime / duration) * 100 : 0;
+
+		if (progress instanceof HTMLInputElement) {
+			if (document.activeElement !== progress) {
+				progress.value = String(progressValue);
+			}
+			progress.style.setProperty('--video-progress', progressValue + '%');
+		}
+	};
+
+	const pauseAllStoryVideos = ({ mute = false } = {}) => {
+		getRealStoryVideos().forEach((video) => {
+			markProgrammaticVideo(video);
+			video.pause();
+			if (mute) {
+				video.muted = true;
+			}
+			syncVideoControls(video);
+		});
+	};
+
+	const muteStoryVideo = (storyId) => {
+		if (!storyId) return;
+
+		getRealStoryVideos().forEach((video) => {
+			if (video.dataset.successStoryVideo !== storyId) return;
+
+			markProgrammaticVideo(video);
+			video.muted = true;
+			syncVideoControls(video);
+		});
+	};
+
+	const syncAllVideoControls = () => {
+		getStoryVideos().forEach(syncVideoControls);
+		const modalVideo = getModalVideo();
+		if (modalVideo) syncVideoControls(modalVideo);
+	};
+
+	const syncPlayingVideoProgress = () => {
+		videoProgressFrame = 0;
+		getStoryVideos().forEach((video) => {
+			if (!video.paused) {
+				syncVideoControls(video);
+			}
+		});
+
+		const modalVideo = getModalVideo();
+		if (modalVideo && !modalVideo.paused) {
+			syncVideoControls(modalVideo);
+		}
+
+		videoProgressFrame = window.requestAnimationFrame(syncPlayingVideoProgress);
+	};
+
+	const startVideoProgressSync = () => {
+		if (videoProgressFrame) return;
+
+		videoProgressFrame = window.requestAnimationFrame(syncPlayingVideoProgress);
+	};
+
+	const syncStoryLayout = () => {
+		const panels = root.querySelector('.success-stories__panels');
+		const track = root.querySelector('.success-stories__track');
+		syncCompactStats();
+
+		if (
+			!(panels instanceof HTMLElement) ||
+			!(track instanceof HTMLElement)
+		) {
+			return;
+		}
+
+		if (desktopQuery.matches) {
+			panels.style.height = '';
+			track.style.transform = '';
+			return;
+		}
+
+		if (!tabletQuery.matches && !mobileQuery.matches) {
+			panels.style.height = '';
+			track.style.transform = '';
+			return;
+		}
+
+		const activePanel = getActiveStoryPanel();
+
+		if (!(activePanel instanceof HTMLElement)) {
+			return;
+		}
+
+		const activePanelHeight = Math.ceil(activePanel.getBoundingClientRect().height);
+		panels.style.height = activePanelHeight + 'px';
+		track.style.transform =
+			'translate3d(-' + activePanel.offsetLeft + 'px, 0, 0)';
+	};
+
+	const syncCompactStats = () => {
+		const cards = Array.from(root.querySelectorAll('.success-stories__card'));
+		const storyCards = cards.filter((card) => card instanceof HTMLElement);
+		let hasLongQuote = false;
+
+		for (const card of storyCards) {
+			card.classList.remove('success-stories__card--compact-stats');
+			card.classList.remove('success-stories__card--compact-quote');
+		}
+
+		if (desktopQuery.matches) {
+			hasLongQuote = storyCards.some((card) => {
+				const quote = card.querySelector('.success-stories__body > p');
+
+				return (
+					quote instanceof HTMLElement &&
+					quote.getBoundingClientRect().height > 400
+				);
+			});
+		}
+
+		for (const card of storyCards) {
+			if (hasLongQuote) {
+				card.classList.add('success-stories__card--compact-quote');
+			}
+
+			if (!desktopQuery.matches) continue;
+
+			const values = Array.from(
+				card.querySelectorAll('.success-stories__stats > div > span'),
+			).filter((value) => value instanceof HTMLElement);
+
+			const hasWrappedMetric = values.some((value) => {
+				const styles = window.getComputedStyle(value);
+				const lineHeight = Number.parseFloat(styles.lineHeight);
+				const singleLineHeight = Number.isFinite(lineHeight)
+					? lineHeight
+					: Number.parseFloat(styles.fontSize) * 1.15;
+
+				return value.getBoundingClientRect().height > singleLineHeight * 1.35;
+			});
+
+			if (hasWrappedMetric) {
+				card.classList.add('success-stories__card--compact-stats');
+			}
+		}
+	};
+
+	const scheduleStoryLayoutSync = () => {
+		window.cancelAnimationFrame(layoutSyncFrame);
+		layoutSyncFrame = window.requestAnimationFrame(syncStoryLayout);
+	};
+
+	const getRealStoryPanels = () =>
+		Array.from(
+			root.querySelectorAll('.success-stories__panel:not([data-carousel-clone])'),
+		).filter((panel) => panel instanceof HTMLElement);
+
+	const getActiveStoryPanel = () => {
+		const checkedInput = root.querySelector(inputSelector + ':checked');
+		const activeId = checkedInput?.id?.replace('success-story-', '');
+
+		return activeId
+			? root.querySelector(
+					'.success-stories__panel--' + activeId + ':not([data-carousel-clone])',
+				)
+			: null;
+	};
+
+	const setupInfiniteCarouselClones = () => {
+		const track = root.querySelector('.success-stories__track');
+
+		if (!(track instanceof HTMLElement)) {
+			return;
+		}
+
+		if (desktopQuery.matches) {
+			track.querySelectorAll('[data-carousel-clone]').forEach((clone) => {
+				clone.remove();
+			});
+			delete track.dataset.carouselCloned;
+			return;
+		}
+
+		if (track.dataset.carouselCloned === 'true') {
+			return;
+		}
+
+		const panels = getRealStoryPanels();
+		const firstPanel = panels[0];
+		const lastPanel = panels[panels.length - 1];
+
+		if (!(firstPanel instanceof HTMLElement) || !(lastPanel instanceof HTMLElement)) {
+			return;
+		}
+
+		const firstClone = firstPanel.cloneNode(true);
+		const lastClone = lastPanel.cloneNode(true);
+
+		[firstClone, lastClone].forEach((clone) => {
+			if (!(clone instanceof HTMLElement)) return;
+
+			clone.dataset.carouselClone = 'true';
+			clone.setAttribute('aria-hidden', 'true');
+			clone.querySelectorAll('video').forEach((video) => {
+				video.removeAttribute('autoplay');
+				video.pause();
+			});
+		});
+
+		lastClone.dataset.carouselClone = 'start';
+		firstClone.dataset.carouselClone = 'end';
+		track.prepend(lastClone);
+		track.append(firstClone);
+		track.dataset.carouselCloned = 'true';
+	};
+
+	const markStorySwitching = () => {
+		window.clearTimeout(switchingTimer);
+		root.classList.add('success-stories--is-switching');
+		switchingTimer = window.setTimeout(() => {
+			root.classList.remove('success-stories--is-switching');
+		}, transitionDuration);
+	};
+
+	const syncVideos = ({ resetActive = true } = {}) => {
+		const checkedInput = root.querySelector(inputSelector + ':checked');
+		const activeId = checkedInput?.id?.replace('success-story-', '');
+		const videos = getStoryVideos();
+		const previousActiveId = activeStoryVideoId;
+
+		if (previousActiveId && previousActiveId !== activeId) {
+			muteStoryVideo(previousActiveId);
+		}
+		activeStoryVideoId = activeId || null;
+
+		videos.forEach((video) => {
+			if (!(video instanceof HTMLVideoElement)) return;
+			if (video.closest('[data-carousel-clone]')) return;
+			markProgrammaticVideo(video);
+
+			const shouldPlay =
+				!fullscreenStoryId && video.dataset.successStoryVideo === activeId;
+
+			if (!shouldPlay) {
+				if (!video.paused) {
+					video.pause();
+				}
+				syncVideoControls(video);
+				return;
+			}
+
+			if (resetActive) {
+				video.currentTime = 0;
+			}
+
+			if (video.paused) {
+				void video.play().catch(() => undefined);
+			}
+			syncVideoControls(video);
+		});
+	};
+
+	const scheduleVideoSync = ({ resetActive = false, delay = 160 } = {}) => {
+		window.clearTimeout(videoSyncTimer);
+		videoSyncTimer = window.setTimeout(() => {
+			syncVideos({ resetActive });
+		}, delay);
+	};
+
+	const getStoryInputs = () =>
+		Array.from(root.querySelectorAll(inputSelector)).filter(
+			(input) => input instanceof HTMLInputElement,
+		);
+
+	const selectStoryInput = (input) => {
+		if (!input || input.checked) return;
+
+		input.checked = true;
+		trackStoryButtonClick(input.dataset.teaClickFor);
+		input.dispatchEvent(new Event('change', { bubbles: true }));
+	};
+
+	const setCheckedStory = (
+		storyId,
+		{ resetVideo = false, syncVideo = true, trackSwitch = false } = {},
+	) => {
+		const input = root.querySelector('#success-story-' + storyId);
+
+		if (!(input instanceof HTMLInputElement) || input.checked) return;
+
+		input.checked = true;
+		if (trackSwitch) {
+			trackStoryButtonClick(input.dataset.teaClickFor);
+		}
+
+		if (syncVideo) {
+			syncVideos({ resetActive: resetVideo });
+		}
+	};
+
+	const syncDesktopActiveStory = () => {
+		scrollSyncFrame = 0;
+
+		if (!desktopQuery.matches) return;
+
+		if (programmaticScrollTarget) {
+			setCheckedStory(programmaticScrollTarget, { syncVideo: false });
+			return;
+		}
+
+		const panels = Array.from(
+			root.querySelectorAll('.success-stories__panel'),
+		).filter((panel) => panel instanceof HTMLElement);
+
+		if (panels.length === 0) return;
+
+		const activationLine = window.innerHeight * 0.42;
+		let activePanel = panels[0];
+		let activeDistance = Number.POSITIVE_INFINITY;
+
+		panels.forEach((panel) => {
+			const rect = panel.getBoundingClientRect();
+			const distance = Math.abs(rect.top - activationLine);
+
+			if (
+				rect.top <= window.innerHeight * 0.72 &&
+				rect.bottom >= window.innerHeight * 0.2 &&
+				distance < activeDistance
+			) {
+				activePanel = panel;
+				activeDistance = distance;
+			}
+		});
+
+		const storyId = Array.from(activePanel.classList)
+			.find((className) => className.startsWith('success-stories__panel--story-'))
+			?.replace('success-stories__panel--', '');
+
+		if (storyId) {
+			setCheckedStory(storyId, { syncVideo: false, trackSwitch: true });
+
+			if (window.performance.now() >= suppressScrollVideoSyncUntil) {
+				scheduleVideoSync({ resetActive: false });
+			}
+		}
+	};
+
+	const scheduleDesktopActiveStorySync = () => {
+		if (!desktopQuery.matches || scrollSyncFrame) return;
+
+		scrollSyncFrame = window.requestAnimationFrame(syncDesktopActiveStory);
+	};
+
+	const scrollToStory = (storyId) => {
+		const panel = root.querySelector(
+			'.success-stories__panel--' + storyId + ':not([data-carousel-clone])',
+		);
+
+		if (!(panel instanceof HTMLElement)) return;
+
+		window.clearTimeout(programmaticScrollTimer);
+		programmaticScrollTarget = storyId;
+		setCheckedStory(storyId, { syncVideo: false });
+		panel.scrollIntoView({
+			behavior: 'smooth',
+			block: 'center',
+			inline: 'nearest',
+		});
+		programmaticScrollTimer = window.setTimeout(() => {
+			suppressScrollVideoSyncUntil = window.performance.now() + 1000;
+			programmaticScrollTarget = null;
+			syncVideos({ resetActive: false });
+		}, 1100);
+	};
+
+	const animateInfiniteWrap = (targetInput, clonePanel) => {
+		const panels = root.querySelector('.success-stories__panels');
+		const track = root.querySelector('.success-stories__track');
+		const storyId = targetInput.id.replace('success-story-', '');
+		const targetPanel = root.querySelector(
+			'.success-stories__panel--' + storyId + ':not([data-carousel-clone])',
+		);
+
+		if (
+			!(panels instanceof HTMLElement) ||
+			!(track instanceof HTMLElement) ||
+			!(clonePanel instanceof HTMLElement) ||
+			!(targetPanel instanceof HTMLElement)
+		) {
+			selectStoryInput(targetInput);
+			return;
+		}
+
+		markStorySwitching();
+		panels.style.height =
+			Math.ceil(clonePanel.getBoundingClientRect().height) + 'px';
+		track.style.transform =
+			'translate3d(-' + clonePanel.offsetLeft + 'px, 0, 0)';
+
+		window.clearTimeout(switchingTimer);
+		switchingTimer = window.setTimeout(() => {
+			targetInput.checked = true;
+			trackStoryButtonClick(targetInput.dataset.teaClickFor);
+			track.style.transition = 'none';
+			panels.style.height =
+				Math.ceil(targetPanel.getBoundingClientRect().height) + 'px';
+			track.style.transform =
+				'translate3d(-' + targetPanel.offsetLeft + 'px, 0, 0)';
+			void track.offsetHeight;
+			track.style.transition = '';
+			root.classList.remove('success-stories--is-switching');
+			syncVideos({ resetActive: true });
+		}, transitionDuration);
+	};
+
+	const switchStoryByDirection = (direction) => {
+		if (desktopQuery.matches) return;
+
+		const inputs = getStoryInputs();
+		const activeIndex = inputs.findIndex((input) => input.checked);
+
+		if (activeIndex === -1) return;
+
+		const targetIndex =
+			(activeIndex + direction + inputs.length) % inputs.length;
+		const isForwardWrap = direction > 0 && activeIndex === inputs.length - 1;
+		const isBackwardWrap = direction < 0 && activeIndex === 0;
+		const targetInput = inputs[targetIndex];
+
+		if (isForwardWrap || isBackwardWrap) {
+			const cloneSelector = isForwardWrap
+				? '[data-carousel-clone="end"]'
+				: '[data-carousel-clone="start"]';
+			const clonePanel = root.querySelector(cloneSelector);
+
+			animateInfiniteWrap(targetInput, clonePanel);
+			return;
+		}
+
+		selectStoryInput(targetInput);
+	};
+
+	const switchStoryBySwipe = (deltaX) => {
+		switchStoryByDirection(deltaX < 0 ? 1 : -1);
+	};
+
+	const setupSwipeControls = () => {
+		const panels = root.querySelector('.success-stories__panels');
+		const track = root.querySelector('.success-stories__track');
+
+		if (!(panels instanceof HTMLElement) || !(track instanceof HTMLElement)) return;
+
+		const applyDragTransform = () => {
+			swipeDragFrame = 0;
+			track.style.transform =
+				'translate3d(' + (-swipeStartOffset + swipeDragX) + 'px, 0, 0)';
+		};
+
+		const beginSwipe = (clientX, clientY) => {
+			const activePanel = getActiveStoryPanel();
+
+			if (!(activePanel instanceof HTMLElement)) return;
+
+			swipeStartX = clientX;
+			swipeStartY = clientY;
+			swipeStartTime = Date.now();
+			swipeStartOffset = activePanel.offsetLeft;
+			swipeDragX = 0;
+			swipeIsDragging = false;
+			track.style.transition = 'none';
+		};
+
+		const moveSwipe = (clientX, clientY) => {
+			if (desktopQuery.matches || !swipeStartTime) return;
+
+			const deltaX = clientX - swipeStartX;
+			const deltaY = clientY - swipeStartY;
+
+			if (!swipeIsDragging && Math.abs(deltaX) < 8) return;
+			if (!swipeIsDragging && Math.abs(deltaX) < Math.abs(deltaY) * 1.15) return;
+
+			swipeIsDragging = true;
+			root.classList.add('success-stories--is-switching');
+			swipeDragX = deltaX;
+
+			if (!swipeDragFrame) {
+				swipeDragFrame = window.requestAnimationFrame(applyDragTransform);
+			}
+		};
+
+		const endSwipe = (clientX, clientY) => {
+			if (desktopQuery.matches || !swipeStartTime) return;
+
+			const deltaX = clientX - swipeStartX;
+			const deltaY = clientY - swipeStartY;
+			const minDistance = Math.min(80, panels.clientWidth * 0.18);
+			swipeStartTime = 0;
+			window.cancelAnimationFrame(swipeDragFrame);
+			swipeDragFrame = 0;
+			track.style.transition = '';
+
+			if (
+				Math.abs(deltaX) < minDistance ||
+				Math.abs(deltaX) < Math.abs(deltaY) * 1.25
+			) {
+				markStorySwitching();
+				syncStoryLayout();
+				return;
+			}
+
+			switchStoryBySwipe(deltaX);
+		};
+
+		if (window.PointerEvent) {
+			panels.addEventListener('pointerdown', (event) => {
+				if (desktopQuery.matches || !event.isPrimary) return;
+				beginSwipe(event.clientX, event.clientY);
+			}, { passive: true });
+
+			panels.addEventListener('pointermove', (event) => {
+				if (!event.isPrimary) return;
+				moveSwipe(event.clientX, event.clientY);
+			}, { passive: true });
+
+			panels.addEventListener('pointerup', (event) => {
+				if (!event.isPrimary) return;
+				endSwipe(event.clientX, event.clientY);
+			}, { passive: true });
+
+			panels.addEventListener('pointercancel', () => {
+				swipeStartTime = 0;
+				window.cancelAnimationFrame(swipeDragFrame);
+				swipeDragFrame = 0;
+				track.style.transition = '';
+				root.classList.remove('success-stories--is-switching');
+				syncStoryLayout();
+			}, { passive: true });
+
+			return;
+		}
+
+		panels.addEventListener('touchstart', (event) => {
+			if (desktopQuery.matches || event.touches.length !== 1) return;
+
+			const touch = event.touches[0];
+			beginSwipe(touch.clientX, touch.clientY);
+		}, { passive: true });
+
+		panels.addEventListener('touchmove', (event) => {
+			const touch = event.touches[0];
+			if (!touch) return;
+
+			moveSwipe(touch.clientX, touch.clientY);
+		}, { passive: true });
+
+		panels.addEventListener('touchend', (event) => {
+			const touch = event.changedTouches[0];
+			if (!touch) return;
+
+			endSwipe(touch.clientX, touch.clientY);
+		}, { passive: true });
+
+		panels.addEventListener('touchcancel', () => {
+			swipeStartTime = 0;
+			window.cancelAnimationFrame(swipeDragFrame);
+			swipeDragFrame = 0;
+			track.style.transition = '';
+			root.classList.remove('success-stories--is-switching');
+			syncStoryLayout();
+		}, { passive: true });
+	};
+
+	const getStoryVideoById = (storyId) =>
+		getRealStoryVideos().find((video) => video.dataset.successStoryVideo === storyId);
+
+	const getVideoSource = (video) =>
+		video.currentSrc || video.querySelector('source')?.getAttribute('src') || '';
+
+	const openFullscreenPlayer = (video) => {
+		if (!(video instanceof HTMLVideoElement)) return;
+
+		const modal = getModal();
+		const modalVideo = getModalVideo();
+		const source = getVideoSource(video);
+
+		if (!(modal instanceof HTMLElement) || !modalVideo || !source) return;
+
+		fullscreenStoryId = video.dataset.successStoryVideo || null;
+		document.body.classList.add('success-stories-video-modal-open');
+		pauseAllStoryVideos({ mute: true });
+
+		modalVideo.src = source;
+		modalVideo.dataset.successStoryAccount = video.dataset.successStoryAccount || '';
+		modalVideo.muted = false;
+		try {
+			modalVideo.currentTime = video.currentTime || 0;
+		} catch {
+			// Some mobile browsers reject currentTime before metadata is available.
+		}
+		modal.hidden = false;
+		root.classList.add('success-stories--video-modal-open');
+		syncVideoControls(modalVideo);
+		void modalVideo.play().catch(() => {
+			modalVideo.muted = true;
+			syncVideoControls(modalVideo);
+			void modalVideo.play().catch(() => undefined);
+		});
+	};
+
+	const closeFullscreenPlayer = ({ resumeActive = true } = {}) => {
+		const modal = getModal();
+		const modalVideo = getModalVideo();
+
+		if (!(modal instanceof HTMLElement) || !modalVideo) return;
+
+		const account = modalVideo.dataset.successStoryAccount;
+		if (account) {
+			trackStoryButtonClick('video_' + account);
+		}
+
+		modalVideo.pause();
+		modalVideo.removeAttribute('src');
+		modalVideo.load();
+		modal.hidden = true;
+		root.classList.remove('success-stories--video-modal-open');
+		fullscreenStoryId = null;
+		document.body.classList.remove('success-stories-video-modal-open');
+		syncVideoControls(modalVideo);
+
+		if (resumeActive) {
+			syncVideos({ resetActive: false });
+		}
+	};
+
+	const handleVideoControlAction = (target) => {
+		const control = target.closest('[data-success-story-video-action]');
+		if (!(control instanceof HTMLElement)) return false;
+		if (control.closest('[data-carousel-clone]')) return true;
+
+		const action = control.dataset.successStoryVideoAction;
+		const storyId = control.dataset.successStoryVideoTarget;
+		const modalVideo = getModalVideo();
+		const isModalControl = Boolean(control.closest('.success-stories__video-modal'));
+		const video = isModalControl ? modalVideo : getStoryVideoById(storyId);
+
+		if (!(video instanceof HTMLVideoElement)) return true;
+		if (
+			isModalControl &&
+			action !== 'close-fullscreen' &&
+			video.dataset.successStoryAccount
+		) {
+			trackStoryButtonClick('video_' + video.dataset.successStoryAccount);
+		}
+
+		if (action === 'toggle-play') {
+			if (video.paused) {
+				void video.play().catch(() => undefined);
+			} else {
+				video.pause();
+			}
+			syncVideoControls(video);
+			return true;
+		}
+
+		if (action === 'toggle-muted') {
+			video.muted = !video.muted;
+			syncVideoControls(video);
+			return true;
+		}
+
+		if (action === 'open-fullscreen') {
+			openFullscreenPlayer(video);
+			return true;
+		}
+
+		if (action === 'close-fullscreen') {
+			closeFullscreenPlayer();
+			return true;
+		}
+
+		return true;
+	};
+
+	const handleVideoProgressInput = (target) => {
+		if (!(target instanceof HTMLInputElement)) return false;
+		if (target.dataset.successStoryVideoAction !== 'seek') return false;
+		if (target.closest('[data-carousel-clone]')) return true;
+
+		const storyId = target.dataset.successStoryVideoTarget;
+		const modalVideo = getModalVideo();
+		const isModalControl = Boolean(target.closest('.success-stories__video-modal'));
+		const video = isModalControl ? modalVideo : getStoryVideoById(storyId);
+
+		if (!(video instanceof HTMLVideoElement) || !video.duration) return true;
+		if (isModalControl && video.dataset.successStoryAccount) {
+			trackStoryButtonClick('video_' + video.dataset.successStoryAccount);
+		}
+
+		video.currentTime = (Number(target.value) / 100) * video.duration;
+		syncVideoControls(video);
+		return true;
+	};
+
+	const setupCustomVideoControls = () => {
+		getStoryVideos().forEach((video) => {
+			video.removeAttribute('controls');
+			video.addEventListener('play', () => syncVideoControls(video));
+			video.addEventListener('pause', () => syncVideoControls(video));
+			video.addEventListener('timeupdate', () => syncVideoControls(video));
+			video.addEventListener('loadedmetadata', () => syncVideoControls(video));
+			video.addEventListener('volumechange', () => syncVideoControls(video));
+		});
+
+		const modal = getModal();
+		const modalVideo = getModalVideo();
+
+		if (modal instanceof HTMLElement && modalVideo) {
+			modalVideo.removeAttribute('controls');
+			modalVideo.addEventListener('play', () => syncVideoControls(modalVideo));
+			modalVideo.addEventListener('pause', () => syncVideoControls(modalVideo));
+			modalVideo.addEventListener('timeupdate', () => syncVideoControls(modalVideo));
+			modalVideo.addEventListener('loadedmetadata', () => syncVideoControls(modalVideo));
+			modalVideo.addEventListener('volumechange', () => syncVideoControls(modalVideo));
+			modal.addEventListener('click', (event) => {
+				if (event.target === modal) {
+					closeFullscreenPlayer();
+				}
+			});
+			modal.addEventListener('wheel', (event) => {
+				event.preventDefault();
+			}, { passive: false });
+			modal.addEventListener('touchmove', (event) => {
+				event.preventDefault();
+			}, { passive: false });
+		}
+
+		document.addEventListener('keydown', (event) => {
+			if (event.key === 'Escape' && fullscreenStoryId) {
+				closeFullscreenPlayer();
+			}
+		});
+
+		window.addEventListener('pagehide', () => closeFullscreenPlayer({ resumeActive: false }));
+		startVideoProgressSync();
+		syncAllVideoControls();
+	};
+
+	const setupVideoInteractionTracking = () => {
+		const videos = getStoryVideos();
+		const lastTrackedAt = new WeakMap();
+		let activeVideo = null;
+		let activePointerId = null;
+		let startX = 0;
+		let startY = 0;
+
+		const getVideoFromPoint = (clientX, clientY) => {
+			return videos.find((video) => {
+				const rect = video.getBoundingClientRect();
+
+				return (
+					clientX >= rect.left &&
+					clientX <= rect.right &&
+					clientY >= rect.top &&
+					clientY <= rect.bottom
+				);
+			});
+		};
+
+		const trackVideo = (video, { requireUserActivation = false } = {}) => {
+			if (!(video instanceof HTMLVideoElement)) return;
+
+			const now = window.performance.now();
+			const lastTracked = lastTrackedAt.get(video) || 0;
+
+			if (now - lastTracked < 1000) return;
+			if (isProgrammaticVideo(video)) return;
+			if (requireUserActivation && !window.navigator.userActivation?.isActive) {
+				return;
+			}
+			if (!video.dataset.successStoryAccount) return;
+
+			lastTrackedAt.set(video, now);
+			trackStoryButtonClick('video_' + video.dataset.successStoryAccount);
+		};
+
+		const beginVideoPointer = (clientX, clientY, pointerId = null) => {
+			const video = getVideoFromPoint(clientX, clientY);
+
+			activeVideo = video || null;
+			activePointerId = pointerId;
+			startX = clientX;
+			startY = clientY;
+		};
+
+		const endVideoPointer = (clientX, clientY, pointerId = null) => {
+			if (activePointerId !== null && pointerId !== activePointerId) return;
+			if (!(activeVideo instanceof HTMLVideoElement)) return;
+
+			const endVideo = getVideoFromPoint(clientX, clientY);
+			const movedDistance = Math.hypot(clientX - startX, clientY - startY);
+			const video = activeVideo;
+			activeVideo = null;
+			activePointerId = null;
+
+			if (video === endVideo && movedDistance <= 16) {
+				trackVideo(video);
+			}
+		};
+
+		document.addEventListener('pointerdown', (event) => {
+			beginVideoPointer(event.clientX, event.clientY, event.pointerId);
+		}, true);
+		document.addEventListener('pointerup', (event) => {
+			endVideoPointer(event.clientX, event.clientY, event.pointerId);
+		}, true);
+		document.addEventListener('pointercancel', () => {
+			activeVideo = null;
+			activePointerId = null;
+		}, true);
+			document.addEventListener('touchstart', (event) => {
+				const touch = event.touches?.[0];
+				if (!touch) return;
+
+				beginVideoPointer(touch.clientX, touch.clientY, touch.identifier);
+			}, true);
+			document.addEventListener('touchend', (event) => {
+				const touch = event.changedTouches?.[0];
+				if (!touch) return;
+
+				endVideoPointer(touch.clientX, touch.clientY, touch.identifier);
+			}, true);
+
+			videos.forEach((video) => {
+				const trackControlInteraction = () => {
+					trackVideo(video, { requireUserActivation: true });
+				};
+				let isFullscreenVideo = false;
+
+				video.addEventListener('play', trackControlInteraction);
+				video.addEventListener('pause', trackControlInteraction);
+				video.addEventListener('seeking', trackControlInteraction);
+				video.addEventListener('volumechange', trackControlInteraction);
+				video.addEventListener('webkitbeginfullscreen', trackControlInteraction);
+				video.addEventListener('webkitendfullscreen', trackControlInteraction);
+
+				document.addEventListener('fullscreenchange', () => {
+					if (document.fullscreenElement === video) {
+						isFullscreenVideo = true;
+						trackControlInteraction();
+						return;
+					}
+
+					if (isFullscreenVideo) {
+						isFullscreenVideo = false;
+						trackControlInteraction();
+					}
+				});
+			});
+		};
+
+	root.addEventListener('click', (event) => {
+		if (event.target instanceof Element) {
+			if (handleVideoControlAction(event.target)) {
+				event.preventDefault();
+				event.stopPropagation();
+				return;
+			}
+
+			const tab = event.target.closest('.success-stories__tab');
+
+			if (desktopQuery.matches && tab instanceof HTMLLabelElement) {
+				event.preventDefault();
+				scrollToStory(tab.htmlFor.replace('success-story-', ''));
+				return;
+			}
+		}
+
+		if (
+			event.target instanceof Element &&
+			event.target.closest('.success-stories__control')
+		) {
+			controlScrollPosition = { x: window.scrollX, y: window.scrollY };
+
+			if (!desktopQuery.matches) {
+				event.preventDefault();
+				const control = event.target.closest('.success-stories__control');
+				const direction = control?.classList.contains('success-stories__control-next')
+					? 1
+					: -1;
+
+				switchStoryByDirection(direction);
+			}
+		}
+	}, true);
+
+	root.addEventListener('input', (event) => {
+		if (handleVideoProgressInput(event.target)) {
+			event.preventDefault();
+			event.stopPropagation();
+		}
+	}, true);
+
+	const restoreControlScrollPosition = () => {
+		if (!controlScrollPosition) return;
+
+		const { x, y } = controlScrollPosition;
+		controlScrollPosition = null;
+		window.scrollTo(x, y);
+		window.requestAnimationFrame(() => {
+			window.scrollTo(x, y);
+			window.requestAnimationFrame(() => {
+				window.scrollTo(x, y);
+			});
+		});
+	};
+
+	root.addEventListener('change', (event) => {
+		if (event.target instanceof HTMLInputElement && event.target.name === 'success-story') {
+			if (desktopQuery.matches) {
+				scheduleStoryLayoutSync();
+				scheduleDesktopActiveStorySync();
+				syncVideos({ resetActive: true });
+				return;
+			}
+
+			markStorySwitching();
+			scheduleStoryLayoutSync();
+			restoreControlScrollPosition();
+
+			syncVideos();
+		}
+	});
+
+	window.addEventListener('scroll', scheduleDesktopActiveStorySync, { passive: true });
+	window.addEventListener('resize', scheduleStoryLayoutSync, { passive: true });
+	desktopQuery.addEventListener('change', () => {
+		setupInfiniteCarouselClones();
+		scheduleStoryLayoutSync();
+		scheduleDesktopActiveStorySync();
+	});
+	tabletQuery.addEventListener('change', () => {
+		setupInfiniteCarouselClones();
+		scheduleStoryLayoutSync();
+	});
+	mobileQuery.addEventListener('change', () => {
+		setupInfiniteCarouselClones();
+		scheduleStoryLayoutSync();
+	});
+	window.addEventListener('load', scheduleStoryLayoutSync, { once: true });
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', () => {
+			setupSwipeControls();
+			setupCustomVideoControls();
+			setupVideoInteractionTracking();
+			setupInfiniteCarouselClones();
+			scheduleStoryLayoutSync();
+			scheduleDesktopActiveStorySync();
+			syncVideos();
+		}, { once: true });
+	} else {
+		setupSwipeControls();
+		setupCustomVideoControls();
+		setupVideoInteractionTracking();
+		setupInfiniteCarouselClones();
+		scheduleStoryLayoutSync();
+		scheduleDesktopActiveStorySync();
+		syncVideos();
+	}
+})();
+</script></section><section class="transactions" data-tea-module-show="ScrollerConversion"><div><div class="transactions__header"><h2>Turn scrollers into shoppers</h2></div><div class="transactions__cards"><figure><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/US_1.jpg" alt="Reach millions of highly engaged customers" width="640" height="640" fetchPriority="low"/><figcaption>Reach millions of highly engaged customers</figcaption></figure><figure><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/US_2.jpg" alt="Tap into the creator ecosystem to scale your business" width="640" height="640" fetchPriority="low"/><figcaption>Tap into the creator ecosystem to scale your business</figcaption></figure><figure><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/US_3.jpg" alt="From scroll to sale — without leaving TikTok" width="640" height="640" fetchPriority="low"/><figcaption>From scroll to sale — without leaving TikTok</figcaption></figure></div></div></section><section class="special-offer" data-tea-module-show="SpecialOffer"><header class="special-offer__header"><p class="special-offer__eyebrow">Limited-time promotion</p><h2>Special offer for LIVE auction sellers</h2><p class="special-offer__description">Sign up today and save up to $48,000 a month when you use LIVE auctions</p></header><div class="special-offer__content"><figure class="special-offer__visual"><div class="special-offer__visual-backdrop"></div><video class="special-offer__video" autoPlay="" loop="" muted="" playsInline="" preload="metadata" poster="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/special-offer-poster.png" aria-label="LIVE auction seller"><source src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/regions/US/special-offer.mp4" type="video/mp4"/></video></figure><div class="special-offer__details"><div class="special-offer__benefits"><article class="special-offer__benefit"><h3>No setup fees</h3><p>Launch your shop and go LIVE on TikTok without paying any upfront costs.</p></article><article class="special-offer__benefit"><h3>Start your bid at $1</h3><p>Set a bid for $1 at the start of your LIVE auction to drive interaction and encourage higher bids.</p></article><article class="special-offer__benefit"><h3>Reduce your referral fee up to 4%</h3><p>Start selling through LIVE auction and unlock referral fee discounts. Offer available until 12/31. Terms apply<a class="special-offer__terms-icon" href="https://seller-us.tiktok.com/university/essay?knowledge_id=6219480922474258" target="_blank" rel="noopener noreferrer"><span aria-hidden="true"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/special-offer-arrow-up-right.svg" alt=""/><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/special-offer-arrow-up-right.svg" alt=""/></span></a></p></article></div><a class="btn-cta special-offer__cta" href="https://seller-us.tiktok.com/account/register?page=live&amp;channel=liveauction&amp;entrance=seller_portal_special_offer" data-tea-module-name="SpecialOffer" data-tea-click-for="start_selling" data-tea-entrance="seller_portal_special_offer">Start selling</a></div></div></section><section class="stats" data-stats-locale="en-US" data-tea-module-show="Metrics"><div class="stats__header"><h2>A commerce phenomenon that started on TikTok</h2></div><dl class="stats__grid"><div class="stats__card"><dt class="stats__value stats__value--count-up" data-stats-decimals="0" data-stats-original-number="80" data-stats-target="80" data-stats-use-grouping="false" aria-label="80%"><span class="stats__number">80</span><span class="stats__affix">%</span></dt><dd>TikTok Shop annual sales growth (2025 vs. 2024)¹</dd></div><div class="stats__card"><dt class="stats__value stats__value--count-up" data-stats-decimals="0" data-stats-original-number="83" data-stats-target="83" data-stats-use-grouping="false" aria-label="83%"><span class="stats__number">83</span><span class="stats__affix">%</span></dt><dd>of customers say they have discovered a new product on TikTok Shop²</dd></div><div class="stats__card"><dt class="stats__value stats__value--count-up" data-stats-decimals="0" data-stats-original-number="120" data-stats-target="120" data-stats-use-grouping="false" aria-label="120%"><span class="stats__number">120</span><span class="stats__affix">%</span></dt><dd>active e-commerce creator growth (2025 vs. 2024)³</dd></div></dl><p class="stats__note">(1) TikTok Shop internal (2) McKinsey, How Live Commerce is Transforming the Shopping Experience, US Market July 2021 (3) TikTok Shop internal. Performance may differ in other regions.</p><script nonce="d1c49d37defa4fc046b46829fcd852f5-argus">
+(() => {
+	const values = Array.from(document.querySelectorAll('.stats__value--count-up'));
+	if (!values.length) {
+		return;
+	}
+
+	const fallbackLocale = 'en-US';
+	const documentLocale = document.documentElement.lang || navigator.language || fallbackLocale;
+
+	const getLocale = (value) =>
+		value.closest('.stats')?.dataset.statsLocale || documentLocale;
+
+	const format = (value, decimals, useGrouping, locale) => {
+		const options = {
+			maximumFractionDigits: decimals,
+			minimumFractionDigits: decimals,
+			useGrouping,
+		};
+
+		try {
+			return new Intl.NumberFormat(locale, options).format(value);
+		} catch {
+			return new Intl.NumberFormat(fallbackLocale, options).format(value);
+		}
+	};
+
+	if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+		return;
+	}
+
+	const animate = (value) => {
+		if (value.dataset.statsAnimated === 'true') {
+			return;
+		}
+
+		value.dataset.statsAnimated = 'true';
+		const number = value.querySelector('.stats__number');
+		if (!number) {
+			return;
+		}
+		const target = Number(value.dataset.statsTarget || 0);
+		const decimals = Number(value.dataset.statsDecimals || 0);
+		const originalNumber = value.dataset.statsOriginalNumber || number.textContent;
+		const useGrouping = value.dataset.statsUseGrouping === 'true';
+		const locale = getLocale(value);
+		const duration = 1200;
+		const start = performance.now();
+
+		const tick = (now) => {
+			const progress = Math.min((now - start) / duration, 1);
+			const eased = 1 - Math.pow(1 - progress, 3);
+			number.textContent = format(target * eased, decimals, useGrouping, locale);
+
+			if (progress < 1) {
+				requestAnimationFrame(tick);
+			} else {
+				number.textContent = originalNumber;
+			}
+		};
+
+		number.textContent = format(0, decimals, useGrouping, locale);
+		requestAnimationFrame(tick);
+	};
+
+	for (const value of values) {
+		const number = value.querySelector('.stats__number');
+		if (number) {
+			number.textContent = format(
+				0,
+				Number(value.dataset.statsDecimals || 0),
+				value.dataset.statsUseGrouping === 'true',
+				getLocale(value),
+			);
+		}
+	}
+
+	if (!('IntersectionObserver' in window)) {
+		values.forEach(animate);
+		return;
+	}
+
+	const observer = new IntersectionObserver((entries) => {
+		for (const entry of entries) {
+			if (entry.isIntersecting) {
+				animate(entry.target);
+				observer.unobserve(entry.target);
+			}
+		}
+	}, { threshold: 0.35 });
+
+	values.forEach((value) => observer.observe(value));
+})();
+</script></section><section class="faq" data-tea-module-show="FAQs"><div><h2>FAQs</h2><div class="faq__list"><details class="faq__item" data-tea-module-name="FAQs" data-tea-click-for="tts_portal_faq_question_1_US"><summary><span>Who can sell on TikTok Shop?</span><i aria-hidden="true"></i></summary><div class="faq__answer"><p>Businesses, brands, and individual sellers can apply. You just need to be in a supported market and complete a quick verification process.
+
+Want to sell in multiple countries? You can—just sign up for each region you’d like to sell in, since TikTok Shop operates locally in each market.</p></div></details><details class="faq__item" data-tea-module-name="FAQs" data-tea-click-for="tts_portal_faq_question_2_US"><summary><span>How do I sign up?</span><i aria-hidden="true"></i></summary><div class="faq__answer"><p>To get started:
+1. Click “Start selling”
+You’ll be taken to the registration page. 
+
+2. Create your account
+Sign up with your email, phone number, TikTok account, or third-party login method.
+
+3. Verify your identity or business
+Provide basic information and upload any required documents to confirm your account. 
+
+4. Set up your shop
+Add your shop name, warehouse or pickup address, and link your bank account for payouts. 
+
+5. List your products
+Upload products individually or connect your existing catalog using integrations.
+
+Once your setup is complete, you can start selling directly on TikTok and reach customers through videos, LIVE, and creator partnerships.</p></div></details><details class="faq__item" data-tea-module-name="FAQs" data-tea-click-for="tts_portal_faq_question_3_US"><summary><span>Is there a fee to join TikTok Shop?</span><i aria-hidden="true"></i></summary><div class="faq__answer"><p>There is no setup fee to join. However, TikTok Shop charges a 6% commission on each sale. <a href="https://seller-us.tiktok.com/university/essay?knowledge_id=5982454398175018" target="_blank" rel="noopener">Learn more about referral fees</a></p></div></details><details class="faq__item" data-tea-module-name="FAQs" data-tea-click-for="tts_portal_faq_question_4_US"><summary><span>How do I get paid?</span><i aria-hidden="true"></i></summary><div class="faq__answer"><p>You’ll receive payouts directly to your linked bank account after orders are completed and any return/refund windows have passed.</p></div></details></div></div></section><section class="bottom-cta" data-tea-module-show="FinalCTA"><div class="bottom-cta__inner"><h2>Reach millions of customers on TikTok Shop</h2><a id="final-cta-button" href="https://seller-us.tiktok.com/account/register?channel=portal_finnal_cta_v4" class="btn-cta" data-tea-module-name="FinalCTA" data-tea-click-for="Start selling">Start selling</a></div></section><section class="learn-more-bottom" aria-label="New seller incentive" data-tea-module-show="LearnMoreBottom"><div class="learn-more-bottom__inner"><p>Earn new seller incentives worth up to $23,630</p><a class="learn-more-bottom__cta" href="#seller-home-incentive" data-tea-module-name="LearnMoreBottom" data-tea-click-for="Learn more">Learn more</a></div></section></main><footer class="site-footer" data-tea-module-show="SiteFooter"><div class="landing-container"><div class="site-footer__top"><div class="site-footer__columns"><nav class="site-footer__col"><h4>Company</h4><a href="https://www.tiktok.com/about?from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="TikTok">TikTok</a><a href="https://www.tiktok.com/business/en-US?from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="TikTok for Business">TikTok for Business</a><a href="https://www.tiktok.com/shop?from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="TikTok Shop">TikTok Shop</a><a href="https://www.capcut.com/?from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="CapCut">CapCut</a><a href="https://www.larksuite.com/?utm_source=seo_external_link_tts&amp;from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="Lark">Lark</a></nav><nav class="site-footer__col"><h4>Product</h4><a href="https://seller-us.tiktok.com/account/register?channel=portal_footer_v4" data-tea-module-name="SiteFooter" data-tea-click-for="Seller Center">Seller Center</a><a href="https://seller-us.tiktok.com/appstore?source=portal_footer_v4" data-tea-module-name="SiteFooter" data-tea-click-for="App Store">App Store</a><a href="https://seller-us.tiktok.com/partners?source=portal_footer_v4" data-tea-module-name="SiteFooter" data-tea-click-for="Partners">Partners</a><a href="https://shop.tiktok.com/streamer/welcome?enter_from=official_website_v4" data-tea-module-name="SiteFooter" data-tea-click-for="LIVE Manager">LIVE Manager</a><a href="https://www.capcut.com/creative-suite?from=portal_footer_v4" data-tea-module-name="SiteFooter" data-tea-click-for="CapCut creative suite">CapCut creative suite</a><a href="https://partner.us.tiktokshop.com/?from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="Partner Desktop">Partner Desktop</a></nav><nav class="site-footer__col"><h4>Support</h4><a href="https://seller-us.tiktok.com/university/home?identity=1&amp;role=seller&amp;from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="Academy">Academy</a><a href="https://seller-us.tiktok.com/university/home?identity=1&amp;role=seller&amp;menu=feature&amp;content_id=3071403937875758&amp;from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="Feature guide">Feature guide</a><a href="https://seller-us.tiktok.com/university/home?identity=1&amp;role=seller&amp;menu=policy&amp;content_id=321015469098753&amp;from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="Policy Center">Policy Center</a><div class="site-footer__contact-control"><input id="site-footer-contact-us" class="site-footer__contact-toggle" type="checkbox" aria-hidden="true"/><label class="site-footer__link-button" for="site-footer-contact-us" data-tea-module-name="SiteFooter" data-tea-click-for="Contact us">Contact us</label><label class="site-footer__modal-backdrop" for="site-footer-contact-us" aria-label="Close contact panel"></label><section class="site-footer__contact-panel" role="dialog" aria-modal="true" aria-labelledby="site-footer-contact-us-title"><header class="site-footer__panel-header"><h3 id="site-footer-contact-us-title">Contact us</h3><label class="site-footer__panel-close" for="site-footer-contact-us" aria-label="Close contact panel"></label></header><div class="site-footer__contact-content"><div class="site-footer__contact-item"><strong>Seller</strong><a class="site-footer__contact-link" href="https://seller-us.tiktok.com/contact-us" target="_blank" rel="noreferrer" data-tea-module-name="SiteFooter" data-tea-click-for="Contact the seller support team"><svg class="site-footer__contact-link-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.3V7.6C3 4.8 5.1 2.7 8 2.7s5 2.1 5 4.9v.7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path><path d="M4.3 8H3.6C2.7 8 2 8.7 2 9.6v1.1c0 .9.7 1.6 1.6 1.6h.7V8ZM11.7 12.3h.7c.9 0 1.6-.7 1.6-1.6V9.6c0-.9-.7-1.6-1.6-1.6h-.7v4.3Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"></path></svg>Contact the seller support team</a></div><div class="site-footer__contact-item"><strong>Creator</strong><div class="site-footer__contact-email">tiktokcreator-ec-us@tiktok.com</div></div></div></section></div><a href="https://seller-us.tiktok.com/compliance/hre-complaints?entrance=seller_center&amp;from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="File a complaint">File a complaint</a></nav></div><div class="site-footer__social"><div class="site-footer__social-menu"><input id="site-footer-tiktok-us" class="site-footer__social-toggle" type="checkbox" aria-hidden="true"/><label class="site-footer__social-trigger" for="site-footer-tiktok-us" aria-label="TikTok" data-tea-module-name="SiteFooter" data-tea-click-for="TikTok"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/tiktok-social-icon.svg" alt="TikTok" width="24" height="24" fetchPriority="low"/></label><label class="site-footer__modal-backdrop" for="site-footer-tiktok-us" aria-label="Close social links"></label><div class="site-footer__social-popover"><div class="site-footer__social-list"><a href="https://www.tiktok.com/@tiktokshop_us" data-tea-module-name="SiteFooter" data-tea-click-for="TikTok for customers"><svg class="site-footer__social-mini-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12.4729 1.2182C13.6519 1.2002 14.8218 1.2092 15.9918 1.2002C16.0638 2.57718 16.5588 3.98116 17.5668 4.95315C18.5748 5.95214 19.9968 6.41113 21.3828 6.56413V10.1911C20.0868 10.1461 18.7818 9.87609 17.6028 9.31809C17.0898 9.0841 16.6128 8.7871 16.1448 8.4811C16.1358 11.1091 16.1538 13.737 16.1268 16.356C16.0548 17.616 15.6408 18.867 14.9118 19.902C13.7329 21.6299 11.6899 22.7549 9.59291 22.7909C8.30593 22.8629 7.01894 22.5119 5.92096 21.8639C4.10298 20.7929 2.825 18.831 2.636 16.725C2.618 16.275 2.609 15.825 2.627 15.384C2.789 13.674 3.63499 12.0361 4.94897 10.9201C6.44295 9.62409 8.53092 9.0031 10.4839 9.37209C10.5019 10.7041 10.4479 12.0361 10.4479 13.368C9.55691 13.08 8.51293 13.161 7.72993 13.701C7.16294 14.07 6.73095 14.637 6.50595 15.276C6.31695 15.735 6.37095 16.239 6.37995 16.725C6.59595 18.201 8.01793 19.443 9.52991 19.308C10.5379 19.299 11.5009 18.714 12.0229 17.859C12.1939 17.562 12.3829 17.256 12.3919 16.905C12.4819 15.294 12.4459 13.692 12.4549 12.0811C12.4639 8.4541 12.4459 4.83615 12.4729 1.2182Z" fill="currentColor"></path></svg><span>TikTok for customers</span></a><a href="https://www.tiktok.com/@tiktokshopcreators.us" data-tea-module-name="SiteFooter" data-tea-click-for="TikTok for creators"><svg class="site-footer__social-mini-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12.4729 1.2182C13.6519 1.2002 14.8218 1.2092 15.9918 1.2002C16.0638 2.57718 16.5588 3.98116 17.5668 4.95315C18.5748 5.95214 19.9968 6.41113 21.3828 6.56413V10.1911C20.0868 10.1461 18.7818 9.87609 17.6028 9.31809C17.0898 9.0841 16.6128 8.7871 16.1448 8.4811C16.1358 11.1091 16.1538 13.737 16.1268 16.356C16.0548 17.616 15.6408 18.867 14.9118 19.902C13.7329 21.6299 11.6899 22.7549 9.59291 22.7909C8.30593 22.8629 7.01894 22.5119 5.92096 21.8639C4.10298 20.7929 2.825 18.831 2.636 16.725C2.618 16.275 2.609 15.825 2.627 15.384C2.789 13.674 3.63499 12.0361 4.94897 10.9201C6.44295 9.62409 8.53092 9.0031 10.4839 9.37209C10.5019 10.7041 10.4479 12.0361 10.4479 13.368C9.55691 13.08 8.51293 13.161 7.72993 13.701C7.16294 14.07 6.73095 14.637 6.50595 15.276C6.31695 15.735 6.37095 16.239 6.37995 16.725C6.59595 18.201 8.01793 19.443 9.52991 19.308C10.5379 19.299 11.5009 18.714 12.0229 17.859C12.1939 17.562 12.3829 17.256 12.3919 16.905C12.4819 15.294 12.4459 13.692 12.4549 12.0811C12.4639 8.4541 12.4459 4.83615 12.4729 1.2182Z" fill="currentColor"></path></svg><span>TikTok for creators</span></a><a href="https://www.tiktok.com/@sellwithtiktokshop_us" data-tea-module-name="SiteFooter" data-tea-click-for="TikTok for sellers"><svg class="site-footer__social-mini-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12.4729 1.2182C13.6519 1.2002 14.8218 1.2092 15.9918 1.2002C16.0638 2.57718 16.5588 3.98116 17.5668 4.95315C18.5748 5.95214 19.9968 6.41113 21.3828 6.56413V10.1911C20.0868 10.1461 18.7818 9.87609 17.6028 9.31809C17.0898 9.0841 16.6128 8.7871 16.1448 8.4811C16.1358 11.1091 16.1538 13.737 16.1268 16.356C16.0548 17.616 15.6408 18.867 14.9118 19.902C13.7329 21.6299 11.6899 22.7549 9.59291 22.7909C8.30593 22.8629 7.01894 22.5119 5.92096 21.8639C4.10298 20.7929 2.825 18.831 2.636 16.725C2.618 16.275 2.609 15.825 2.627 15.384C2.789 13.674 3.63499 12.0361 4.94897 10.9201C6.44295 9.62409 8.53092 9.0031 10.4839 9.37209C10.5019 10.7041 10.4479 12.0361 10.4479 13.368C9.55691 13.08 8.51293 13.161 7.72993 13.701C7.16294 14.07 6.73095 14.637 6.50595 15.276C6.31695 15.735 6.37095 16.239 6.37995 16.725C6.59595 18.201 8.01793 19.443 9.52991 19.308C10.5379 19.299 11.5009 18.714 12.0229 17.859C12.1939 17.562 12.3829 17.256 12.3919 16.905C12.4819 15.294 12.4459 13.692 12.4549 12.0811C12.4639 8.4541 12.4459 4.83615 12.4729 1.2182Z" fill="currentColor"></path></svg><span>TikTok for sellers</span></a></div><label class="site-footer__social-cancel" for="site-footer-tiktok-us">Cancel</label></div></div><a href="https://www.facebook.com/TikTokShopUSA" aria-label="Facebook" data-tea-module-name="SiteFooter" data-tea-click-for="Facebook"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/facebook-icon.svg" alt="Facebook" width="24" height="24" fetchPriority="low"/></a><a href="https://www.linkedin.com/company/tiktokshop/" aria-label="LinkedIn" data-tea-module-name="SiteFooter" data-tea-click-for="LinkedIn"><img src="https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/oec/seller/seller_tiktok_com/icons/linkedin-icon.svg" alt="LinkedIn" width="24" height="24" fetchPriority="low"/></a></div></div><div class="site-footer__bottom"><div class="site-footer__privacy"><span class="site-footer__copyright">© 2026 TikTok. All rights reserved</span><nav class="site-footer__legal"><a href="https://seller-us.tiktok.com/university/article/agreement?knowledge_id=10013713&amp;identity=1&amp;from=portal_v4" data-tea-module-name="SiteFooter" data-tea-click-for="Policy">Policy</a><a href="https://www.tiktok.com/legal/page/global/cookie-policy/en" data-tea-module-name="SiteFooter" data-tea-click-for="Cookie policy">Cookie policy</a><a href="https://www.tiktok.com/legal/page/global/copyright-policy/en" data-tea-module-name="SiteFooter" data-tea-click-for="Intellectual property protection">Intellectual property protection</a></nav></div></div></div></footer>
+  </div>
+</body>
+
+</html>

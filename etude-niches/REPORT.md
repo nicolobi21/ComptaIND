@@ -7,6 +7,20 @@
 _À rédiger en fin d'étude._
 
 ## 2. Méthode et limites
+### Profil vendeur (déclaré le 2026-10-26)
+| Champ | Valeur |
+|---|---|
+| Pays | Belgique et France au départ ; d'autres pays ensuite |
+| Canaux | Site propre (Shopify déjà pratiqué) + réseaux sociaux / TikTok Shop |
+| Budget test | 400 € (à confirmer : interprété comme budget du test) |
+| Budget stock initial | 200 € |
+| Temps | 16 h/semaine |
+| Avantages | Compétences informatiques, expérience d'une boutique Shopify. Aucun fournisseur, réseau ou communauté déclaré |
+| Catégories exclues | **Non renseigné (bloquant)** |
+| Statut | Indépendant |
+
+Canal TikTok Shop : inscription vendeur possible en Belgique et en France d'après le Seller Center (S007) ; lancement en Belgique annoncé pour le 15/06/2026 (S008). Je ne sais pas encore si TikTok Shop accepte un indépendant personne physique : à vérifier en Phase 3.
+
 ### Accès aux sources testé le 2026-10-26
 | Source | Résultat | Conséquence |
 |---|---|---|
@@ -30,7 +44,8 @@ _Phase 3._
 _Phase 4._
 
 ## 6. « Je ne sais pas »
-- Profil vendeur : non renseigné (bloquant pour la Phase 1).
+- Profil vendeur : catégories exclues non renseignées (bloquant pour la Phase 1).
+- Conditions d'éligibilité vendeur TikTok Shop BE/FR pour un indépendant : non vérifiées.
 - Frais de traitement douanier d'environ 2 €/colis au 1er novembre 2026 : non trouvé dans la source officielle S002 ; à vérifier.
 - Référence juridique (n° de règlement) du droit de 3 € et date de fin : absentes de S002 ; à vérifier.
 
