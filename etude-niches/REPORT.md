@@ -245,6 +245,56 @@ Sources des chiffres : `analysis/elec/synthese.txt` (colonne Wallonie + Bruxelle
 - **Taille déclarée** des gagnants (déclaration partielle, 120 lots en Hainaut) : grandes entreprises 67, PME (sme, small, medium, micro) 52.
 - **Lecture** : la concurrence est faible sur les petits marchés. Autour de Charleroi, 56 % des lots de 30 à 143 k€ n'ont reçu qu'une seule offre. Les acheteurs paient en moyenne leur estimation (montant attribué ÷ estimation ≈ 0,95-1,00, mais sur peu de lots). C'est un **indice d'opportunité pour une entreprise d'électricité agréée P1 classes 1-2**, pas une preuve de rentabilité : la marge, le coût de la main-d'œuvre en pénurie (Forem, S037) et les conditions d'agréation ne sont pas mesurés.
 
+### Électricité : types de travaux (hors ORES)
+Classement automatique sur l'intitulé et le CPV (règles dans `analysis/elec_types.py`, contrôle manuel par échantillon). Tableaux complets : `analysis/elec/types/types_*.csv`.
+
+| Type (Hainaut, 286 lots) | Part | Montant médian | Offre unique | Infructueux |
+|---|---|---|---|---|
+| Lot électricité d'un chantier de bâtiment | 29 % | 214 621 € | 29 % | 13 % |
+| Détection incendie, alarme, accès, vidéo | 19 % | 30 210 € | 34 % | 7 % |
+| Mise en conformité / rénovation d'installation | 16 % | 143 331 € | 20 % | 11 % |
+| Éclairage, relighting | 10 % | 56 066 € | 35 % | 4 % |
+| Photovoltaïque | 10 % | 95 120 € | 23 % | 7 % |
+| Haute / moyenne tension, cabines | 8 % | 156 968 € | 38 % | 4 % |
+| Chauffage/PAC/HVAC, câblage data, bornes, signalisation | 8 % | — | — | — |
+
+Les montants de moins de 1 000 € sont exclus : ce sont des taux horaires ou des coefficients d'accords-cadres (18 lots). On note par exemple **110 et 125 €/h** pour des « interventions aux installations électriques » à Farciennes, et des coefficients de 0,82-0,84 sur bordereau (Direction régionale du Hainaut).
+
+### Électricité : pourquoi si peu d'offres ? Lecture de 17 cahiers des charges (S043)
+Échantillon : 17 dossiers à offre unique ou sans offre (14 en Hainaut, 3 ailleurs en Wallonie pour les types manquants) dont les documents étaient encore en ligne. Indicateurs : `analysis/elec/csc_indicateurs.csv` ; extraits : `analysis/elec/csc_extraits.md`.
+- **Délai pour remettre une offre** : médiane **25 jours** (de 20 à 63 ; 14 dossiers mesurés), dont 7 à 25 jours ou moins.
+- **Visite des lieux obligatoire** : 12 dossiers sur 17.
+- **Site occupé ou travaux pendant les congés / hors horaires** : 7 sur 17 (site occupé) ; 11 sur 17 mentionnent congés, week-ends ou nuit (détection par mots-clés, à confirmer).
+- **Agréation exigée** : de la classe 1 à la classe 5. Les 2 dossiers **sans aucune offre** sont des marchés **multi-métiers** :
+  - école Beaulieu : lot 1 = gros œuvre + parachèvements + techniques spéciales, agréations de classe 5 ;
+  - Igretec : marché « stock » D, D4, D5, P1, D13…
+
+  Un électricien seul ne pouvait pas y répondre.
+- Autres freins relevés : délais d'exécution très courts liés à des fonds européens (A6K : réception au plus tard le 21/08/2026) ; cautionnement de 5 % ; pénalités spéciales (400 €/jour DNSH).
+- **Absents** : aucune exigence de chiffre d'affaires minimum détectée ; références exigées dans 4 dossiers sur 17 seulement.
+- **Lecture** : le manque d'offres semble venir surtout de **contraintes pratiques** (visite obligatoire, délai court, site occupé, calendrier serré) et de l'**allotissement multi-métiers**, plutôt que de barrières financières. C'est une interprétation sur 17 dossiers non tirés au hasard.
+
+### Électricité : gagnants récurrents en Hainaut et leurs comptes (S044, BNB)
+Onze sociétés domiciliées en Hainaut, 3 derniers exercices. Détail : `analysis/elec/bilans_gagnants_hainaut.csv` et `analysis/elec/gagnants_poids_marches_publics.csv`.
+
+| Société (code postal) | ETP | CA ou marge brute (dernier exercice) | Résultat | Rentabilité | Marchés électricité gagnés (36 mois, Wallonie + Bruxelles) |
+|---|---|---|---|---|---|
+| TSAV (7712) | 3 | MB 209 428 € | 5 030 € | 2,4 % de la MB | 14 lots, 164 945 € (alarme, accès, vidéo) |
+| Installations, Maintenance et Constructions Électrotechniques (6180) | 23,9 | MB 2 435 338 € | 356 922 € | 14,7 % de la MB | 10 lots, 2,61 M€ |
+| Aegentis (7022) | 10 | MB 736 933 € | 37 604 € | 5,1 % de la MB | 8 lots, 654 701 € |
+| AES (7971) | 22,5 | MB 1 220 325 € | 48 578 € | 4,0 % de la MB | 5 lots, 766 022 € |
+| D.E.I. (7700) | 20,3 | MB 1 606 016 € | 227 806 € | 14,2 % de la MB | 6 lots, 1,33 M€ |
+| Lexar Technics (7140) | 48,9 | CA 14 922 600 € | 2 053 394 € | 13,8 % du CA | 12 lots, 1,20 M€ (éclairage) |
+| Sotrelco (7100) | 115,5 | CA 39 581 560 € | 1 301 771 € | 3,3 % du CA | 7 lots, 17,9 M€ |
+| Jacops Sud (6000) | 268,9 | CA 58 743 336 € | 2 582 628 € | 4,4 % du CA | 13 lots, 1,87 M€ |
+| Mignone (7170) | 93,9 | CA 30 674 005 € | 105 087 € | 0,3 % du CA | 5 lots, 3,40 M€ |
+| Technord (7500) | 304,4 | CA 97 247 138 € | 5 508 622 € | 5,7 % du CA | 5 lots, 1,27 M€ (HT/MT) |
+| Wanty (7134) | 773 | CA 197 013 073 € | −1 521 147 € | −0,8 % du CA | 9 lots, 2,79 M€ (éclairage) |
+
+- Les petites sociétés (schéma abrégé ou micro) ne publient pas leur chiffre d'affaires, seulement la **marge brute** (rubrique 9900).
+- **Marge brute par ETP des PME d'électricité** : de 54 237 € (AES) à 101 897 € (IMCE).
+- **Taille des acteurs** : les marchés électricité sont gagnés à la fois par des **PME locales de 3 à 25 ETP** et par des **groupes de 100 à 800 ETP**, pour qui ces marchés pèsent peu (0,4 à 3,7 % du CA, sauf Sotrelco 15 %).
+
 ## 4. Dossiers du top 3
 _Phase 3._
 

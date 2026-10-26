@@ -1,0 +1,12 @@
+type_travaux,part_lots_%,lots,attribues,infructueux_%,montant_median_EUR,n_montants,offres_mediane,offre_unique_%,gagnants_distincts,part_accord_cadre_stock_%
+Lot électricité d'un chantier de bâtiment,37,442,342,15,138398,304,2.0,24,247,9
+Mise en conformité / rénovation d'installation électrique,18,216,179,17,86582,159,2.0,37,122,19
+"Détection incendie, alarme, accès, vidéo",14,165,142,12,48952,138,2.0,36,89,17
+"Éclairage, relighting, éclairage public/sportif",10,124,117,6,62844,109,2.0,28,93,10
+Photovoltaïque,7,84,75,11,85345,73,4.0,16,42,5
+"Haute / moyenne tension, cabines",6,68,65,3,195801,63,3.0,18,49,7
+"Câblage data, télécom, télédistribution",3,41,35,15,97703,34,2.0,20,30,12
+Signalisation routière/ferroviaire,2,25,20,4,87844,20,5.0,25,13,12
+"Chauffage, PAC, HVAC, cogénération",2,25,20,20,151778,20,1.5,50,19,16
+Bornes de recharge,1,11,10,9,128436,10,3.5,20,8,9
+Autre / non classé,1,8,7,12,728407,6,4.0,0,4,38

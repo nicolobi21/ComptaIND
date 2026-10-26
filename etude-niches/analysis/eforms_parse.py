@@ -94,6 +94,7 @@ def parse(xml):
         lo, hi = num(text(lr, "LowerTenderAmount")), num(text(lr, "HigherTenderAmount"))
         # contrôle de cohérence : montant retenu seulement s'il est compris entre l'offre basse et l'offre haute du lot
         if m is None: coh = "absent"
+        elif m < 1000: coh = "prix_unitaire_ou_coefficient"  # ex. taux horaire 110 €/h, coefficient 0,84 d'un accord-cadre
         elif lo is not None and hi is not None and not (lo - 1 <= m <= hi + 1): coh = "incoherent"
         else: coh = "ok"
         rows.append({"lot": lot, "resultat": res, "offres_recues": offers,

@@ -2,9 +2,9 @@
 ## Zone TOUT
 Lots : 1415 ; résultats : {'selec-w': 1162, 'clos-nw': 201, 'open-nw': 46, '': 6} ; part infructueux (clos-nw) = 201/1415 = 14%
 Offres reçues (lots attribués, n=1159) : médiane 2.0 ; répartition {'1': 306, '2': 317, '3-4': 347, '5+': 189} ; offre unique = 26%
-Montant retenu (n=1013) : médiane 100,681 € ; Q1 44,521 € ; Q3 313,022 € ; total 1,271,481,161 €
-Tranches : < 30 k€ 178 (18%) ; 30-143 k€ 433 (43%) ; 143-750 k€ 262 (26%) ; > 750 k€ 140 (14%)
-  < 30 k€ : offres reçues médiane 2.0 (n=178), offre unique 39%
+Montant retenu (n=996) : médiane 104,312 € ; Q1 46,296 € ; Q3 323,730 € ; total 1,271,478,921 €
+Tranches : < 30 k€ 161 (16%) ; 30-143 k€ 433 (43%) ; 143-750 k€ 262 (26%) ; > 750 k€ 140 (14%)
+  < 30 k€ : offres reçues médiane 2.0 (n=161), offre unique 39%
   30-143 k€ : offres reçues médiane 2.0 (n=432), offre unique 33%
   143-750 k€ : offres reçues médiane 3.0 (n=262), offre unique 19%
   > 750 k€ : offres reçues médiane 3.0 (n=138), offre unique 17%
@@ -19,9 +19,9 @@ Acheteurs principaux : Ores sc 125 ; Logivesdre 63 ; Université de Liège (3P) 
 ## Zone WAL
 Lots : 1142 ; résultats : {'selec-w': 920, 'clos-nw': 173, 'open-nw': 44, '': 5} ; part infructueux (clos-nw) = 173/1142 = 15%
 Offres reçues (lots attribués, n=918) : médiane 2.0 ; répartition {'1': 243, '2': 249, '3-4': 281, '5+': 145} ; offre unique = 26%
-Montant retenu (n=800) : médiane 101,948 € ; Q1 44,996 € ; Q3 314,399 € ; total 922,567,172 €
-Tranches : < 30 k€ 134 (17%) ; 30-143 k€ 347 (43%) ; 143-750 k€ 208 (26%) ; > 750 k€ 111 (14%)
-  < 30 k€ : offres reçues médiane 2.0 (n=134), offre unique 42%
+Montant retenu (n=785) : médiane 105,772 € ; Q1 48,292 € ; Q3 328,104 € ; total 922,565,098 €
+Tranches : < 30 k€ 119 (15%) ; 30-143 k€ 347 (44%) ; 143-750 k€ 208 (26%) ; > 750 k€ 111 (14%)
+  < 30 k€ : offres reçues médiane 2.0 (n=119), offre unique 43%
   30-143 k€ : offres reçues médiane 2.0 (n=347), offre unique 33%
   143-750 k€ : offres reçues médiane 3.0 (n=208), offre unique 18%
   > 750 k€ : offres reçues médiane 3.0 (n=109), offre unique 16%
@@ -36,9 +36,9 @@ Acheteurs principaux : Ores sc 125 ; Logivesdre 63 ; Université de Liège (3P) 
 ## Zone BXL
 Lots : 212 ; résultats : {'selec-w': 193, 'clos-nw': 17, 'open-nw': 2} ; part infructueux (clos-nw) = 17/212 = 8%
 Offres reçues (lots attribués, n=192) : médiane 2.0 ; répartition {'1': 56, '2': 60, '3-4': 48, '5+': 28} ; offre unique = 29%
-Montant retenu (n=182) : médiane 85,721 € ; Q1 31,213 € ; Q3 226,383 € ; total 163,819,259 €
-Tranches : < 30 k€ 44 (24%) ; 30-143 k€ 74 (41%) ; 143-750 k€ 44 (24%) ; > 750 k€ 20 (11%)
-  < 30 k€ : offres reçues médiane 2.0 (n=44), offre unique 32%
+Montant retenu (n=180) : médiane 86,310 € ; Q1 32,111 € ; Q3 227,698 € ; total 163,819,093 €
+Tranches : < 30 k€ 42 (23%) ; 30-143 k€ 74 (41%) ; 143-750 k€ 44 (24%) ; > 750 k€ 20 (11%)
+  < 30 k€ : offres reçues médiane 2.0 (n=42), offre unique 29%
   30-143 k€ : offres reçues médiane 2.0 (n=73), offre unique 37%
   143-750 k€ : offres reçues médiane 3.0 (n=44), offre unique 23%
   > 750 k€ : offres reçues médiane 3.0 (n=20), offre unique 25%
@@ -53,9 +53,9 @@ Acheteurs principaux : Régie des Bâtiments - Région Bruxelles 20 ; Anderlecht
 ## Zone HAINAUT
 Lots : 426 ; résultats : {'selec-w': 352, 'clos-nw': 63, '': 1, 'open-nw': 10} ; part infructueux (clos-nw) = 63/426 = 15%
 Offres reçues (lots attribués, n=351) : médiane 2.0 ; répartition {'1': 92, '2': 91, '3-4': 105, '5+': 63} ; offre unique = 26%
-Montant retenu (n=265) : médiane 106,613 € ; Q1 41,748 € ; Q3 473,429 € ; total 215,190,233 €
-Tranches : < 30 k€ 52 (20%) ; 30-143 k€ 98 (37%) ; 143-750 k€ 61 (23%) ; > 750 k€ 54 (20%)
-  < 30 k€ : offres reçues médiane 2.0 (n=52), offre unique 35%
+Montant retenu (n=256) : médiane 113,045 € ; Q1 46,638 € ; Q3 493,981 € ; total 215,189,992 €
+Tranches : < 30 k€ 43 (17%) ; 30-143 k€ 98 (38%) ; 143-750 k€ 61 (24%) ; > 750 k€ 54 (21%)
+  < 30 k€ : offres reçues médiane 2.0 (n=43), offre unique 37%
   30-143 k€ : offres reçues médiane 2.0 (n=98), offre unique 43%
   143-750 k€ : offres reçues médiane 3.0 (n=61), offre unique 16%
   > 750 k€ : offres reçues médiane 2.0 (n=53), offre unique 21%
@@ -70,9 +70,9 @@ Acheteurs principaux : Ores sc 125 ; Hainaut Gestion du Patrimoine 22 ; Tournai 
 ## Zone CHARLEROI
 Lots : 238 ; résultats : {'selec-w': 180, 'clos-nw': 49, '': 1, 'open-nw': 8} ; part infructueux (clos-nw) = 49/238 = 21%
 Offres reçues (lots attribués, n=179) : médiane 3.0 ; répartition {'1': 47, '2': 27, '3-4': 62, '5+': 43} ; offre unique = 26%
-Montant retenu (n=100) : médiane 329,259 € ; Q1 55,843 € ; Q3 1,965,000 € ; total 157,707,706 €
-Tranches : < 30 k€ 19 (19%) ; 30-143 k€ 25 (25%) ; 143-750 k€ 17 (17%) ; > 750 k€ 39 (39%)
-  < 30 k€ : offres reçues médiane 2.0 (n=19), offre unique 47%
+Montant retenu (n=92) : médiane 422,824 € ; Q1 80,972 € ; Q3 1,991,970 € ; total 157,707,466 €
+Tranches : < 30 k€ 11 (12%) ; 30-143 k€ 25 (27%) ; 143-750 k€ 17 (18%) ; > 750 k€ 39 (42%)
+  < 30 k€ : offres reçues médiane 1.0 (n=11), offre unique 64%
   30-143 k€ : offres reçues médiane 1.0 (n=25), offre unique 56%
   143-750 k€ : offres reçues médiane 3.0 (n=17), offre unique 18%
   > 750 k€ : offres reçues médiane 2.5 (n=38), offre unique 26%
