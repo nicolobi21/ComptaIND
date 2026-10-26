@@ -21,7 +21,8 @@ def compact(p):
             "org_id": (p.get("organisation") or {}).get("organisationId"),
             "procedure": d.get("procurementProcedureType"), "technique": d.get("specialPurchasingTechnique"),
             "accreditations": d.get("accreditations"), "titre": txt(d.get("titles")), "n_lots": len(p.get("lots") or []),
-            "ted": p.get("tedPublished"), "ref": p.get("referenceNumber"), "deadline": p.get("vaultSubmissionDeadline")}
+            "ted": p.get("tedPublished"), "ref": p.get("referenceNumber"), "deadline": p.get("vaultSubmissionDeadline"),
+            "workspace_id": p.get("publicationWorkspaceId"), "notice_ids": p.get("noticeIds")}
 
 if __name__ == "__main__":
     filters, out = json.loads(sys.argv[1]), sys.argv[2]
