@@ -220,6 +220,31 @@ Périmètre : Wallonie + Bruxelles, publications du 26/10/2023 au 25/10/2026, r�
 - **Fournitures** (mises en concurrence, Wallonie + Bruxelles) : logiciels 340, laboratoire 225, pharmacie 211, utilitaires 168, matériel médical 154, véhicules 153, … vêtements professionnels 72, matériel de plomberie et chauffage 60.
 - **Limites** : les résultats de recherche ne donnent ni montants, ni gagnants, ni nombre d'offres. Ces informations sont dans le détail des avis, non téléchargés à ce stade. L'interprétation des codes de procédure en montants n'est pas vérifiée (Justel bloqué).
 
+### Focus électricité : détail des attributions (S042, 26/10/2026)
+Périmètre : 905 avis d'attribution de travaux « électricité » (CPV 4531* hors ascenseurs, ou agréation P1/P2), en Wallonie et à Bruxelles, du 26/10/2023 au 25/10/2026, soit **1 415 lots**. Contrôle qualité : sur 1 162 lots attribués, 1 013 montants sont cohérents, 40 incohérents et 109 absents (ces 149 sont exclus des statistiques de montant). Le gagnant est identifié pour 1 159 lots sur 1 162.
+
+**ORES** (gestionnaire du réseau de distribution) représente 142 lots : compteurs, raccordements, éclairage public. Ce sont des travaux de **réseau**, pas d'électricité du bâtiment, donc ils sont exclus des chiffres ci-dessous.
+
+| Indicateur (hors ORES) | Wallonie + Bruxelles (tous lots) | Hainaut | Arr. Charleroi |
+|---|---|---|---|
+| Lots | 1 415 (dont ORES) | 286 | 98 |
+| Montant médian attribué | 100 681 € | 91 499 € | 97 936 € |
+| Lots < 143 k€ | 61 % | 63 % | 58 % |
+| Offres reçues (médiane) | 2 | 2 | 2 |
+| Lots à **offre unique** | 26 % | 30 % | 39 % |
+| Lots 30-143 k€ à offre unique | 33 % | 43 % | 56 % |
+| Lots infructueux (aucun attributaire) | 14 % | 9 % | 13 % |
+| Gagnants distincts | 647 | 168 | 65 |
+| Part des 10 premiers gagnants | 10 % | 20 % | 33 % |
+| Gagnants avec code postal en Hainaut | 23 % | 58 % | 49 % |
+| Écart offre haute / basse (≥ 2 offres) | 20 % | 18 % | 16 % |
+
+Sources des chiffres : `analysis/elec/synthese.txt` (colonne Wallonie + Bruxelles, ORES compris) et `analysis/elec/hors_ORES/synthese.txt` (Hainaut et Charleroi).
+- Hors ORES en Hainaut, **11 lots** ont été déclarés infructueux **sans aucune offre**, par exemple des travaux « stock » d'Igretec, la mise en conformité du bâtiment « Quai 10 » à Charleroi, ou le relighting du centre sportif de Lobbes.
+- **Les plus gros gagnants en Hainaut (hors ORES)** : TSAV (12 lots), Installations, Maintenance et Constructions Électrotechniques (6), Florisol (6), Aegentis (5), Mignone, Equans, Collignon Eng., Wanty, Lexar Technics, AES… Le marché est **fragmenté** : 168 gagnants différents.
+- **Taille déclarée** des gagnants (déclaration partielle, 120 lots en Hainaut) : grandes entreprises 67, PME (sme, small, medium, micro) 52.
+- **Lecture** : la concurrence est faible sur les petits marchés. Autour de Charleroi, 56 % des lots de 30 à 143 k€ n'ont reçu qu'une seule offre. Les acheteurs paient en moyenne leur estimation (montant attribué ÷ estimation ≈ 0,95-1,00, mais sur peu de lots). C'est un **indice d'opportunité pour une entreprise d'électricité agréée P1 classes 1-2**, pas une preuve de rentabilité : la marge, le coût de la main-d'œuvre en pénurie (Forem, S037) et les conditions d'agréation ne sont pas mesurés.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 

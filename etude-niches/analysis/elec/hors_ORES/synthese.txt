@@ -1,0 +1,85 @@
+
+## Zone TOUT
+Lots : 1273 ; résultats : {'selec-w': 1064, 'clos-nw': 165, 'open-nw': 38, '': 6} ; part infructueux (clos-nw) = 165/1273 = 13%
+Offres reçues (lots attribués, n=1061) : médiane 2.0 ; répartition {'1': 290, '2': 303, '3-4': 307, '5+': 161} ; offre unique = 27%
+Montant retenu (n=987) : médiane 96,453 € ; Q1 42,370 € ; Q3 286,000 € ; total 1,202,096,282 €
+Tranches : < 30 k€ 178 (18%) ; 30-143 k€ 431 (44%) ; 143-750 k€ 262 (27%) ; > 750 k€ 116 (12%)
+  < 30 k€ : offres reçues médiane 2.0 (n=178), offre unique 39%
+  30-143 k€ : offres reçues médiane 2.0 (n=430), offre unique 33%
+  143-750 k€ : offres reçues médiane 3.0 (n=262), offre unique 19%
+  > 750 k€ : offres reçues médiane 3.0 (n=114), offre unique 14%
+Écart offre haute / offre basse (lots ≥ 2 offres, n=526) : médiane 21%
+Montant attribué / estimation (n=128) : médiane 0.99
+Gagnant identifié : 1061/1064 lots ; gagnants distincts : 619
+Part des 10 premiers gagnants dans les lots identifiés : 11%
+Gagnants avec code postal en Hainaut : 190/905 = 21%
+Taille déclarée des gagnants : {'large': 184, 'medium': 67, 'micro': 20, 'small': 74, 'medium | medium': 2, 'sme': 53, 'small | small': 1, 'sme | sme': 2, 'medium | sme': 3, 'sme | sme | sme | sme': 4, 'large | large': 4, 'medium | large | medium | large': 1, 'small | micro | medium': 1, 'sme | sme | sme | sme | sme': 4, 'large | large | large': 4} (n=424)
+Acheteurs principaux : Logivesdre 63 ; Université de Liège (3P) 23 ; Hainaut Gestion du Patrimoine 22 ; Direction régionale de Liège 21 ; ACIS Asbl 21 ; Régie des Bâtiments - Région Bruxelles 20 ; Ville de Liège - Travaux - Direction des Bâtiments Communaux 20 ; Tournai 20
+
+## Zone WAL
+Lots : 1002 ; résultats : {'selec-w': 824, 'clos-nw': 137, 'open-nw': 36, '': 5} ; part infructueux (clos-nw) = 137/1002 = 14%
+Offres reçues (lots attribués, n=822) : médiane 2.0 ; répartition {'1': 228, '2': 235, '3-4': 242, '5+': 117} ; offre unique = 28%
+Montant retenu (n=776) : médiane 95,626 € ; Q1 44,425 € ; Q3 270,002 € ; total 853,307,172 €
+Tranches : < 30 k€ 134 (17%) ; 30-143 k€ 347 (45%) ; 143-750 k€ 208 (27%) ; > 750 k€ 87 (11%)
+  < 30 k€ : offres reçues médiane 2.0 (n=134), offre unique 42%
+  30-143 k€ : offres reçues médiane 2.0 (n=347), offre unique 33%
+  143-750 k€ : offres reçues médiane 3.0 (n=208), offre unique 18%
+  > 750 k€ : offres reçues médiane 3.0 (n=85), offre unique 12%
+Écart offre haute / offre basse (lots ≥ 2 offres, n=430) : médiane 21%
+Montant attribué / estimation (n=79) : médiane 1.00
+Gagnant identifié : 821/824 lots ; gagnants distincts : 480
+Part des 10 premiers gagnants dans les lots identifiés : 12%
+Gagnants avec code postal en Hainaut : 178/727 = 24%
+Taille déclarée des gagnants : {'large': 156, 'micro': 15, 'small': 62, 'medium': 49, 'sme': 45, 'small | small': 1, 'medium | sme': 3, 'sme | sme | sme | sme': 4, 'large | large': 3, 'medium | large | medium | large': 1, 'small | micro | medium': 1, 'sme | sme | sme | sme | sme': 4, 'medium | medium': 1} (n=345)
+Acheteurs principaux : Logivesdre 63 ; Université de Liège (3P) 23 ; Hainaut Gestion du Patrimoine 22 ; Direction régionale de Liège 21 ; ACIS Asbl 21 ; Ville de Liège - Travaux - Direction des Bâtiments Communaux 20 ; Tournai 19 ; Direction générale des Infrastructures et du Développement Durable 18
+
+## Zone BXL
+Lots : 210 ; résultats : {'selec-w': 191, 'clos-nw': 17, 'open-nw': 2} ; part infructueux (clos-nw) = 17/210 = 8%
+Offres reçues (lots attribués, n=190) : médiane 2.0 ; répartition {'1': 55, '2': 60, '3-4': 47, '5+': 28} ; offre unique = 29%
+Montant retenu (n=180) : médiane 86,310 € ; Q1 30,914 € ; Q3 227,698 € ; total 163,694,381 €
+Tranches : < 30 k€ 44 (24%) ; 30-143 k€ 72 (40%) ; 143-750 k€ 44 (24%) ; > 750 k€ 20 (11%)
+  < 30 k€ : offres reçues médiane 2.0 (n=44), offre unique 32%
+  30-143 k€ : offres reçues médiane 2.0 (n=71), offre unique 37%
+  143-750 k€ : offres reçues médiane 3.0 (n=44), offre unique 23%
+  > 750 k€ : offres reçues médiane 3.0 (n=20), offre unique 25%
+Écart offre haute / offre basse (lots ≥ 2 offres, n=77) : médiane 16%
+Montant attribué / estimation (n=42) : médiane 0.95
+Gagnant identifié : 191/191 lots ; gagnants distincts : 134
+Part des 10 premiers gagnants dans les lots identifiés : 27%
+Gagnants avec code postal en Hainaut : 7/150 = 5%
+Taille déclarée des gagnants : {'medium': 16, 'large': 27, 'small': 11, 'sme': 4, 'sme | sme': 2, 'micro': 5, 'large | large | large': 1} (n=66)
+Acheteurs principaux : Régie des Bâtiments - Région Bruxelles 20 ; Anderlecht 18 ; Evere 16 ; Société du Logement de la Région de Bruxelles-Capitale 15 ; Uccle 8 ; Direction régionale de Bruxelles 8 ; Patrimoine Public 7 ; CPAS Bruxelles 7
+
+## Zone HAINAUT
+Lots : 286 ; résultats : {'selec-w': 256, 'clos-nw': 27, '': 1, 'open-nw': 2} ; part infructueux (clos-nw) = 27/286 = 9%
+Offres reçues (lots attribués, n=255) : médiane 2.0 ; répartition {'1': 77, '2': 77, '3-4': 66, '5+': 35} ; offre unique = 30%
+Montant retenu (n=241) : médiane 91,499 € ; Q1 37,966 € ; Q3 312,809 € ; total 145,930,233 €
+Tranches : < 30 k€ 52 (22%) ; 30-143 k€ 98 (41%) ; 143-750 k€ 61 (25%) ; > 750 k€ 30 (12%)
+  < 30 k€ : offres reçues médiane 2.0 (n=52), offre unique 35%
+  30-143 k€ : offres reçues médiane 2.0 (n=98), offre unique 43%
+  143-750 k€ : offres reçues médiane 3.0 (n=61), offre unique 16%
+  > 750 k€ : offres reçues médiane 3.0 (n=29), offre unique 14%
+Écart offre haute / offre basse (lots ≥ 2 offres, n=157) : médiane 18%
+Montant attribué / estimation (n=22) : médiane 0.97
+Gagnant identifié : 256/256 lots ; gagnants distincts : 168
+Part des 10 premiers gagnants dans les lots identifiés : 20%
+Gagnants avec code postal en Hainaut : 138/236 = 58%
+Taille déclarée des gagnants : {'large': 67, 'micro': 1, 'sme': 15, 'small': 22, 'medium': 14, 'large | large': 1} (n=120)
+Acheteurs principaux : Hainaut Gestion du Patrimoine 22 ; Tournai 19 ; Igretec 16 ; Comines-Warneton 13 ; Estaimpuis 13 ; Saint-Ghislain 12 ; Intercommunale de Gestion de l'Environnement 9 ; Infrabel Projects South 8
+
+## Zone CHARLEROI
+Lots : 98 ; résultats : {'selec-w': 84, 'clos-nw': 13, '': 1} ; part infructueux (clos-nw) = 13/98 = 13%
+Offres reçues (lots attribués, n=83) : médiane 2.0 ; répartition {'1': 32, '2': 13, '3-4': 23, '5+': 15} ; offre unique = 39%
+Montant retenu (n=76) : médiane 97,936 € ; Q1 28,721 € ; Q3 528,624 € ; total 88,447,706 €
+Tranches : < 30 k€ 19 (25%) ; 30-143 k€ 25 (33%) ; 143-750 k€ 17 (22%) ; > 750 k€ 15 (20%)
+  < 30 k€ : offres reçues médiane 2.0 (n=19), offre unique 47%
+  30-143 k€ : offres reçues médiane 1.0 (n=25), offre unique 56%
+  143-750 k€ : offres reçues médiane 3.0 (n=17), offre unique 18%
+  > 750 k€ : offres reçues médiane 4.0 (n=14), offre unique 21%
+Écart offre haute / offre basse (lots ≥ 2 offres, n=42) : médiane 16%
+Montant attribué / estimation (n=5) : médiane 0.95
+Gagnant identifié : 84/84 lots ; gagnants distincts : 65
+Part des 10 premiers gagnants dans les lots identifiés : 33%
+Gagnants avec code postal en Hainaut : 39/79 = 49%
+Taille déclarée des gagnants : {'large': 18, 'medium': 5, 'large | large': 1, 'sme': 9, 'small': 1} (n=34)
+Acheteurs principaux : Igretec 16 ; CPAS de Courcelles 6 ; Direction régionale du Hainaut 6 ; Infrabel Projects South 5 ; Charleroi 5 ; Hainaut Gestion du Patrimoine 5 ; A Chacun Son Logis SRL 4 ; Institut National des radioéléments 4
