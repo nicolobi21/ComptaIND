@@ -481,6 +481,32 @@ Volume (population, 36 mois) : 53 mises en concurrence « profil », soit ≈ 18
 - La compétition sur la bureautique générique est probablement plus forte que sur les logiciels du bâtiment (CADWORK, scanner 3D sans offre en Hainaut), mais ces derniers exigent une vraie expertise.
 - Rien ne garantit un gain : ce plan teste l'hypothèse pour un coût faible, il ne promet pas de revenu.
 
+## Architecture — avis publiés ces deux derniers mois (26/08/2026 → 26/10/2026)
+
+Demande : nombre de projets « tombés » pour un architecte depuis 2 mois.
+Mesure (S053) : avis de **mise en concurrence** pour des missions d'architecture de **bâtiment**, dont la **1re publication** tombe dans la fenêtre. La règle est dans `analysis/archi_2mois.py`, corrigée deux fois après contrôle des titres. La liste complète est dans `analysis/archi/archi_2mois.csv`.
+
+| Périmètre | Mises en concurrence | Dont Hainaut | Encore ouvertes après le 26/10 |
+|---|---|---|---|
+| Belgique, toutes langues | 104 | 9 | — |
+| Publiées en français (Wallonie + Bruxelles) | **29** (août 5, septembre 11, octobre 13) | 9 | 17 |
+| Néerlandais seul | 74 | — | — |
+
+Avis encore ouverts en Hainaut au 26/10/2026 :
+- Mons (programmation culturelle et architecturale), échéance 03/11 ;
+- Ellezelles (mission complète d'auteur de projet), 16/11 ;
+- Soignies (transformation d'un bâtiment), 20/11 ;
+- CRP Les Marronniers (audit et analyse des besoins), 10/12.
+
+Attributions publiées dans la même fenêtre : 51 en français, 70 en néerlandais.
+
+Limites :
+- les missions confiées **sans publication** et les marchés de moins de 30 000 € HTVA n'apparaissent pas comme appels (S047) ;
+- les espaces publics et voiries sont exclus, car classés en génie civil ;
+- la région est déduite de la langue de publication, parce que le code NUTS déclaré est parfois faux.
+
+Concurrence passée (S048, 11 à 15 lots par groupe : intervalles très larges) : part des lots à 0-1 offre de 9 % pour « services d'architecte pour les bâtiments » (CPV 7122) et de 27 % pour le CPV général 7100. C'est un indice d'une concurrence plus forte qu'en électricité, pas une mesure précise.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 

@@ -1,7 +1,8 @@
 """Téléchargement compact des publications publicprocurement.be (voir bosa_api.py).
 Usage : python3 bosa_fetch.py '<filtres JSON>' sortie.jsonl
 Champs conservés : date, nature, sous-type d'avis, CPV principal, NUTS, organisme, type de procédure,
-agréations exigées (catégorie/classe), titre FR/NL, nombre de lots, publié aussi sur TED.
+agréations exigées (catégorie/classe), titre FR/NL, nombre de lots, publié aussi sur TED, langues de publication, date de 1re publication
+(« date » = date de la dernière version publiée, rectificatifs compris).
 """
 import json, sys
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
@@ -21,7 +22,7 @@ def compact(p):
             "org_id": (p.get("organisation") or {}).get("organisationId"),
             "procedure": d.get("procurementProcedureType"), "technique": d.get("specialPurchasingTechnique"),
             "accreditations": d.get("accreditations"), "titre": txt(d.get("titles")), "n_lots": len(p.get("lots") or []),
-            "ted": p.get("tedPublished"), "ref": p.get("referenceNumber"), "deadline": p.get("vaultSubmissionDeadline"),
+            "ted": p.get("tedPublished"), "ref": p.get("referenceNumber"), "deadline": p.get("vaultSubmissionDeadline"), "langues": p.get("publicationLanguages"), "premiere_publication": min(p.get("publishedAt") or [""])[:10],
             "workspace_id": p.get("publicationWorkspaceId"), "notice_ids": p.get("noticeIds")}
 
 if __name__ == "__main__":
