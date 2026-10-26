@@ -295,6 +295,58 @@ Onze sociétés domiciliées en Hainaut, 3 derniers exercices. Détail : `analys
 - **Marge brute par ETP des PME d'électricité** : de 54 237 € (AES) à 101 897 € (IMCE).
 - **Taille des acteurs** : les marchés électricité sont gagnés à la fois par des **PME locales de 3 à 25 ETP** et par des **groupes de 100 à 800 ETP**, pour qui ces marchés pèsent peu (0,4 à 3,7 % du CA, sauf Sotrelco 15 %).
 
+## Dossier — Créer une entreprise d'électricité orientée détection incendie / alarme / contrôle d'accès (Hainaut)
+Statut : **À TESTER**. Il y a des preuves d'achat public, mais aucune preuve qu'une nouvelle entreprise puisse gagner des marchés ou être rentable.
+
+### 1. Taille du marché public de ce segment (S042, 36 mois)
+| Zone | Lots | Montant retenu cumulé | Par an | Médiane par lot | Gagnants distincts | Dont détection incendie |
+|---|---|---|---|---|---|---|
+| Hainaut | 55 | 6 088 993 € | **≈ 2,03 M€** | 30 210 € | 26 | 44 lots |
+| Arr. Charleroi | 13 | 1 114 827 € | ≈ 0,37 M€ | 31 109 € | 6 | 10 lots |
+| Wallonie | 120 | 21 913 610 € | ≈ 7,30 M€ | 45 897 € | 61 | 91 lots |
+
+C'est un **petit marché public**, dominé par la **détection incendie** (80 % des lots en Hainaut).
+
+### 2. Conditions pour exercer (checklist, textes cités)
+| Obligation | Ce que dit la source | Statut |
+|---|---|---|
+| Accès à la profession « électrotechnique » (Wallonie) | Toujours soumise à preuve de compétences professionnelles ; la « gestion de base » est supprimée depuis le 01/10/2025 (UCM, S046) | **Bloquant pour toi seul** (tu n'es pas électricien). Selon une FAQ UCM non vérifiée au SPW, la preuve peut venir d'un salarié CDI temps plein ou d'un administrateur |
+| Autorisation « entreprise de systèmes d'alarme » (SPF Intérieur) | 1 000 € de frais ; rapport de contrôle de l'équipement par un organisme accrédité ; 3 formations (dirigeant, conception, installation) de 45 h chacune, obligatoirement présentes dans l'entreprise (S045, S045b) | Obligatoire pour l'intrusion. **Je ne sais pas** si la détection incendie seule est couverte |
+| Agréation d'entrepreneur (P1, classe 1+) | Exigée dans une partie des marchés (classes 1 à 5 dans les cahiers lus) ; 56 % des appels d'offres de travaux n'en exigent pas (S040) | Conditions d'obtention et plafonds : **je ne sais pas** (site du SPF Économie bloqué) |
+| Certifications demandées par les acheteurs | BOSEC cité dans 3 cahiers sur 17, INCERT dans 3 sur 17, RGIE dans 14 sur 17 (S043) | Coût et délai d'obtention : je ne sais pas |
+| Statut TVA | Sortie probable de la franchise dès le premier chantier public moyen (30 k€) ; facture électronique obligatoire entre assujettis (S025) | À anticiper |
+
+### 3. Compte d'exploitation type (script `analysis/bp_elec_securite.py`, sortie `analysis/elec/bp_elec_securite_sortie.txt`)
+Fondé **uniquement** sur les ratios des 5 PME électricité concurrentes (S044), et non sur des hypothèses de prix.
+- Marge brute par ETP : min 54 237 €, médiane **73 693 €**, max 101 897 €.
+- Résultat / marge brute : min 2,4 %, médiane **5,1 %**, max 14,7 %.
+- Marchés publics gagnés / marge brute (« intensité publique ») : 21 % à 36 %, médiane 28 %. **Même les PME les plus présentes sur les marchés publics en tirent une minorité de leur activité** : le reste vient de clients privés.
+
+| Scénario (3 ETP) | Marge brute | Résultat de l'exercice | Marchés publics à gagner par an | Part du marché public Hainaut |
+|---|---|---|---|---|
+| Prudent | 3 × 54 237 = 162 710 € | × 2,4 % = 3 908 € | 44 754 € (≈ 1,5 lot médian) | 2,2 % |
+| Médian | 3 × 73 693 = 221 080 € | × 5,1 % = 11 281 € | 60 809 € (≈ 2 lots) | 3,0 % |
+| Favorable | 3 × 101 897 = 305 691 € | × 14,7 % = 44 802 € | 84 082 € (≈ 3 lots) | 4,1 % |
+
+Le résultat de l'exercice s'entend **après** rémunération des dirigeants comptabilisée en charges : on ne peut pas savoir, avec les comptes abrégés, combien les dirigeants de ces PME se versent.
+
+### 4. Avocat du diable
+1. **Le marché public est petit** : environ 2 M€ par an en Hainaut, partagés entre 26 entreprises. Même le scénario favorable demande de gagner chaque année 3 % à 4 % de ce marché, sans aucune référence au départ.
+2. **Ce n'est pas une activité de marchés publics** : les PME existantes réalisent environ 70 % de leur activité hors marchés publics (intensité médiane 28 %). Il faut donc une clientèle privée, qui n'est pas mesurée ici.
+3. **Marges faibles et dépendance à des techniciens en pénurie** (Forem, S037). L'accès à la profession impose d'avoir dans l'entreprise une personne aux compétences reconnues.
+4. **Barrières réglementaires cumulées** : accès à la profession, autorisation du SPF Intérieur avec trois formations, agréation, certifications BOSEC/INCERT. Le coût total et les délais sont inconnus.
+5. **Ce qui invaliderait la piste** :
+   - l'accès à la profession impossible sans associé électricien ;
+   - un coût de démarrage dépassant largement ton budget de 10 000 € ;
+   - aucun client privé identifiable autour de Charleroi.
+
+### 5. Ce qu'il faudrait pour lever les inconnues
+- SPW Économie / Jury central : modalités exactes de l'accès à la profession « électrotechnique » via un préposé.
+- SPF Intérieur : champ exact de l'autorisation (incendie seul ? contrôle d'accès ? caméras ?) ; organismes de formation et leur coût.
+- SPF Économie : conditions de l'agréation P1 classe 1.
+- BOSEC / INCERT : conditions de certification.
+- Devis : véhicule, outillage, assurance RC, stock de démonstration.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
