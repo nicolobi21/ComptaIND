@@ -169,6 +169,35 @@ Profil retenu : B2B, démonstrations chez des professionnels, base Charleroi ave
   - (b) **critères mesurés seulement** (demande, tendance, concurrence, réglementaire) → **vêtements professionnels 3,38**, QAI 3,23, caisses 3,23, cuisine 2,92.
 - **Lecture** : la 1re place de la qualité de l'air dépend de mes hypothèses (marge et adéquation). Sur les seules données mesurées, les vêtements professionnels passent devant. Confiance : **faible à moyenne**.
 
+## Exploration — Marchés publics belges et création d'entreprise (26/10/2026)
+Profil complémentaire : ingénieur de gestion, intérêt pour le bâtiment.
+
+### Accès aux données
+| Source | Accès | Couverture |
+|---|---|---|
+| TED (API officielle de l'UE, sans compte) | Utilisé (S036) | Avis belges publiés au niveau européen, surtout au-dessus des seuils européens |
+| publicprocurement.be (plateforme belge, SPF BOSA) | Application JavaScript ; API **interne non documentée** (S038). **Non interrogée** | Tous les marchés belges, y compris les petits |
+| SPF Économie (agréation des entrepreneurs) | Contrôle anti-robot | — |
+
+### Matériel : besoins les plus fréquents (avis de marché de fournitures, Bruxelles + Wallonie, 36 mois)
+Logiciels 365 · produits pharmaceutiques 266 · matériel médical 233 · équipements médicaux 233 · laboratoire 171 · énergie 153 · alimentation 132 · véhicules 124 · informatique 118 · **mobilier 116** · utilitaires 111 · **vêtements professionnels 98** · … · extincteurs 43. Hainaut : logiciels 49, médical 37, alimentation 36, informatique 32. Détail : `analysis/mp_supplies_cpv5_*.csv`. La valeur estimée médiane, quand elle est renseignée, se compte en centaines de milliers d'euros, voire en millions.
+
+### Travaux : corps de métier (avis de marché, Bruxelles + Wallonie, 36 mois)
+| CPV | Travaux | Avis de marché A1 → A2 → A3 | Valeur attribuée médiane | Offres reçues (médiane) |
+|---|---|---|---|---|
+| 45000 | Construction (général) | 559 → 417 → 438 | 7,1 M€ | 3 |
+| 45310 | **Équipement électrique** | **12 → 19 → 32** | 5,8 M€ | **2** |
+| 45331 | Chauffage, ventilation, climatisation | 17 → 7 → 9 | 10,7 M€ | 4 |
+| 45400 | Parachèvement | 22 → 24 → 10 | 2,3 M€ | 3 |
+| 45261 | Couverture panneaux solaires | 9 → 8 → 3 | 6,6 M€ | 4,5 |
+| 45111 | Démolition | 2 → 4 → 23 | 5,6 M€ | 12 |
+Détail : `analysis/mp_works_cpv5_*.csv`.
+
+**Lecture** : sur TED, les travaux sont de **gros chantiers**, réservés à des entreprises agréées de classes élevées. Les plafonds de classe (classe 1 jusqu'à 135 000 €, classe 7 jusqu'à 5 330 000 €) ne viennent que d'une source secondaire (S039, ESTIMÉ ; montants peut-être modifiés au 01/06/2024). Les petits marchés accessibles à une jeune entreprise ne sont **pas** sur TED : il faut les données de publicprocurement.be.
+
+### Main-d'œuvre qualifiée (Forem, liste 2026, S037)
+Sont en pénurie en Wallonie, entre autres : installateur électricien, monteur-électricien, monteur en chauffage-sanitaire-ventilation, techniciens HVAC, frigoriste et brûleurs, couvreur, maçon, plafonneur, carreleur, peintre-décorateur, menuisier, isolateur. Proches d'un profil ingénieur de gestion : **métreur, conducteur de chantier, chef de chantier, évaluateur énergétique (PEB, audit), responsable PEB**.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
