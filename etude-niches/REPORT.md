@@ -1,6 +1,6 @@
 # Étude de niches e-commerce — rapport
 
-> État : **Phase 1-bis B2B terminée** (26/10/2026). **Réorientation : B2B seul**, vente par démonstration chez des professionnels, Belgique francophone. La Phase 1 B2C ci-dessous est conservée pour mémoire. Phase 2 en attente de ton « OK ».
+> État : **Phase 2 B2B terminée** (26/10/2026) ; Phase 3 en attente de ton « OK » et de ton choix du top 3. **Réorientation : B2B seul**, vente par démonstration chez des professionnels, Belgique francophone. La Phase 1 B2C ci-dessous est conservée pour mémoire. Phase 2 en attente de ton « OK ».
 > Toutes les sources sont dans `sources.csv` ; les extraits bruts dans `sources/` ; les calculs dans `analysis/`.
 
 ## 1. Résumé
@@ -134,8 +134,40 @@ Les autres pistes gardées (vêtements professionnels, fontaines à eau, cuisine
 2. **Statut DEEE pour l'électronique** (B01, B02, B05, B06, B07). Si tu achètes à un distributeur belge, tu es « distributeur ». Si tu achètes dans un autre État membre ou hors UE et que tu revends en Belgique, tu deviens « producteur », avec des obligations d'enregistrement (directive 2012/19/UE, art. 3, 1, f) iii et g ; S015).
 3. **Sites bloqués** : Statbel (captcha) et Justel (requêtes rejetées). Je ne connais donc pas le **nombre d'entreprises cibles** par secteur en Wallonie et à Bruxelles, et je n'ai pas lu le texte consolidé des lois belges.
 
-## 3. Tableau de scoring
-_Phase 2._
+## 3. Tableau de scoring (Phase 2 — B2B, 26/10/2026)
+Profil retenu : B2B, démonstrations chez des professionnels, base Charleroi avec voiture, budget 10 000 €, service accepté, passage à l'assujettissement TVA possible.
+
+### Présélection des 10 pistes (sur 21)
+Écartées avant notation : B11 présentoirs (volumineux), B13 jetables restauration et B18 supports visuels (petit ticket), B14 matériel informatique (concurrence massive, aucun signal spécifique), B15 stores (sur mesure + pose), B16 imprimés (sous-traitance), B19-B21 (aucune preuve d'achat professionnel). B01, B02 et B03 sont fusionnées en une seule piste « QAI », pour que le top 3 contienne trois pistes distinctes.
+
+### Méthode
+- Script `analysis/scoring_b2b.py` : notes, justifications et échelles définies **avant** la notation (en-tête du script). Sortie : `scoring.csv`.
+- Score = Σ (note × poids). Exemple pour QAI : 3×0,25 + 4×0,15 + 3×0,15 + 4×0,20 + 3×0,10 + 5×0,15 = **3,65**.
+- Demande et tendance : recherche plein texte TED FR+NL sur 36 mois (S035). J'ai contrôlé un échantillon de 6 avis par piste pour mesurer la part d'avis réellement pertinents (« précision »). Attributions estimées = attributions Wallonie+Bruxelles × précision.
+- **Marge : HYPOTHÈSE.** Aucun prix de gros public n'est accessible (Alibaba ne renvoie rien) ; il faut des devis (Phase 3).
+- **Adéquation : HYPOTHÈSE motivée** (IT, démonstration, voiture, budget).
+
+### Résultats
+| Rang | Piste | Demande | Tendance | Concurrence | Marge (H) | Régl./logist. | Adéquation (H) | **Score** | Statut |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Qualité de l'air intérieur (CO2-mètres + purificateurs + mise en place) | 3 | 4 | 3 | 4 | 3 | 5 | **3,65** | À TESTER (aucune preuve d'achat) |
+| 2 | Systèmes de caisse pour l'horeca | 4 | 3 | 3 | 3 | 2 | 4 | **3,30** | Gardée |
+| 3 ex æquo | Réseaux Wi-Fi pour PME | 2 | 3 | 3 | 4 | 3 | 4 | **3,10** | Gardée |
+| 3 ex æquo | Vêtements professionnels personnalisés | 4 | 3 | 3 | 3 | 3 | 2 | **3,10** | Gardée |
+| 5 | Boîtes de secours | 3 | 3 | 2 | 2 | 4 | 2 | 2,60 | |
+| 6 | Écrans interactifs | 2 | 2 | 2 | 3 | 2 | 4 | 2,50 | |
+| 6 | Fontaines à eau | 2 | 3 | 3 | 3 | 2 | 2 | 2,50 | |
+| 8 | Cuisine professionnelle | 3 | 4 | 3 | 2 | 1 | 1 | 2,45 | |
+| 9 | Éclairage LED | 2 | 2 | 3 | 3 | 2 | 2 | 2,35 | |
+| 10 | Mobilier ergonomique | 2 | 3 | 2 | 2 | 2 | 2 | 2,15 | |
+(H) = HYPOTHÈSE. Justification et source de chaque note : `scoring.csv`.
+
+### Sensibilité
+- **±20 % sur chaque poids** (12 scénarios, poids renormalisés) : QAI reste n° 1 et les caisses n° 2 dans **12 scénarios sur 12**. La 3e place alterne entre Wi-Fi et vêtements professionnels (changement dans 3 scénarios sur 12 : demande ×1,2, marge ×0,8, adéquation ×0,8).
+- **Robustesse aux hypothèses** :
+  - (a) marge neutralisée à 3 pour toutes les pistes → QAI 3,45, caisses 3,30, vêtements 3,10, Wi-Fi 2,90 ;
+  - (b) **critères mesurés seulement** (demande, tendance, concurrence, réglementaire) → **vêtements professionnels 3,38**, QAI 3,23, caisses 3,23, cuisine 2,92.
+- **Lecture** : la 1re place de la qualité de l'air dépend de mes hypothèses (marge et adéquation). Sur les seules données mesurées, les vêtements professionnels passent devant. Confiance : **faible à moyenne**.
 
 ## 4. Dossiers du top 3
 _Phase 3._
