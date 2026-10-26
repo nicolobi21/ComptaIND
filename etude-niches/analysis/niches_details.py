@@ -18,7 +18,7 @@ if __name__ == "__main__":
     sel = {}
     for f in sorted(glob.glob(pref + "_N*.json")):
         k = os.path.basename(f)[len(os.path.basename(pref)) + 1:-5]
-        aw = [n for n in json.load(open(f)) if n["subtype"] in AWARD and n.get("workspace_id")]
+        aw = sorted((n for n in json.load(open(f)) if n["subtype"] in AWARD and n.get("workspace_id")), key=lambda n: n["ref"])
         if len(aw) > n_max: aw = random.Random(2026).sample(aw, n_max)
         sel[k] = aw
         print(k, len(aw), flush=True)

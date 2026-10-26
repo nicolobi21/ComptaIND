@@ -9,11 +9,15 @@ Valeur annuelle ESTIMÉE = (somme des montants retenus de l'échantillon / avis 
 × avis d'attribution de la population par an. Les montants d'accords-cadres sont des maxima ou des estimations.
 Usage : python3 -I niches_analyse.py dossier_details prefixe_pop dossier_sortie
 """
-import collections, csv, gzip, json, os, statistics, sys
+import collections, csv, gzip, json, os, re, statistics, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from eforms_parse import parse
 from niches_concurrence import wilson
 from niches_population import AWARD
+
+def sous_niche(k, titre):  # N4 : l'impression demande une presse ou de la sous-traitance, la conception non
+    if not k.startswith("N4"): return ""
+    return "N4a_impression" if re.search(r"impression|imprim|routage|\bdruk", (titre or "").lower()) else "N4b_conception_graphique"
 
 def mode(proc):  # code national de procédure publicprocurement.be (champ « procedure » de la recherche)
     proc = proc or ""
@@ -40,17 +44,18 @@ if __name__ == "__main__":
             for r in rows:
                 r.update({"niche": k, "workspace_id": meta["workspace_id"], "date": meta.get("date"), "acheteur": meta.get("org"),
                           "hainaut": any(c.startswith("BE32") for c in meta.get("nuts") or []), "mode": mode(meta.get("procedure")),
-                          "titre_avis": meta.get("titre"), "procedure_nationale": meta.get("procedure")})
+                          "titre_avis": meta.get("titre"), "sous_niche": sous_niche(k, meta.get("titre")), "procedure_nationale": meta.get("procedure")})
                 lots.append(r)
-    fields = ["niche", "mode", "workspace_id", "date", "acheteur", "hainaut", "titre_avis", "lot", "resultat", "offres_recues",
+    fields = ["niche", "sous_niche", "mode", "workspace_id", "date", "acheteur", "hainaut", "titre_avis", "lot", "resultat", "offres_recues",
               "montant_retenu", "offre_basse", "offre_haute", "gagnant", "gagnant_cp", "gagnant_taille", "procedure", "procedure_nationale", "cpv"]
     with open(os.path.join(dst, "niches_lots.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore"); w.writeheader(); w.writerows(lots)
     pop_aw = {k: sum(1 for n in json.load(open(f"{pref}_{k}.json")) if n["subtype"] in AWARD) for k in sel}
     out = []
-    for k in sel:
-        for m in ["toutes", "publiée", "sans publication"]:
-            R = [r for r in lots if r["niche"] == k and (m == "toutes" or r["mode"] == m)]
+    groupes = [(k, m) for k in sel for m in ["toutes", "publiée", "sans publication"]]
+    groupes += [(sn, "toutes") for sn in sorted({r["sous_niche"] for r in lots if r["sous_niche"]})]
+    for k, m in groupes:
+            R = [r for r in lots if (r["niche"] == k or r["sous_niche"] == k) and (m == "toutes" or r["mode"] == m)]
             off = [r["offres_recues"] for r in R if r["offres_recues"] is not None]
             z, u = sum(1 for o in off if o == 0), sum(1 for o in off if o == 1)
             lo, hi = wilson(z + u, len(off))
@@ -64,7 +69,7 @@ if __name__ == "__main__":
                    "montant_median_eur": round(statistics.median(mt)) if mt else "", "lots_avec_montant": len(mt),
                    "pct_lots_hainaut": round(100 * sum(1 for r in R if r["hainaut"]) / len(R)) if R else "",
                    "gagnants_distincts": len(gw), "top_gagnants": " ; ".join(f"{g} ({c})" for g, c in gw.most_common(5))}
-            if m == "toutes":
+            if m == "toutes" and k in sel:
                 a, s = avis_mt[k]
                 row["attributions_population_par_an"] = round(pop_aw[k] / 3)
                 row["valeur_annuelle_estimee_eur"] = round(s / a * pop_aw[k] / 3) if a else ""

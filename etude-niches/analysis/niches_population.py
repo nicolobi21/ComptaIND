@@ -1,9 +1,12 @@
 """Volume des niches candidates sur toute la population publicprocurement.be (Wallonie + Bruxelles, 36 mois).
 
 Définitions (règles de sélection fixées avant comptage) :
-- N1 Maintenance/gestion informatique des pouvoirs locaux : nature SERVICES et titre contenant parc informatique,
-  infrastructure informatique, réseau informatique, maintenance informatique, support informatique, helpdesk,
-  infogérance, gestion du réseau ; EXCLUSION des titres citant copieur/photocopieur/multifonction/imprimante/licence.
+- N1 Support et gestion d'infrastructure informatique : nature SERVICES, CPV principal 72* ou 5031*, titre contenant
+  support/assistance/helpdesk/infogérance/parc informatique/infrastructure/réseau/serveur/administration des systèmes/
+  gestion informatique/maintenance informatique ; EXCLUSION des titres citant copieur/multifonction/imprimante/licence/
+  logiciel/application/solution/plateforme/site internet/développement/consultance/étude/renouvellement (maintenance
+  d'un produit d'éditeur = exclusivité). Règle corrigée après contrôle des titres : la 1re version (mots du titre seuls)
+  prenait « maintenance du parc d'extincteurs » et du gardiennage ; une 2e (CPV seul) prenait la maintenance applicative.
 - N2 Formations : CPV principal 80* (services d'enseignement et de formation), hors permis de conduire / auto-école.
 - N3 Fournitures de matériaux pour régies et sociétés de logement : nature SUPPLIES, CPV 441*-444* ou titre contenant
   matériaux, quincaillerie, menuiserie, bois, plomberie, sanitaire, visserie, outillage ; titre contenant aussi
@@ -17,7 +20,7 @@ import glob, json, os, re, sys, collections
 COMP = {str(i) for i in range(10, 25)} | {"E3", "BE-E3"}
 AWARD = {str(i) for i in range(25, 41)} | {"E4", "BE-E4", "E5", "E6"}
 RULES = {
- "N1_informatique_pouvoirs_locaux": lambda n, t: "SERVICES" in (n.get("natures") or []) and re.search(r"parc informatique|infrastructure informatique|réseau informatique|maintenance informatique|support informatique|helpdesk|infogérance|gestion du réseau|maintenance du parc", t) and not re.search(r"copieur|multifonction|imprimante|licence", t),
+ "N1_informatique_pouvoirs_locaux": lambda n, t: "SERVICES" in (n.get("natures") or []) and re.match(r"72|5031", n.get("cpv") or "") and re.search(r"support|assistance|helpdesk|infogérance|parc informatique|infrastructure|réseau|serveur|administration (des )?systèmes|gestion informatique|maintenance informatique", t) and not re.search(r"copieur|multifonction|imprimante|licence|logiciel|applicati|solution|plateforme|site (internet|web)|développement|consultance|étude|renouvellement", t),
  "N2_formations": lambda n, t: (n.get("cpv") or "").startswith("80") and not re.search(r"permis|auto-école|conduite", t),
  "N3_materiaux_regies_logement": lambda n, t: "SUPPLIES" in (n.get("natures") or []) and (re.match(r"44[1-4]", n.get("cpv") or "") or re.search(r"matériaux|quincaillerie|menuiserie|\bbois\b|plomberie|sanitaire|visserie|outillage", t)) and re.search(r"stock|accord.cadre|fourniture|matériaux", t),
  "N4_graphisme_communication": lambda n, t: re.match(r"798[12]", n.get("cpv") or "") or re.search(r"\bgraphisme|\bgraphique|mise en page|bulletin communal|bulletin d.information", t),
