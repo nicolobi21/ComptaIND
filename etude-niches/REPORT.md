@@ -198,6 +198,28 @@ Détail : `analysis/mp_works_cpv5_*.csv`.
 ### Main-d'œuvre qualifiée (Forem, liste 2026, S037)
 Sont en pénurie en Wallonie, entre autres : installateur électricien, monteur-électricien, monteur en chauffage-sanitaire-ventilation, techniciens HVAC, frigoriste et brûleurs, couvreur, maçon, plafonneur, carreleur, peintre-décorateur, menuisier, isolateur. Proches d'un profil ingénieur de gestion : **métreur, conducteur de chantier, chef de chantier, évaluateur énergétique (PEB, audit), responsable PEB**.
 
+### Données nationales publicprocurement.be (S040, usage de l'API autorisé le 26/10/2026)
+Périmètre : Wallonie + Bruxelles, publications du 26/10/2023 au 25/10/2026, références uniques. Cela fait **23 817 publications de travaux** (12 464 mises en concurrence, 11 319 attributions) et **22 023 de fournitures** (8 917 mises en concurrence). Pour comparaison, TED ne contenait que 7 906 avis de travaux pour toute la Belgique : la plateforme belge contient bien les petits marchés.
+
+**Tendance générale** : les mises en concurrence de travaux passent de 4 876 (A1) à 3 834 (A2) puis 3 754 (A3), soit **−23 %**. La cause n'est pas étudiée.
+
+**Travaux : sous-catégories d'agréation exigées** (mises en concurrence, Wallonie + Bruxelles, 36 mois ; `analysis/bosa/travaux_agreations_*.csv`, libellés S041)
+| Code | Métier | Avis | A1 → A3 | Classe médiane | Avis en classes 1-2 | Zone Charleroi (BE32B) |
+|---|---|---|---|---|---|---|
+| P1 | Électricité des bâtiments | 479 | 178 → 151 (−15 %) | 2 | 75 % | 28 |
+| D17 | Chauffage central, installations thermiques | 307 | **86 → 116 (+35 %)** | 2 | 66 % | 21 |
+| D1 | Gros œuvre | 286 | 103 → 89 | 2 | 51 % | 17 |
+| D5 | Menuiserie bois | 240 | 91 → 63 (−31 %) | 2 | 63 % | 20 |
+| D18 | Ventilation, climatisation | 229 | 75 → 78 (+4 %) | 2 | 64 % | 17 |
+| D16 | Sanitaire, chauffage gaz individuel | 192 | 65 → 62 | 2 | 66 % | 19 |
+| D8 / D12 | Toitures | 151 / 115 | stable / en baisse | 2 | 67-70 % | 16 / 8 |
+| D (général) | Entreprise générale de bâtiments | 1 691 | 646 → 458 | 4 | 32 % | 136 |
+
+- **56 %** des mises en concurrence de travaux (58 % autour de Charleroi) n'exigent **aucune agréation** dans les données de recherche. Ce sont probablement de petits marchés, mais ce n'est pas vérifié.
+- **Plus gros acheteurs de travaux, arrondissement de Charleroi** (36 mois) : Igretec 99, Infrabel 59, Ville de Charleroi 53, SPW Routes de Charleroi 51, Fonds du Logement de Wallonie 46, OTW 41, Sambre & Biesme 33, Logis Châtelettain 25, … Plusieurs sont des **sociétés de logement social**.
+- **Fournitures** (mises en concurrence, Wallonie + Bruxelles) : logiciels 340, laboratoire 225, pharmacie 211, utilitaires 168, matériel médical 154, véhicules 153, … vêtements professionnels 72, matériel de plomberie et chauffage 60.
+- **Limites** : les résultats de recherche ne donnent ni montants, ni gagnants, ni nombre d'offres. Ces informations sont dans le détail des avis, non téléchargés à ce stade. L'interprétation des codes de procédure en montants n'est pas vérifiée (Justel bloqué).
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
