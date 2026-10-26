@@ -347,6 +347,98 @@ Le résultat de l'exercice s'entend **après** rémunération des dirigeants com
 - BOSEC / INCERT : conditions de certification.
 - Devis : véhicule, outillage, assurance RC, stock de démonstration.
 
+## Niches de marchés publics qui manquent d'offres (Wallonie + Bruxelles, 26/10/2026)
+
+Question : « chercher des marchés qui manquent d'offre et où il serait possible de se positionner ».
+Indicateur (MESURÉ) : **indice de manque d'offres = part des lots attribués qui ont reçu 0 ou 1 offre**, avec intervalle de confiance Wilson à 90 %.
+Données : 77 466 publications de publicprocurement.be, 26/10/2023-25/10/2026, NUTS BE1 + BE3 (S040). Le détail eForms vient de S048 et S049.
+
+### Méthode, en 3 étapes
+1. **Présélection** : échantillon de 2 400 attributions, 12 par groupe CPV (S048, `analysis/niches/manque_offres_par_cpv.csv`).
+   - Groupes les plus « vides », par exemple : repas scolaires 83 %, réparation de véhicules 85 %, matériaux de construction 70 %, maintenance de matériel informatique 69 %, formation 68 %, mobilier 66 %, entretien de chaudières 65 %.
+   - Les intervalles sont larges (12 avis par groupe).
+2. **Quatre niches retenues** pour leur compatibilité avec ton profil (informatique, gestion, bâtiment, pas de stock lourd). Les règles de sélection, fixées avant comptage, sont dans `analysis/niches_population.py` :
+   - N1 support et gestion d'infrastructure informatique ;
+   - N2 formations ;
+   - N3 matériaux pour régies et logement ;
+   - N4 graphisme et impression.
+
+   Après relecture des titres, deux règles ont été **corrigées** (documenté dans le script) :
+   - « graphique » attrapait « topographique » ;
+   - N1 prenait des extincteurs, puis de la maintenance de logiciels d'éditeurs.
+3. **Mesure** sur le détail des attributions (S049) :
+   - N1 et N4 : population complète ;
+   - N2 et N3 : tirage de 250 avis (graine 2026).
+
+   Chaque niche est découpée par mode de procédure :
+   - **publiée** : tout le monde peut remettre offre ;
+   - **sans publication** : seules les firmes invitées par l'acheteur remettent offre (S047).
+
+### Résultats (MESURÉ ; `analysis/niches/niches_indicateurs.csv`)
+| Niche | Attributions/an (population) | Lots lus | 0-1 offre : toutes [IC90] | publiée | sans publication | Montant médian (P25-P75) | Lots en Hainaut |
+|---|---|---|---|---|---|---|---|
+| N1 support/gestion IT (tous acheteurs) | 60 | 203 | **56 %** [50-62] | 40 % | **70 %** | 131 340 € (60 166-419 620) | 16 % |
+| ↳ N1 **pouvoirs locaux** (communes, CPAS, logement social) | ≈ 12 | 39 | 51 % [38-64] | — | — | 99 415 € (51 006-141 554) | 12 lots |
+| N2 formations | 226 | 767 | **52 %** [49-55] (dont 18 % sans aucune offre) | 45 % | 62 % | 34 353 € (7 612-120 000) | 19 % |
+| N3 matériaux régies/logement | 270 | 437 | **53 %** [49-57] | 46 % | 56 % | 30 017 € (8 600-79 283) | 33 % |
+| N4a impression | — | 191 | 37 % [32-43] | — | — | 36 676 € | 32 % |
+| N4b conception graphique | — | 127 | 38 % [32-46] | — | — | 42 236 € | 19 % |
+
+Calculs :
+- Attributions/an = avis d'attribution sur 36 mois ÷ 3. Par exemple, N1 = 181 ÷ 3 ≈ 60.
+- N1 pouvoirs locaux : 37 avis sur 36 mois ≈ 12/an. Le sous-segment est défini par des règles écrites dans `analysis/niches_n1_local.py` : titre générique sans nom de produit, et acheteur = commune, CPAS, logement social, régie ou intercommunale.
+- Une « valeur annuelle » (somme des montants) a été calculée, puis **écartée** : elle est dominée par quelques accords-cadres géants (par exemple un marché d'assistance informatique de 6,8 M€). La médiane est plus fiable.
+
+**Constat transversal** : dans les 4 niches, le manque d'offres est **plus fort en procédure sans publication** (N1 70 % contre 40 % ; N2 62 % contre 45 % ; N3 56 % contre 46 % ; N4 43 % contre 22 %).
+- Pour un marché de moins de 143 000 € HTVA, l'acheteur « demande une offre aux opérateurs économiques de son choix » (S047).
+- **HYPOTHÈSE** : une partie du manque d'offres vient du fait que l'acheteur invite peu de firmes, pas d'un manque d'entreprises capables. Dans ces marchés, se positionner veut dire **être connu des acheteurs avant qu'ils lancent la consultation**, pas seulement surveiller les avis.
+
+### Deux créneaux concrets compatibles avec ton profil
+
+**1. Support et gestion informatique des pouvoirs locaux** (`analysis/niches/n1_support_it_pouvoirs_locaux.csv`)
+- Exemples d'attributions à **1 seule offre** (S049) :
+  - maintenance du parc informatique d'Antoing (38 880 €) ;
+  - administration du réseau et du parc de Tinlot (33 600 €) et de Verlaine (60 264 €) ;
+  - CPAS de Waterloo (96 840 €) ;
+  - Charleroi Entreprendre (72 710 €) ;
+  - Crématorium de Charleroi (20 500 €) ;
+  - Herve (28 800 €) ;
+  - Libin (55 351 €).
+- Sous 143 k€ : **16 lots sur 23** n'ont reçu qu'une offre au plus.
+- **Qui gagne** : 23 gagnants distincts (25 libellés, dont 2 doublons d'écriture), surtout de **petites sociétés informatiques locales** (BISOFT, INFORIUS, E.S.I. Informatique, Big It, OV Informatique…), dont **une entreprise individuelle**. Les marchés gagnés par Proximus ou Orange sont exclus par construction du filtre (noms d'opérateurs), donc leur poids réel n'est pas mesuré ici.
+- **Adéquation au profil** : forte (informatique). Il faut être proche des clients, ce qui favorise Charleroi et le Hainaut (12 lots en 36 mois).
+
+**2. Formations aux métiers du dessin, du métré et du BIM** (Forem, Bruxelles Formation)
+- Forem, procédure ouverte attribuée le 16/10/2026 (S050) : formation aux logiciels de la construction, 24 lots sur 48 mois.
+  - Seul critère d'attribution : le prix journalier.
+  - **11 lots sans aucune offre** : Scanner 3D (Hainaut, Liège), CADWORK (Hainaut, Liège, Luxembourg), Navisworks (Liège), export CNC bois (Luxembourg).
+  - Les lots Revit/BIM ont reçu 1 ou 2 offres.
+- Forem « Métreur-Deviseur » (S051) : 12 lots à 1 offre ; 6 attribués (3 240 à 10 680 € par lot), **6 infructueux**.
+- Bruxelles Formation, DAO/AutoCAD (S051) : 1 offre, 243 200 €, remportée par un indépendant (personne physique).
+- Récurrence : Bruxelles Formation a lancé 6 marchés de ce type (dessinateur, DAO, AutoCAD/Revit, métreur-deviseur) entre 2024 et 2026. **Aucun n'est ouvert au 26/10/2026** (dernière échéance : 30/09/2026).
+- **Adéquation** : bâtiment + informatique + gestion. Mais il faut **maîtriser réellement** le logiciel enseigné (Revit, CADWORK, scanner 3D) et être crédible comme formateur.
+
+### Classement pour ton profil (jugement, critères explicites)
+| Rang | Créneau | Manque d'offres | Volume | Barrière d'entrée | Adéquation profil |
+|---|---|---|---|---|---|
+| 1 | Support IT pouvoirs locaux | 51 % (16/23 lots < 143 k€) | ≈ 12 avis/an (minimum) | Faible en capital ; références probablement exigées (non vérifié) | Forte |
+| 2 | Formations dessin/métré/BIM | Lots sans offre répétés (S050, S051) | Faible et irrégulier | Expertise logicielle et pédagogique | Moyenne à forte |
+| 3 | Conception graphique (N4b) | 38 % | Faible | Portfolio ; concurrence d'agences | Moyenne |
+| 4 | Matériaux pour régies (N3) | 53 % | ≈ 270 avis/an | Stock, logistique, conditions d'achat de négociant ; gagnants = négociants installés | Faible |
+
+### Avocat du diable
+1. **Une seule offre ne veut pas dire un marché facile.** L'acheteur a pu n'inviter qu'une firme : souvent le prestataire en place, qui connaît déjà le réseau. Changer de prestataire informatique coûte cher à une commune. Le cahier des charges peut exiger des références que tu n'as pas encore.
+2. **Les volumes sont petits.** Environ 12 attributions par an pour le support informatique des pouvoirs locaux visibles sur la plateforme, en Wallonie et à Bruxelles. Le montant médian (≈ 99 k€) couvre **toute la durée** du contrat, et cette durée n'est pas mesurée : le chiffre d'affaires annuel par contrat est inconnu.
+3. **Les marchés de moins de 30 000 € HTVA échappent en grande partie aux données** (régime souple, S047). Il peut y avoir plus d'opportunités que mesuré (HYPOTHÈSE), mais elles ne sont pas visibles sans prospection.
+4. **Erreurs de classement** : les règles par mots-clés laissent du bruit (par exemple un achat de PC dans N4). Les échantillons N2 et N3 font 250 avis : intervalles indiqués.
+5. **Formations** : 11 lots sans offre peuvent aussi signaler un prix journalier plafonné trop bas ou un volume trop faible. Le cahier des charges n'est pas accessible : je ne sais pas.
+
+### « Je ne sais pas » (à lever)
+- Critères de sélection (références, chiffre d'affaires minimum, certifications) et durée des marchés N1 : il faut lire 15 à 20 cahiers des charges de pouvoirs locaux, comme pour l'électricité.
+- Prix journaliers et nombre de jours des marchés de formation du Forem.
+- Nombre minimal d'entreprises qu'un acheteur doit consulter en procédure sans publication.
+- Existence d'une autorisation spécifique pour exercer le support informatique : non recherchée.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 

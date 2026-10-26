@@ -1,0 +1,16 @@
+niche,mode,lots,lots_offres_connues,pct_0_offre,pct_1_offre,indice_manque_offres_pct,ic90_bas,ic90_haut,offres_mediane,pct_infructueux,montant_median_eur,lots_avec_montant,pct_lots_hainaut,gagnants_distincts,top_gagnants,attributions_population_par_an,valeur_annuelle_estimee_eur
+N1_informatique_pouvoirs_locaux,toutes,203,200,2,54,56,50,62,1.0,10,131340,154,16,148,WIN SA (7) ; ORANGE BELGIUM (6) ; Agilytics (3) ; PROXIMUS (3) ; FUJITSU TECHNOLOGY SOLUTIONS (3),60,53192546
+N1_informatique_pouvoirs_locaux,publiée,93,91,3,36,40,32,48,2.0,18,432000,57,19,63,ORANGE BELGIUM (6) ; FUJITSU TECHNOLOGY SOLUTIONS (3) ; Econocom Managed Services (2) ; PROXIMUS (2) ; ICT LINK (2),,
+N1_informatique_pouvoirs_locaux,sans publication,109,108,0,70,70,63,77,1.0,4,81525,96,13,90,WIN SA (6) ; Agilytics (3) ; SW-IT (2) ; MICROSOFT (2) ; INFORIUS (2),,
+N2_formations,toutes,767,761,18,34,52,49,55,1.0,24,34353,321,19,400,Boost Us SRL (12) ; GUEST SA (11) ; CENTRE DE LANGUE A LOUVAIN LA NEUVE ET EN WOLUWE (10) ; LA NICHE (10) ; Bertrand Caroy (8),226,64038962
+N2_formations,publiée,434,430,20,25,45,41,49,2.0,23,36360,151,14,228,Boost Us SRL (12) ; CENTRE DE LANGUE A LOUVAIN LA NEUVE ET EN WOLUWE (9) ; REGIS LESSENT  (8) ; Ligue francophone belge de Sauvetage (7) ; Het Vlaamse Kruis | Ludo.nu | Progress Consulting (5),,
+N2_formations,sans publication,316,314,17,45,62,57,66,1.0,25,36182,160,25,167,"GUEST SA (11) ; LA NICHE (10) ; Bertrand Caroy (8) ; ETM Consulting (6) ; Association belge pour les personnes en Difficulté
+d'Apprentissage (4)",,
+N3_materiaux_regies_logement,toutes,437,436,9,44,53,49,57,1.0,20,30017,297,33,230,s.a. LOVEMAT (7) ; Chantiers Beaumontois SPRL (7) ; SUPERSANIT SA (6) ; Tecniba (6) ; Bodson Outillage Ets (6),270,55721632
+N3_materiaux_regies_logement,publiée,112,112,9,37,46,38,53,2.0,38,121121,62,44,51,OUTIMEX SA (6) ; SUPERSANIT SA (3) ; SOGECAM (3) ; ODM SA (3) ; SAINT-GOBAIN PAM (2),,
+N3_materiaux_regies_logement,sans publication,325,324,9,47,56,51,60,1.0,14,22875,235,29,190,s.a. LOVEMAT (7) ; Chantiers Beaumontois SPRL (7) ; Tecniba (6) ; Bodson Outillage Ets (6) ; BATIPRO matériaux S.A. (5),,
+N4_graphisme_communication,toutes,318,313,7,30,38,33,42,2.0,11,39300,248,27,196,COGEAF (10) ; MYRIAD (CIGAL DEVELOPPEMENT SA) (7) ; IPM Printing SA (5) ; SNEL GRAFICS (5) ; COLOR COPY PRINT (5),75,19973030
+N4_graphisme_communication,publiée,90,86,6,16,22,16,30,3.0,12,127690,64,21,59,COLOR COPY PRINT (4) ; IPM Printing SA (3) ; E.S.I. INFORMATIQUE (3) ; Cousto BV (3) ; IDEALOGY (2),,
+N4_graphisme_communication,sans publication,224,223,8,35,43,38,49,2.0,11,36151,180,29,140,COGEAF (10) ; MYRIAD (CIGAL DEVELOPPEMENT SA) (7) ; Drukkerij Pattyn NV (4) ; Initial P (3) ; DRUKKERIJ MODERNA (3),,
+N4a_impression,toutes,191,188,10,27,37,32,43,2.0,14,36676,146,32,106,COGEAF (10) ; IPM Printing SA (5) ; SNEL GRAFICS (5) ; COLOR COPY PRINT (5) ; GRAPHIUS BRUSSELS (4),,
+N4b_conception_graphique,toutes,127,125,3,35,38,32,46,2.0,8,42236,102,19,93,MYRIAD (CIGAL DEVELOPPEMENT SA) (7) ; POLYGRAPH' (3) ; E.S.I. INFORMATIQUE (3) ; SA IPM PRINTING (3) ; IDEALOGY (2),,
