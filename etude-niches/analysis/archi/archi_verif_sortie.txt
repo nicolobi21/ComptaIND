@@ -1,0 +1,8 @@
+1. tout : 8630 ; services + travaux + fournitures : 8630
+2. services retenus par la règle mais absents de la sélection : []
+3. recherche CPV 71200000 : 200 avis ; dans la sélection : 170
+   mise en concurrence FR non retenue : 71000000-8 Mouscron | Désignation d’une équipe d’auteur.e.s de projet pour une mission d’étude et de s
+   mise en concurrence FR non retenue : 71313000-5 Asbl Santé et Prévoyance, Clin | Accord cadre – Prestations d’études relatives au conseil en matière de gestion d
+   mise en concurrence FR non retenue : 71319000-7 Régie des Bâtiments - Région B | 1000 BRUXELLES : CENTRE BELGE DE LA BANDE DESSINEE - ÉTUDE TECHNIQUE ET INSPECTI
+4. TED : 114 avis ; 64 projets ; retrouvés sur publicprocurement.be : 63 ; dans la sélection : 47
+   absent de publicprocurement.be : ('670299-2026', ['Brussels'], "Belgique – Services d'architecture, d'ingénierie et de métrage – Mission d’assistance, d’évaluation et de cons")

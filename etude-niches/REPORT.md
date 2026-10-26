@@ -488,9 +488,9 @@ Mesure (S053) : avis de **mise en concurrence** pour des missions d'architecture
 
 | Périmètre | Mises en concurrence | Dont Hainaut | Encore ouvertes après le 26/10 |
 |---|---|---|---|
-| Belgique, toutes langues | 104 | 9 | — |
+| Belgique, toutes langues | 105 | 9 | — |
 | Publiées en français (Wallonie + Bruxelles) | **29** (août 5, septembre 11, octobre 13) | 9 | 17 |
-| Néerlandais seul | 74 | — | — |
+| Néerlandais seul | 75 (dont 1 projet à Amsterdam) | — | — |
 
 Avis encore ouverts en Hainaut au 26/10/2026 :
 - Mons (programmation culturelle et architecturale), échéance 03/11 ;
@@ -498,12 +498,25 @@ Avis encore ouverts en Hainaut au 26/10/2026 :
 - Soignies (transformation d'un bâtiment), 20/11 ;
 - CRP Les Marronniers (audit et analyse des besoins), 10/12.
 
-Attributions publiées dans la même fenêtre : 51 en français, 70 en néerlandais.
+Attributions publiées dans la même fenêtre : 53 en français, 70 en néerlandais.
 
 Limites :
 - les missions confiées **sans publication** et les marchés de moins de 30 000 € HTVA n'apparaissent pas comme appels (S047) ;
 - les espaces publics et voiries sont exclus, car classés en génie civil ;
 - la région est déduite de la langue de publication, parce que le code NUTS déclaré est parfois faux.
+
+Contrôle d'exhaustivité (`analysis/archi_verif.py`, sortie `analysis/archi/archi_verif_sortie.txt`) :
+1. **Périmètre** : sans aucun filtre, la plateforme compte 8 630 avis dans la fenêtre, soit exactement la somme des services, travaux et fournitures. Le comptage est refait sur les services **sans filtre géographique** : 181 avis sans code NUTS belge y sont ajoutés, ce qui donne +1 appel (projet flamand à Amsterdam) et +2 attributions en français.
+2. **Recherche par code CPV « architecture »** (CPV principal ou complémentaire) : 200 avis, dont 170 retenus. Parmi les appels en français non retenus, deux cas limites :
+   - Mouscron : équipe d'auteurs de projet pour des espaces verts et des voiries ;
+   - Centre belge de la Bande dessinée : étude technique et inspection de façade.
+
+   S'ils sont comptés, le total passe à 31.
+3. **Recoupement avec TED** (S054) : 114 avis belges portant un CPV 712*, soit 64 projets distincts.
+   - 63 sont retrouvés sur publicprocurement.be, dont 47 dans la sélection.
+   - Les projets non retenus ont une 1re publication antérieure à la fenêtre (rectificatif republié), ou relèvent du génie civil ou de l'ingénierie.
+   - **1 seul absent** de publicprocurement.be : rénovation du bâtiment Justus Lipsius (Bruxelles, code postal B-1048, institution européenne), mission d'assistance multidisciplinaire publiée sur TED le 29/09/2026.
+4. **Travaux** : 2 appels « conception-réalisation » en français (48 logements à Visé, classes à Jurbise) incluent une mission d'architecte au sein d'une équipe d'entrepreneur. Ils ne sont pas comptés dans les 29.
 
 Concurrence passée (S048, 11 à 15 lots par groupe : intervalles très larges) : part des lots à 0-1 offre de 9 % pour « services d'architecte pour les bâtiments » (CPV 7122) et de 27 % pour le CPV général 7100. C'est un indice d'une concurrence plus forte qu'en électricité, pas une mesure précise.
 
