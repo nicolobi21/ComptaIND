@@ -439,6 +439,48 @@ Calculs :
 - Nombre minimal d'entreprises qu'un acheteur doit consulter en procédure sans publication.
 - Existence d'une autorisation spécifique pour exercer le support informatique : non recherchée.
 
+## Recommandation — activité complémentaire 100 % marchés publics (26/10/2026)
+
+Question : avec tout ce qui précède, que faire pour gagner quelques milliers d'euros en complémentaire, uniquement en marchés publics ? Cette section est un **jugement** fondé sur les mesures citées.
+
+### Choix : formateur indépendant complémentaire (outils numériques de bureau et de gestion ; outils du bâtiment si compétence réelle)
+| Critère | Formation (N2, sous-ensemble profil) | Pourquoi les autres pistes sont écartées |
+|---|---|---|
+| Manque d'offres | 57 % des 60 lots « profil » à 0-1 offre [IC90 46-67], dont 3 sans offre : 36 % en procédure publiée, **79 % sans publication** (22 sur 28) (S049) | Électricité : agréation, accès à la profession, personnel en pénurie. Matériaux : stock et réseau de négociant. Impression : presse ou sous-traitance |
+| Taille d'un contrat | 31 montants : P25 9 520 €, médiane 16 076 € (S049) = l'ordre de grandeur visé | Support informatique : médiane ≈ 99 k€, mais **astreinte et réactivité** peu compatibles avec un temps partiel |
+| Compatibilité temps partiel | Prestations en jours planifiés (HYPOTHÈSE : à confirmer dans les cahiers des charges) | — |
+| Capital | Pas de stock ; budget de 10 000 € quasi intact | — |
+| Accès | Procédures surtout « négociées directes avec publication » (33 sur 53) : tout le monde peut remettre offre. Plusieurs gagnants récurrents sont des **personnes physiques** (S049, S051) | — |
+
+Mots-clés du « profil » : Excel, bureautique, Office/Microsoft 365, Power BI, informatique, numérique, gestion de projet, comptabilité, métré, DAO/AutoCAD/Revit/BIM, marchés publics, données.
+
+Volume (population, 36 mois) : 53 mises en concurrence « profil », soit ≈ 18 par an.
+- Acheteurs principaux : Bruxelles Formation (17), COFTEN (4), FormaForm (3), Technocité (2), École d'administration publique (2).
+- **Seulement 3 en Hainaut** : il faut accepter de travailler à Bruxelles.
+
+### Coûts fixes connus
+- Cotisations sociales en activité complémentaire (S052, Xerius 2026, frais de la caisse inclus) :
+  - 0 € si le revenu net annuel est inférieur à 1 922,16 € ;
+  - 264,07 €/trimestre à 5 000 €, soit 1 056 €/an (21,1 %) ;
+  - 528,13 €/trimestre à 10 000 €.
+- Impôt : dépend de ton revenu principal. **Je ne sais pas.**
+- TVA sur les formations (franchise ou exonération) : **je ne sais pas**, à vérifier avec un comptable.
+- Frais d'inscription à la BCE : non vérifiés.
+
+### Plan proposé
+1. **Veille automatique** : réutiliser `analysis/bosa_api.py` pour une alerte hebdomadaire (CPV 80*, mots-clés du profil, Bruxelles + Wallonie).
+2. **Se faire connaître des acheteurs** : 79 % des lots « profil » sans publication ont reçu 0 ou 1 offre ; l'acheteur choisit qui il invite (S047). Cibles : Bruxelles Formation, Forem, EAP, Technocité, COFTEN, FormaForm, IFAPME, et les communes / CPAS / zones de secours pour la formation de leur personnel.
+3. **Statut** : indépendant complémentaire seulement au moment de remettre la première offre, pour éviter de payer des cotisations sans contrat.
+4. **Test** : remettre 8 à 10 offres en 6 mois.
+   - Critère d'arrêt : aucun marché gagné et aucune invitation après 10 offres.
+   - Critère de poursuite : au moins 1 contrat gagné.
+
+### Avocat du diable
+- Les lots sans offre (3 ici, 11 dans S050) peuvent cacher un prix journalier trop bas ou des exigences pédagogiques (diplôme, expérience de formateur) : les cahiers des charges n'ont pas été lus.
+- Les montants couvrent souvent plusieurs années ou plusieurs sessions : le revenu annuel par contrat est inconnu.
+- La compétition sur la bureautique générique est probablement plus forte que sur les logiciels du bâtiment (CADWORK, scanner 3D sans offre en Hainaut), mais ces derniers exigent une vraie expertise.
+- Rien ne garantit un gain : ce plan teste l'hypothèse pour un coût faible, il ne promet pas de revenu.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
