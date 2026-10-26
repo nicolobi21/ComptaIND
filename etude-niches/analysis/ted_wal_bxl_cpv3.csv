@@ -1,0 +1,177 @@
+n_avis;cpv3;somme_valeur;mediane_valeur;libelles;taille_attributaires;mediane_offres_recues
+202;331;1223111204.935;695504.475;[('Équipements médicaux', 47), ('Consommables médicaux', 14), ("Matériel d'imagerie à usages médical, dentaire et vétérinaire", 13)];{'sme': 26, 'large': 151, 'medium': 41, 'small': 16, 'micro': 6};2.0
+138;341;827788142.6800001;421852.28;[('Véhicules à moteur', 34), ('Voitures particulières', 12), ('Véhicules électriques', 8)];{'sme': 35, 'large': 79, 'medium': 21, 'small': 10, 'micro': 2};2.0
+125;480;1505949009.71;1000000;[("Logiciels et systèmes d'information", 125)];{'large': 44, 'medium': 16, 'sme': 16, 'small': 4};2.0
+118;336;320390508.32000005;600534.69;[('Produits pharmaceutiques', 70), ('Réactifs de laboratoire', 18), ("Produits d'alimentation entérale", 5)];{'large': 86, 'sme': 6, 'small': 10, 'medium': 19, 'micro': 3};1.0
+89;302;952882589.8000001;1258334.71;[('Matériel et fournitures informatiques', 35), ('Matériel informatique', 16), ('Imprimantes et traceurs', 4)];{'sme': 18, 'large': 56, 'medium': 18, 'micro': 2, 'small': 2};2
+88;349;156491736.146;694209.5900000001;[('Équipement ferroviaire', 30), ('Balayeuses de routes', 11), ('Conteneurs et poubelles de déchets', 6)];{'small': 16, 'micro': 4, 'medium': 24, 'large': 22, 'sme': 11};2.0
+68;380;178811268.17000002;383814.89;[("Équipements de laboratoire, d'optique et de précision (excepté les lunettes)", 68)];{'medium': 15, 'large': 30, 'small': 9, 'micro': 1, 'sme': 4};1.0
+61;391;172757628.23999998;660938.15;[('Mobilier', 20), ('Mobilier de bureau', 9), ('Mobilier de laboratoire', 7)];{'sme': 25, 'small': 9, 'large': 30, 'micro': 5, 'medium': 20};3.0
+58;301;258863336.33;1071811.55;[("Cartes pour l'achat de carburant", 10), ('Chèques-repas', 8), ('Photocopieurs', 6)];{'small': 4, 'sme': 6, 'large': 23, 'medium': 13};2
+54;158;60691061.410000004;512000;[('Produits alimentaires divers', 18), ('Produits alimentaires et produits secs divers', 7), ('Café, thé et produits connexes', 6)];{'small': 3, 'sme': 19, 'large': 26, 'medium': 7, 'micro': 1};3.0
+46;441;62747970.300000004;494500.0;[('Tuyauterie', 7), ('Matériel de plomberie et de chauffage', 4), ('Matériaux de construction et articles connexes', 4)];{'large': 11, 'small': 12, 'medium': 13, 'sme': 4, 'micro': 2};2.0
+46;330;113915770.71;597286.0;[('Matériels médicaux, pharmaceutiques et produits de soins personnnels', 46)];{'large': 44, 'sme': 10, 'medium': 9};2
+44;429;80560721.60000001;400000;[('Distributeurs de boissons', 8), ('Distributeurs automatiques', 5), ('Système de contrôle des accès', 3)];{'sme': 9, 'large': 19, 'medium': 11, 'small': 4};2
+43;181;109428547.41;957464.45;[('Vêtements professionnels, vêtements de travail spéciaux et accessoires', 27), ('Vêtements professionnels', 6), ('Équipements de protection', 6)];{'large': 9, 'sme': 27, 'medium': 14, 'small': 4};2.0
+38;325;300168835.38;586511;[('Matériel de télécommunications', 13), ('Infrastructure de communications', 9), ('Connexions à fibres optiques', 4)];{'sme': 50, 'large': 19, 'medium': 6, 'small': 2};3.0
+35;351;194843455.2;826446.24;[("Équipement de lutte contre l'incendie, de sauvetage et de sécurité", 5), ("Équipement de lutte contre l'incendie", 3), ('Équipement de protection nucléaire, biologique, chimique et radiologique', 3)];{'large': 10, 'medium': 9, 'small': 3, 'sme': 6, 'micro': 1};1.5
+35;150;97582667.85;1144538.73;[('Produits alimentaires, boissons, tabac et produits connexes', 35)];{'sme': 148, 'large': 54, 'medium': 15, 'small': 2};2.0
+35;090;354718528.59650004;1874068.0;[("Produits pétroliers, combustibles, électricité et autres sources d'énergie", 35)];{'large': 22, 'sme': 4, 'medium': 4};2
+32;346;5113862082.96;2810000.0;[('Pièces détachées pour locomotives ou matériel ferroviaire roulant', 12), ('Locomotives et matériel roulant de chemin de fer et de tramway et pièces détachées', 7), ('Pièces détachées pour locomotives ou matériel ferroviaire roulant, équipement de commande et de contrôle du trafic ferroviaire', 6)];{'sme': 16, 'large': 10, 'medium': 1, 'small': 1};1.0
+31;392;45660316.83;896439.04;[('Fournitures jetables pour restauration', 5), ('Aménagements divers', 5), ('Équipement de cuisine', 3)];{'large': 9, 'medium': 8, 'sme': 18, 'micro': 1};2
+31;384;122362875.66;600000;[('Spectromètre de masse', 9), ("Appareils de détection et d'analyse", 6), ('Analyseurs', 3)];{'large': 11, 'sme': 4, 'medium': 10, 'small': 2};1.0
+29;320;143938932.31;1147500;[('Équipements et appareils de radio, de télévision, de communication, de télécommunication et équipements connexes', 29)];{'large': 11, 'medium': 8, 'sme': 3, 'small': 1};3.0
+29;316;189961313.9;500000;[('Matériel électrique', 12), ('Matériels électriques', 4), ('Approvisionnement en électricité', 4)];{'large': 9, 'medium': 7, 'sme': 10, 'small': 1};3.0
+28;323;44496521.660000004;900000.0;[('Équipement audiovisuel', 9), ('Matériel de télévision et matériel audiovisuel', 6), ('Matériel de sonorisation', 2)];{'sme': 16, 'medium': 9, 'micro': 3, 'small': 7, 'large': 3};3
+23;489;22485781.05;450000;[('Logiciels et systèmes informatiques divers', 9), ('Logiciels de formation', 5), ('Langages de programmation et outils', 2)];{'sme': 6, 'medium': 6, 'large': 5, 'small': 1};2
+23;444;88711613.13999999;807145;[('Coffrets-compteurs', 5), ('Appareils sanitaires', 5), ('Coffres, cassettes de sûreté et portes blindés ou armés', 2)];{'sme': 10, 'medium': 5, 'large': 9, 'small': 2};2.0
+23;424;63047837.01;459000;[('Matériel de levage et de manutention', 7), ('Portiques de levage', 2), ('Matériel de levage et de manutention et pièces détachées', 2)];{'large': 6, 'sme': 4, 'medium': 9, 'small': 2, 'micro': 1};3.0
+23;324;170118876.71;810000;[('Matériel de réseau', 9), ('Matériel de télémétrie et équipement terminal', 4), ('Réseaux', 4)];{'large': 6, 'medium': 2, 'sme': 1, 'small': 1};2
+23;091;171937492.34;611570.28;[('Gasoils', 8), ('Gaz naturel', 3), ('Carburant diesel', 2)];{'large': 19, 'micro': 1};3.0
+22;343;108302150.81;1556578.775;[('Pièces détachées et accessoires pour véhicules et moteurs de véhicules', 9), ('Pistons', 4), ('Pneus pour charges légères et lourdes', 4)];{'large': 10, 'sme': 7, 'medium': 5, 'small': 2};2.0
+21;446;78142037.0;438436.0;[('Conteneurs à déchets', 5), ('Grands conteneurs', 4), ('Citernes, réservoirs, conteneurs et cuves sous pression', 3)];{'large': 4, 'sme': 2, 'medium': 4, 'small': 1, 'micro': 1};2.0
+21;398;225186050.83999997;500000;[('Produits de nettoyage et produits à polir', 10), ('Produits de nettoyage', 9), ('Produits pour lave-vaisselle', 1)];{'large': 15, 'medium': 4, 'sme': 4, 'small': 1};3
+21;312;151329100.04999998;1432515.5;[('Appareils de distribution et de commande électriques', 3), ('Bornes', 3), ('Appareillage de commutation', 2)];{'sme': 8, 'large': 27, 'medium': 1};3
+21;151;20718626.25;852049.62;[('Viande', 11), ("Produits de l'élevage, viande et produits à base de viande", 7), ('Charcuterie', 2)];{'large': 10, 'medium': 6, 'small': 3, 'sme': 1};2
+20;442;13144904.379999999;381545;[('Bâtiments modulaires préfabriqués', 8), ('Menuiserie pour la construction', 3), ('Bâtiments préfabriqués', 2)];{'sme': 6, 'medium': 4, 'large': 5, 'small': 1};2
+19;385;16012208.75;373107.06;[('Scanners', 3), ('Microscopes', 3), ('Microscope à fluorescence', 2)];{'sme': 5, 'large': 7, 'small': 1};2
+18;353;1317875370.68;35052409.0;[('Armes, munitions et pièces associées', 7), ('Munitions', 7), ('Pièces pour armes à feu légères', 2)];{};1
+18;350;224615879.99;3047041.77;[("Équipement de sécurité, de lutte contre l'incendie, de police et de défense", 18)];{'medium': 3, 'sme': 2, 'small': 1, 'large': 2};2.0
+18;093;1267162262.72;23493802;[('Électricité', 10), ('Électricité, chauffage, énergie solaire et nucléaire', 6), ('Énergie solaire', 1)];{'large': 22, 'sme': 4, 'small': 2, 'medium': 1, 'micro': 1};3
+17;340;96753616.02999999;1985125.98;[('Équipement de transport et produits auxiliaires pour le transport', 17)];{'sme': 4, 'medium': 5, 'large': 7, 'small': 2};1
+16;300;59789156.44;400000;[('Machines, matériel et fourniture informatique et de bureau, excepté les meubles et logiciels', 16)];{'medium': 6, 'large': 2, 'small': 1, 'sme': 4, 'micro': 1};2.0
+15;484;94909148.64;1286472.72;[('Logiciels analytiques, scientifiques, mathématiques ou prévisionnels', 4), ('Logiciels de gestion des temps de travail et des ressources humaines', 3), ('Logiciels de passation de marchés', 3)];{'large': 8, 'medium': 3, 'sme': 1};1.0
+15;482;1125027956.46;1091429.03;[('Logiciels de gestion des licences', 8), ('Logiciels de gestion de réseau', 2), ('Logiciels pour internet et intranet', 1)];{'large': 7, 'medium': 1};1.0
+15;311;148394309.02;1203340;[('Moteurs, générateurs et transformateurs électriques', 5), ("Sources d'alimentation électrique ininterruptible", 2), ('Groupes électrogènes', 2)];{'large': 5, 'sme': 3, 'micro': 1, 'medium': 6, 'small': 1};3.0
+14;488;299292232.66;2277995.61;[("Systèmes d'information et serveurs", 6), ('Serveurs', 4), ('Serveurs informatiques', 1)];{'large': 7, 'medium': 2, 'sme': 1};3.0
+14;420;10026363.36;515000;[('Machines industrielles', 14)];{'large': 5, 'small': 3, 'medium': 2};2.0
+14;180;274079329.46999997;729641;[('Vêtements, articles chaussants, bagages et accessoires', 14)];{'sme': 3, 'small': 3, 'medium': 8, 'large': 2, 'micro': 1};3
+13;487;68099048.12;1331769.225;[('Logiciels de sécurité', 9), ('Logiciels de protection antivirus', 2), ('Logiciels de sécurité des données', 1)];{'medium': 1, 'large': 5, 'sme': 3};3
+13;483;4698432.19;366350.87;[("Logiciels de création de documents, de dessin, de synthèse d'images, de planification et de productivité", 3), ('Logiciel de gestion des documents', 3), ('Logiciels de création de documents', 2)];{'small': 3, 'medium': 1, 'large': 4, 'sme': 1};1.0
+13;393;9280319.82;479356.8;[('Équipement de cuisine industrielle', 6), ('Équipement de restauration', 4), ("Installations de distribution d'eau", 2)];{'sme': 2, 'large': 6, 'medium': 2, 'small': 5, 'micro': 3};4
+13;337;14755983.700000001;695207.975;[('Papier hygiénique, mouchoirs, essuie-mains et serviettes de table', 4), ('Langes jetables', 2), ('Produits de soins pour bébés', 1)];{'sme': 5, 'large': 10, 'medium': 3, 'micro': 1};4
+12;397;8029006.6;521488.0;[('Appareils ménagers', 3), ('Fours', 2), ('Équipement de chauffage', 2)];{'medium': 4, 'micro': 1, 'sme': 4};1.0
+12;386;20722294.91;381853.44;[('Lasers', 5), ('Lunettes de vision nocturne', 2), ('Appareils photographiques', 2)];{'large': 2, 'medium': 4, 'small': 2, 'sme': 1};2
+12;310;11723019.81;495874.5;[('Machines, appareils, équipements et consommables électriques; éclairage', 12)];{'medium': 8, 'sme': 3, 'small': 1, 'large': 4};1
+11;500;39416476.050000004;453660.44999999995;[("Services de réparation et d'entretien", 11)];{'medium': 3, 'small': 4, 'large': 3, 'sme': 4};2.5
+11;440;8969944.120000001;321797.08999999997;[("Matériaux et structures de construction; produits auxiliaires pour la construction (à l'exception des appareils électriques)", 11)];{'small': 2, 'sme': 6, 'medium': 2, 'large': 2};2.0
+11;390;218209202.85;1018561.61;[("Meubles (y compris les meubles de bureau), aménagements, appareils électroménagers (à l'exclusion de l'éclairage) et produits de nettoyage", 11)];{'medium': 2, 'small': 3, 'micro': 4, 'large': 3, 'sme': 4};3.0
+11;358;203141644.48000002;12112446.73;[('Équipement individuel', 4), ('Équipement individuel et de soutien', 4), ('Équipement de soutien', 1)];{'sme': 2, 'large': 1, 'small': 1};2
+11;342;110628335.25;1025418;[('Conteneurs mobiles à usage spécifique', 4), ('Remorques, semi-remorques et conteneurs mobiles', 2), ('Remorques et semi-remorques', 1)];{'sme': 5, 'small': 2, 'medium': 2};2.0
+10;426;8112030.5600000005;386000;[('Machines-outils', 4), ('Tours, machines à aléser et à fraiser', 1), ('Fraiseuses', 1)];{'medium': 5, 'sme': 4, 'small': 1, 'large': 2};2.0
+10;421;18176527.87;854604.28;[("Machines de production et d'utilisation de la puissance mécanique", 2), ('Groupes hydrauliques', 1), ('Compresseurs', 1)];{'large': 8, 'sme': 2, 'micro': 1, 'medium': 1};2
+10;034;6652459.7700000005;361159.69;[('Bois tropical', 5), ('Produits de pépinière', 2), ("Produits de la sylviculture et de l'exploitation forestière", 1)];{'large': 4, 'small': 1, 'medium': 9};1
+9;445;6096767.58;0;[('Outils, serrures, clés, charnières, fermoirs, chaînes et ressorts', 2), ('Attaches filetées', 2), ('Tire-fonds et vis', 2)];{'small': 5, 'medium': 2, 'large': 1};2
+9;443;11233595.959999999;895057.3;[('Câble, fil métallique et produits connexes', 6), ('Serrurerie', 1), ('Quincaillerie', 1)];{'large': 2, 'medium': 1, 'small': 1, 'sme': 2};1
+9;425;7930511.21;656776.72;[('Matériel de réfrigération et de ventilation', 4), ('Machines et appareils de filtration ou de purification des gaz', 2), ('Appareils de filtration', 2)];{'sme': 2, 'large': 2, 'medium': 1};1.0
+9;395;24655678.79;554760;[('Tentes', 3), ("Stores d'intérieur", 2), ('Champs opératoires', 1)];{'small': 1, 'medium': 2, 'sme': 3, 'micro': 1};2.0
+9;344;151791149.56;5000000;[('Bicyclettes', 5), ('Cycles à moteur auxiliaire', 2), ('Motos, bicyclettes et side-cars', 1)];{'small': 1, 'medium': 3, 'large': 1, 'sme': 1};5.5
+9;322;40992205.69;2000000.0;[('Caméras de télévision', 3), ('Appareils émetteurs de radiotéléphonie, de radiotélégraphie, de radiodiffusion et de télévision', 1), ('Système de surveillance en circuit fermé', 1)];{'medium': 3, 'large': 5, 'small': 1};4.0
+9;317;10572481.110000001;655479.15;[('Équipement électronique', 2), ('Composants électroniques', 2), ('Équipement électrotechnique', 1)];{'sme': 8, 'large': 3};1.0
+9;315;11222924.54;500000;[("Appareils d'éclairage et lampes électriques", 4), ("Lampes et appareils d'éclairage", 2), ('Lampes', 1)];{'small': 3, 'large': 4};3.0
+9;249;7550650.61;829746.25;[('Charbon actif', 3), ('Révélateurs pour radiologie', 1), ("Produits chimiques utilisés pour le traitement de l'eau", 1)];{'medium': 1, 'sme': 4};3
+9;241;12705729.3;446597.975;[('Gaz industriels', 5), ('Gaz', 2), ('Azote liquide', 1)];{'large': 5, 'micro': 1};2.0
+9;221;47593441.3;1600000;[('Livres imprimés', 3), ('Livres, brochures et dépliants imprimés', 3), ('Livres scolaires', 1)];{'small': 1, 'medium': 5, 'sme': 4};2
+9;220;17134385.51;251992.41999999998;[('Imprimés et produits connexes', 9)];{'large': 4, 'sme': 2, 'micro': 1, 'medium': 1};1
+9;188;7273581.5600000005;829408.05;[('Chaussures de protection', 4), ('Articles chaussants', 2), ('Bottes', 2)];{'large': 2, 'medium': 3, 'sme': 1};4
+9;184;10000152.25;1055472.5;[('Gants jetables', 3), ('Casques', 2), ('Gants', 2)];{'large': 1, 'sme': 5, 'medium': 2};3
+8;374;2334973.42;287500;[('Articles et équipements de sport', 3), ('Équipements de gymnastique', 2), ('Appelants', 1)];{'medium': 4, 'sme': 1, 'large': 1, 'micro': 1};1
+8;196;3913959.6;679830.44;[('Sacs et sachets à ordures en polyéthylène', 8)];{'large': 3, 'medium': 1, 'small': 1, 'sme': 1};3
+7;720;156703092.48000002;25116000;[("Services de technologies de l'information, conseil, développement de logiciels, internet et appui", 7)];{'medium': 1, 'large': 8, 'sme': 8};2.0
+7;501;360045701.59;261818.18;[("Services de réparation et d'entretien de véhicules et d'équipements associés et services connexes", 4), ("Services de réparation et d'entretien de véhicules à moteur et d'équipements connexes", 2), ('Services de gestion de parc de véhicules', 1)];{'medium': 1, 'small': 1, 'sme': 1};1.5
+7;433;16715402.0;1280381.045;[("Ensembles d'équipement", 2), ('Machines de génie civil', 1), ('Matériel de démantèlement', 1)];{'sme': 1, 'small': 2, 'medium': 1};2.0
+7;411;1415031.28;235168.25;[('Eau potable', 7)];{'large': 2, 'medium': 1};2
+7;347;51195563.1;460392.5;[('Équipement pour aéronefs', 5), ('Pièces détachées pour aéronefs', 1), ('Aéronefs sans pilote', 1)];{'medium': 1};1.5
+7;189;4955125.84;677021.92;[('Sacs et sachets', 4), ('Sacs à dos', 2), ('Sacs postaux', 1)];{'sme': 1, 'large': 1, 'medium': 1, 'small': 2};2.0
+7;167;1470250.54;237248.77000000002;[('Tracteurs', 7)];{'sme': 1, 'small': 4};5.0
+7;156;4234109.63;656966.84;[('Produits de boulangerie', 7)];{'sme': 1, 'medium': 3, 'large': 1, 'micro': 1};1
+6;357;75488040.87;9830189.0;[('Système de renseignement électronique', 2), ('Systèmes de guerre électronique et contre-mesures', 2), ('Radar de défense aérienne', 1)];{};1.0
+6;352;18214634.78;1900758.965;[("Panneaux d'information", 3), ('Menottes', 1), ('Équipement antiémeutes', 1)];{'small': 1, 'sme': 2, 'large': 1};2
+6;159;3597725.52;657288.76;[('Boissons, tabac et produits connexes', 3), ('Boissons sans alcool', 2), ('Tabac, produits à base de tabac et articles connexes', 1)];{'sme': 3, 'large': 3};3
+6;155;10249330.49;668635.44;[('Produits laitiers', 5), ('Fromages', 1)];{'sme': 2, 'medium': 2, 'large': 1};3.0
+5;503;1865240716;263357771.0;[("Services d'entretien de photocopieurs", 2), ("Services de réparation et d'entretien de matériel audiovisuel et d'optique", 1), ("Services de réparation, d'entretien et services connexes relatifs aux ordinateurs personnels, au matériel de bureau, au matériel de télécommunications et au matériel audiovisuel", 1)];{'large': 2, 'medium': 1, 'small': 1, 'micro': 1};2
+5;481;727312.48;180005.0;[('Logiciels médicaux', 4), ('Logiciels pédagogiques', 1)];{'medium': 1, 'small': 1, 'large': 1, 'micro': 1};1
+5;389;2041882.6400000001;592729.3200000001;[("Simulateur de recherche, d'essai et scientifique et technique", 3), ('Kits pour prélèvement manuels sur écouvillon', 1), ('Matériel pour réaction en chaîne à la polymérase (PCR)', 1)];{'sme': 1, 'medium': 1, 'small': 1, 'large': 1};1
+5;383;65401641.77;448907.28;[('Oscilloscopes', 1), ('Système de surveillance de la contamination', 1), ('Instruments de mesure de grandeurs électriques', 1)];{'medium': 1, 'large': 2};3
+5;313;12148300;3888300;[('Lignes électriques aériennes', 2), ('Fils et câbles isolés', 2), ('Câbles de distribution électrique', 1)];{'large': 6};1
+5;240;6478548.5600000005;1776500.0;[('Produits chimiques', 5)];{'micro': 1, 'medium': 3, 'large': 5, 'sme': 2};2
+5;183;5132882.36;1096084.8;[('T-shirts et chemises', 3), ('Chaussettes', 2)];{'medium': 2, 'micro': 1, 'sme': 3};4.5
+5;160;2346150.42;443950.76;[('Machines agricoles', 5)];{'sme': 3, 'micro': 1};3.0
+5;153;10824562.73;937500.0;[('Fruits, légumes et produits connexes', 5)];{'small': 1, 'large': 1, 'sme': 4};1.0
+4;722;14417528.16;2176252.5;[('Services de programmation et de conseil en logiciels', 3), ('Services de maintenance et de réparation de logiciels', 1)];{'sme': 1, 'large': 4};1.0
+4;661;11207173.98;5049793.9;[('Services de leasing financier', 1), ('Services de traitement des transactions financières et services de chambre de compensation', 1), ("Services de traitement d'opérations et services de compensation", 1)];{};1
+4;423;1235255.3;617627.65;[('Fourneaux, incinérateurs et fours industriels ou de laboratoire', 3), ('Fours industriels', 1)];{'large': 1};1
+4;381;1048000;524000.0;[('Sonars', 3), ('Systèmes de positionnement à capacité globale (GPS ou équivalent)', 1)];{'medium': 2};1
+4;314;4968148;2484074.0;[('Accumulateurs, piles et batteries primaires', 2), ('Batteries', 1), ('Accumulateurs au nickel-cadmium', 1)];{'sme': 1, 'medium': 1};2.5
+4;243;635574.3200000001;164080.0;[('Soude caustique', 3), ('Produits chimiques organiques et inorganiques de base', 1)];{'medium': 3, 'large': 7, 'small': 3};4
+4;224;675145.22;152864.97499999998;[('Imprimés publicitaires', 2), ("Cartes d'accès", 2)];{'medium': 1, 'large': 2, 'sme': 1};5
+4;185;12607500;2743750.0;[('Cadeaux et prix', 3), ('Pièces de monnaie et médailles', 1)];{'sme': 2, 'large': 2};1
+3;798;5520000;2760000.0;[("Services d'impression", 1), ("Services d'impression et de distribution", 1), ("Services d'impression et de livraison", 1)];{'medium': 1, 'sme': 1};0.0
+3;790;7367160.92;2880000;[('Services aux entreprises: droit, marketing, conseil, recrutement, impression et sécurité', 3)];{'medium': 1, 'sme': 1};2
+3;642;13000000;6500000.0;[('Services de télécommunications', 1), ('Services de location de circuits par satellite', 1), ('Services de téléphonie mobile', 1)];{'medium': 1, 'sme': 1};1.0
+3;504;10150091.11;446759.5;[("Services de réparation et d'entretien d'installations d'extinction d'incendie", 2), ("Services de réparation et d'entretien de matériel médical", 1)];{'sme': 2, 'medium': 1};3
+3;486;1213000;606500.0;[('Logiciels de bases de données', 2), ('Système de gestion de bases de données', 1)];{'small': 1};2.0
+3;448;810000;810000;[('Peintures, vernis et mastics', 3)];{};2
+3;345;10168153;301577;[('Bateaux', 1), ('Bateaux spécialisés', 1), ('Navires et bateaux', 1)];{'large': 1};1
+3;192;1299939.49;649969.745;[('Tissus', 3)];{'medium': 1};2.0
+3;182;9834792;1087792;[("Vêtements d'extérieur", 1), ('Vêtements de fonction', 1), ('Pull-overs, cardigans et articles similaires', 1)];{'medium': 1, 'sme': 1};5
+3;142;716462.81;358231.405;[('Gravier, sable, pierre concassée et agrégats', 2), ('Terre', 1)];{'medium': 1};1.0
+2;983;3670084.24;1835042.12;[('Services de nettoyage de textile', 1), ('Services de déplacement', 1)];{'large': 1, 'small': 2};3.5
+2;907;1628836.91;814418.455;[('Réhabilitation environnementale', 1), ('Services de radioprotection', 1)];{'large': 2, 'medium': 1};2
+2;906;9354520;4677260.0;[('Services de balayage des rues', 2)];{'sme': 1, 'large': 1};2.5
+2;905;88050000;44025000.0;[('Élimination et traitement des ordures', 1), ('Services liés aux déchets et aux ordures', 1)];{'large': 3, 'small': 1};3.0
+2;797;56914000;28457000.0;[('Services de gardiennage', 1), ('Services de sécurité', 1)];{'large': 4, 'medium': 1};2.0
+2;725;20099890.19;10049945.095;[('Services informatiques', 1), ("Services de gestion relatifs à l'informatique", 1)];{'medium': 6};3.5
+2;514;636900.66;318450.33;[("Services d'installation de matériel de laboratoire", 2)];{'small': 1, 'medium': 1};2.0
+2;513;285324080;142662040.0;[("Services d'installation de matériel vidéo", 1), ("Services d'installation de matériel radio, de télévision, audio et vidéo", 1)];{'sme': 1, 'large': 10};4
+2;485;685000;342500.0;[("Logiciel musical ou d'édition sonore", 1), ('Logiciels de TI', 1)];{'sme': 1, 'medium': 1};2
+2;453;8950210.42;8950210.42;[("Travaux d'équipement électrique", 1), ('Installation de matériel de télécommunications', 1)];{'large': 1};0
+2;450;3028538.95;1514269.475;[('Travaux de construction', 2)];{'medium': 1};1
+2;449;5370000;5370000;[('Chaux', 2)];{};1.0
+2;432;900000;900000;[('Machines de terrassement', 1), ('Excavateurs mécaniques', 1)];{'medium': 1};1
+2;430;43581;21790.5;[("Équipement minier, équipement pour l'exploitation de carrières, matériel de construction", 2)];{'small': 1, 'sme': 1};2.0
+2;382;230600;115300.0;[("Systèmes d'information géographique (GIS ou équivalent)", 1), ('Instruments de géodésie', 1)];{'medium': 1};1.5
+2;375;284073.15;284073.15;[('Formulaire de loterie', 1), ('Équipements pour terrain de jeux', 1)];{'sme': 1};3
+2;356;20000000;10000000.0;[('Satellites de navigation', 2)];{'medium': 2};1.0
+2;222;486400;486400;[('Journaux, revues spécialisées, périodiques et magazines', 2)];{'small': 2};1
+2;195;264003;264003;[('Produits en plastique', 2)];{'sme': 2};1.0
+2;190;160502.8;80251.4;[('Produits en cuir et textiles, matériaux en plastique et en caoutchouc', 2)];{'large': 1};2.0
+2;157;1110000;1110000;[('Aliments pour animaux', 2)];{'small': 1, 'micro': 1};3
+2;154;1866617.0499999998;933308.5249999999;[('Huiles et graisses animales ou végétales', 2)];{'sme': 4};2.5
+2;144;248916.59;248916.59;[('Saumure', 1), ('Sel et chlorure de sodium pur', 1)];{'small': 1};1.0
+2;033;0;None;[('Poissons, crustacés et produits aquatiques', 2)];{};1.5
+2;031;332861.9;332861.9;[('Grains de café', 1), ("Produits agricoles et produits de l'horticulture", 1)];{'medium': 1};2
+1;921;257557.02;257557.02;[('Services cinématographiques et services vidéo', 1)];{'large': 1};9
+1;772;1049727.6;1049727.6;[('Services liés à la sylviculture', 1)];{};3
+1;770;839641.4;839641.4;[("Services agricoles, sylvicoles, horticoles, d'aquaculture et d'apiculture", 1)];{'medium': 2, 'large': 1};3.5
+1;730;1688794;1688794;[('Services de recherche et développement et services de conseil connexes', 1)];{'medium': 2, 'small': 1};2.0
+1;713;0;None;[('Énergie et services connexes', 1)];{};7
+1;601;191700000;191700000;[('Services spécialisés de transport routier de passagers', 1)];{'large': 2};4.0
+1;555;6676954.37;6676954.37;[('Services de cantine et service traiteur', 1)];{'large': 1};2.0
+1;550;2644343.22;2644343.22;[("Services d'hôtellerie, de restauration et de commerce au détail", 1)];{'large': 1};2
+1;517;5901000;5901000;[("Services d'installation de matériel de protection contre l'incendie", 1)];{'medium': 2, 'small': 1, 'micro': 1};1
+1;511;350000;350000;[("Services d'installation d'incinérateurs de déchets", 1)];{'small': 1};1
+1;510;1811878.35;1811878.35;[("Services d'installation (à l'exception des logiciels)", 1)];{'large': 1};4
+1;508;0;None;[("Services divers d'entretien et de réparation", 1)];{};2.0
+1;505;0;None;[("Services de réparation et d'entretien de machines", 1)];{};2
+1;454;917863.06;917863.06;[('Travaux de remise en état', 1)];{};1
+1;452;56725788.41;56725788.41;[('Travaux de construction complète ou partielle et travaux de génie civil', 1)];{'large': 4};2
+1;438;3000000;3000000;[("Équipement d'atelier", 1)];{'medium': 2};1.5
+1;431;309440;309440;[('Équipement sous-marin', 1)];{'medium': 1};1
+1;427;2212823.8;2212823.8;[('Machines à laver, machines de nettoyage à sec et sèche-linge de blanchisserie', 1)];{};3
+1;422;251882.4;251882.4;[('Machines de traitement des aliments', 1)];{};2
+1;410;845297.42;845297.42;[('Eau collectée et purifiée', 1)];{};3.0
+1;387;1468160;1468160;[('Horloges de pointage et compteurs similaires; parcmètres', 1)];{'medium': 1};4
+1;370;5699910.47;5699910.47;[('Instruments de musique, articles de sport, jeux, jouets, articles pour artisanat, articles pour travaux artistiques et accessoires', 1)];{'sme': 2};1.0
+1;354;16402726;16402726;[('Véhicules militaires et pièces connexes', 1)];{};1
+1;339;0;None;[('Équipement et fournitures cliniques médico-légales', 1)];{};1.0
+1;246;1177070;1177070;[('Explosifs', 1)];{};1
+1;244;5775000;5775000;[('Désinfectants', 1)];{'large': 1, 'small': 1};3.0
+1;229;3750000;3750000;[('Papier ou carton photosensible, thermosensible ou thermographique', 1)];{'large': 1};4
+1;228;399382.3;399382.3;[('Bacs à documents', 1)];{'sme': 1};1
+1;225;400000;400000;[("Plaques ou cylindres d'impression, autre matériel d'imprimerie", 1)];{'large': 1};2
+1;161;520000;520000;[('Matériel de jardinage divers', 1)];{'large': 2};3.0
+1;152;2000000;2000000;[('Poisson, filets de poisson et autre chair de poisson congelés', 1)];{'large': 2};1
+1;147;557000;557000;[('Métaux de base', 1)];{'large': 1};1
+1;032;2467300;2467300;[('Céréales, pommes de terre, légumes, fruits et noix', 1)];{'sme': 6};0
+1;030;0;None;[("Produits agricoles, de l'élevage, de la pêche, de la sylviculture et produits connexes", 1)];{};2.0

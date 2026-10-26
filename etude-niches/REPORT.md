@@ -1,6 +1,6 @@
 # Étude de niches e-commerce — rapport
 
-> État : **Phase 1 terminée** (repérage, 26/10/2026). Phase 2 en attente de ton « OK ».
+> État : **Phase 1-bis B2B terminée** (26/10/2026). **Réorientation : B2B seul**, vente par démonstration chez des professionnels, Belgique francophone. La Phase 1 B2C ci-dessous est conservée pour mémoire. Phase 2 en attente de ton « OK ».
 > Toutes les sources sont dans `sources.csv` ; les extraits bruts dans `sources/` ; les calculs dans `analysis/`.
 
 ## 1. Résumé
@@ -18,6 +18,8 @@ _À rédiger en fin d'étude._
 | Avantages | Compétences informatiques, expérience d'une boutique Shopify. Aucun fournisseur, réseau ou communauté |
 | Catégories exclues | Aucune |
 | Statut | Indépendant |
+
+**Mise à jour du profil (26/10/2026)** : B2B seul ; démonstrations chez des clients professionnels ; zone francophone (Wallonie, Bruxelles) ; régime de franchise TVA ; budget « plus si besoin » (plafond non chiffré → à préciser).
 
 Canal TikTok Shop : inscription vendeur possible en Belgique et en France d'après le Seller Center (S007) ; lancement en Belgique annoncé pour le 15/06/2026 (S008). Je ne sais pas encore si TikTok Shop accepte un indépendant personne physique : à vérifier en Phase 3.
 
@@ -106,6 +108,32 @@ Détail complet (URL, signaux, concurrence) : `analysis/phase1_candidats.csv`. T
 
 Idée écartée faute de signal : objets imprimés en 3D à la demande (ton profil s'y prête, mais je n'ai relevé aucune preuve de demande).
 
+## Phase 1-bis — B2B Belgique francophone : 27 pistes (21 gardées, 6 éliminées)
+Détail complet : `analysis/phase1bis_b2b.csv`.
+
+### Méthode : la preuve change de nature en B2B
+Il n'existe pas de classement public des ventes entre entreprises. J'ai donc utilisé trois types de signaux, du plus fort au plus faible :
+1. **OBLIGATION** : un texte officiel impose (ou va imposer) l'achat. La demande est contrainte, mais ce n'est pas une preuve de ventes.
+2. **ACHAT PUBLIC** : avis d'attribution TED (S032). Ce sont 4 810 marchés belges de fournitures sur 24 mois, dont 2 523 en Wallonie et à Bruxelles (1 142 + 1 381, région déduite du code postal de l'acheteur). C'est une preuve d'achat réelle, mais sur de **gros marchés** (valeurs médianes par groupe CPV ≈ 250 k€ à plusieurs M€). Elle montre que la catégorie s'achète et que des PME en remportent, pas que tu peux y vendre en direct.
+3. **ACHAT B2C + HYPOTHÈSE B2B** : niches de la Phase 1 dont les acheteurs pourraient être des professionnels (aucune preuve).
+
+### Pistes avec le signal le plus fort
+| ID | Piste | Signal | Pourquoi c'est intéressant pour toi | Alerte principale |
+|---|---|---|---|---|
+| B01 | CO2-mètres pour lieux accessibles au public | OBLIGATION progressive dès le 01/01/2027 (S028) | Démonstration simple, capteurs connectés (IT) | Liste des premiers lieux concernés inconnue |
+| B02 | Purificateurs d'air pour lieux publics | Même loi (S028) | Ticket élevé, démonstration | Exigences belges imposées aux fabricants et importateurs |
+| B03 | Offre clé en main « qualité de l'air » | Même loi : mesure, analyse de risques, plan d'action (S028) | Produit + service + tableau de bord IT | Qualification requise pour l'analyse de risques : je ne sais pas |
+| B05 | Caisses pour l'horeca | 32 417 établissements équipés en 2023 (S031) | Gros ticket, IT | Nouvelles échéances : source secondaire seulement |
+| B06 | Écrans interactifs, affichage dynamique | TED : 12 avis audiovisuel dont 8 PME (S032) | Gros ticket, IT, démonstration | Concurrence d'intégrateurs établis |
+| B07 | Wi-Fi / réseaux pour PME | TED : 9 avis dont 8 PME (S032) | IT | Surtout du service |
+
+Les autres pistes gardées (vêtements professionnels, fontaines à eau, cuisine professionnelle, mobilier ergonomique, boîtes de secours…) et les 6 éliminées sont dans le CSV.
+
+### Contraintes transversales (à lire avant de choisir)
+1. **Franchise TVA vs gros ticket.** Plafond de 25 000 €/an selon une source secondaire (S027, ESTIMÉ, non confirmé sur le site du SPF Finances). Calcul : 10 ventes × 2 500 € = 25 000 € → plafond atteint. En sortant de la franchise, tu devrais facturer la TVA et émettre des **factures électroniques structurées** (obligatoires entre assujettis depuis le 01/01/2026, S025).
+2. **Statut DEEE pour l'électronique** (B01, B02, B05, B06, B07). Si tu achètes à un distributeur belge, tu es « distributeur ». Si tu achètes dans un autre État membre ou hors UE et que tu revends en Belgique, tu deviens « producteur », avec des obligations d'enregistrement (directive 2012/19/UE, art. 3, 1, f) iii et g ; S015).
+3. **Sites bloqués** : Statbel (captcha) et Justel (requêtes rejetées). Je ne connais donc pas le **nombre d'entreprises cibles** par secteur en Wallonie et à Bruxelles, et je n'ai pas lu le texte consolidé des lois belges.
+
 ## 3. Tableau de scoring
 _Phase 2._
 
@@ -116,6 +144,7 @@ _Phase 3._
 _Phase 4._
 
 ## 6. « Je ne sais pas »
+- **B2B** : plafond exact de la franchise TVA (à confirmer par ton comptable ou le SPF Finances) ; arrêté royal qui fixe les premiers lieux soumis à la loi sur l'air intérieur en 2027 ; qualification requise pour l'analyse de risques ; nombre d'entreprises cibles par secteur (Statbel bloqué) ; délais de paiement B2B ; règles d'accès à la profession pour l'installation (électricité, réseau) ; ton plafond de budget ; ta zone de déplacement.
 - **Belgique** : aucun classement de ventes belge relevé (Amazon.com.be non relevé, bol.com bloqué). → Captures bol.com et Amazon.com.be de ta part (voir la liste des exports).
 - **Tendance et saisonnalité** : non mesurées. → Exports Google Trends BE/FR sur 5 ans pour les finalistes.
 - **Avis négatifs** des produits leaders : non collectés. → À faire en Phase 2 sur les 10 finalistes.
