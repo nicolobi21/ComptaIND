@@ -566,6 +566,55 @@ La piste 2 a le plus gros marché, mais ses déclencheurs sont plus lointains et
 - Mettre en ligne une page de précommande.
 - Calculer les marges.
 
+## Dossier piste 1 — Conformité « qualité de l'air intérieur » (28/10/2026)
+
+### 1. Ce que dit la règle (MESURÉ)
+| Élément | Contenu | Source |
+|---|---|---|
+| Qui | Tout local fermé accessible au public (horeca, culture, sport, soins, éducation, commerces…). Exclus : sphère familiale ou purement professionnelle. Pas d'appareil exigé si le local fait moins de 15 m² et/ou si le public y reste moins de 15 minutes | S060, S064 |
+| Étape 1, obligatoire dès le **1/1/2027** pour certaines catégories (élargies progressivement jusqu'à fin 2037) | Au moins un appareil de mesure ; une **analyse de risques par local** (pas par établissement) ; un plan d'actions si nécessaire ; documents datés et signés ; réponse aux questions du public | S062, S064, S065 |
+| Étape 2, obligatoire au **1/1/2038** | Certification du lieu et affichage du label attribué par le SPF | S062 |
+| Catégories visées en 2027 | **Pas encore définies** (« un arrêté royal précisera ») | S060, S065 |
+| Niveaux de référence | A < 900 ppm, B < 1 200 ppm : **indicatifs, non obligatoires** | S060 |
+| Capteurs vendus en Belgique | Mesure directe (NDIR), 0-2 000 ppm minimum, réétalonnables, précision NBN EN 50543, manuel FR/NL/DE, **test par un laboratoire accrédité avant la mise sur le marché**. Vente de capteurs non conformes interdite depuis le 22/03/2024, mais les appareils plus anciens restent utilisables | S061 |
+| Communication au public | Sur place (écran ou QR code), valeurs de moins de 5 minutes ; **ou en ligne**, mise à jour toutes les 15 minutes au maximum, sur au moins 3 jours d'historique | S063 |
+| Analyse de risques | Faisable par l'exploitant **ou par un tiers**. **Application officielle gratuite** | S060, S064 |
+
+### 2. Où pourrait être l'argent (HYPOTHÈSE à tester)
+Offre « conformité clé en main », facturée par local :
+- **Capteur conforme** acheté à un fabricant qui fournit son rapport de laboratoire (S061), plus tard sous ta propre marque.
+- **Page publique par local** (QR code), avec la valeur en direct et 3 jours d'historique, pour répondre à l'option « en ligne » du guide (S063).
+- **Alertes** et rappels d'étalonnage.
+- **Archives prêtes pour un contrôle.**
+- **Service** : analyse de risques et plan d'actions rédigés pour l'exploitant, qui les signe (S064).
+- **Plus tard** : préparation à la certification de 2038 (S062).
+
+Recettes : marge sur le matériel + abonnement par local et par mois + forfait de service. **Prix et marges : je ne sais pas** (devis fournisseurs à obtenir ; deux boutiques consultées ont refusé l'accès, HTTP 429 et 403).
+
+Cibles prioritaires (jugement) : les lieux à **plusieurs locaux**, où la gestion manuelle devient lourde. Ce sont les centres sportifs, cinémas, centres culturels, écoles et centres de formation, maisons de repos, et bâtiments communaux. Le café d'une seule salle peut se contenter d'un capteur à écran et de l'application gratuite.
+
+Canaux possibles (HYPOTHÈSE) : installateurs de ventilation, services externes de prévention, fédérations sectorielles, et communes via les marchés publics. Waterloo a acheté une plateforme de suivi énergie et qualité de l'air pour 351 626 €, avec 3 offres (S067).
+
+### 3. Preuves d'achat existantes (MESURÉ)
+- **Achats publics** (S067) : en 36 mois, en Wallonie et à Bruxelles, quasiment aucun achat de capteurs pour des lieux ouverts au public. Il n'y a que le SPF Santé (CO2-mètres, 14 012 €), Sciensano (capteurs d'air, 72 868 € puis 170 254 €) et Waterloo (plateforme, 351 626 €). La demande publique **n'a pas encore démarré**.
+- **Base installée** : l'horeca et le fitness ont dû s'équiper pendant le Covid en 2021. Lors de contrôles cette année-là, 889 compteurs sur 2 490 établissements horeca contrôlés étaient défaillants (S066, plus de 24 mois). Il y a donc des appareils déjà en place, mais une maintenance négligée.
+
+### 4. Avocat du diable
+1. **Le déclencheur est flou** : les catégories de 2027 ne sont pas publiées (S060, S065). Si elles sont étroites ou reportées, la demande glisse vers 2030 ou plus tard.
+2. **La conformité minimale coûte peu** : un capteur à écran et l'application gratuite de l'État suffisent pour un petit lieu. La valeur d'un abonnement n'existe que pour les lieux à plusieurs locaux ou à plusieurs sites.
+3. **Le contrôle a été faible par le passé** : en 2021, seuls 2 centres de fitness ont été contrôlés (S066). Sans contrôle, peu d'achats.
+4. **Le matériel immobilise de l'argent** : stock, garanties, retours. Il faut des fournisseurs conformes, avec rapport de laboratoire.
+5. **Des concurrents existent** : capteurs connectés et tableaux de bord déjà commercialisés, et un intégrateur a remporté le marché de Waterloo (S067). Concurrents belges spécialisés : non recensés à ce stade.
+
+### 5. Tests proposés (preuve d'achat, petit budget)
+1. Écrire au SPF (indoor-air-quality@health.fgov.be) pour connaître le calendrier et les catégories du projet d'arrêté royal 2027.
+2. Obtenir 3 devis de capteurs conformes, avec rapport de laboratoire et accès aux données (API).
+3. Construire une maquette sans code : page publique par local, avec la valeur en direct et 3 jours d'historique.
+4. Rencontrer 15 lieux à plusieurs locaux à Charleroi et 3 installateurs de ventilation, en demandant un **pilote payant**.
+5. Critères :
+   - **Continuer** si au moins 3 pilotes payants sont signés.
+   - **Arrêter** si les catégories de 2027 excluent ces lieux, ou si aucun pilote n'est payé après 15 rencontres.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
