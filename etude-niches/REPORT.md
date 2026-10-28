@@ -690,6 +690,43 @@ Méthode : partir de logiciels qui se vendent déjà (France, Pays-Bas, États-U
 
 **Je ne sais pas** : liste des éditeurs belges de devis pour la construction et leurs prix ; part des artisans déjà équipés ; nombre actuel d'entreprises de titres-services et de crèches.
 
+## Exploration 5 — Paris ambitieux (28/10/2026)
+Demande : aller au-delà des petits logiciels administratifs locaux. Critères :
+- un marché **européen ou mondial** ;
+- des **preuves de traction ou d'investissement** ailleurs ;
+- un **avantage propre** : bâtiment, architecte, données de marchés publics, IA ;
+- un point de départ **autofinançable**, quitte à lever des fonds plus tard.
+
+### Pari 1 — Métré et chiffrage de construction automatiques par IA, pour l'Europe francophone puis l'UE
+- **Preuve ailleurs** : Togal.AI (États-Unis), logiciel de métré automatique, a levé 5 M$ avec un plafond de valorisation de 50 M$ (S098). Les outils anglo-saxons sont « peu intégrés » aux logiciels français ; la Fédération française du bâtiment organisait un webinaire sur le métré sur plan en juin 2026 (S104, ESTIMÉ).
+- **Avantage propre** : ta compagne architecte ; la lecture des cahiers des charges faite dans cette étude. Chaque marché public de travaux s'accompagne d'un métré (inventaire) à chiffrer. Le Forem achète des formations de métreur qui reçoivent une seule offre (S051).
+- **Départ autofinancé (HYPOTHÈSE)** : vendre d'abord du **métré comme service** (IA de lecture de plans + vérification humaine) aux entrepreneurs qui répondent aux marchés publics, puis automatiser et vendre le logiciel.
+- **Risques** : la lecture automatique de plans est un vrai problème technique (il faudra un associé ou un prestataire en vision par ordinateur) ; des acteurs internationaux existent (Togal.AI, Kreo) ; la responsabilité sur les quantités.
+
+### Pari 2 — Infrastructure européenne de données de marchés publics, prête pour le « Public Procurement Act »
+- **Preuve ailleurs** : Tussell vend ce type de données au Royaume-Uni depuis 2015 (S105, ESTIMÉ). Le marché couvert pèse **2 600 Md€ par an** (15 % du PIB de l'UE), avec plus de 250 000 acheteurs publics (S101).
+- **Déclencheur** : la proposition de règlement du 9/09/2026 (S102, S103) :
+  - place de marché numérique interconnectée ;
+  - qualité ≥ 30 % par défaut ;
+  - préférence européenne et contrôles de sécurité ;
+  - vérifications automatiques.
+
+  Les acheteurs devront justifier leurs critères de qualité et l'origine européenne ; les entreprises devront répondre sur la qualité, pas seulement sur le prix.
+- **Avantage propre** : chaîne eForms (format commun à l'UE) déjà construite et testée ; mesure de la concurrence par lot.
+- **Risques** : ce n'est qu'une **proposition** (négociation, puis plusieurs années avant application) ; concurrents européens (TenderWolf, Altura, Tendium…) ; ventes lentes au secteur public.
+
+### Pari 3 — Pré-contrôle de permis d'urbanisme par IA (communes et architectes)
+- **Preuve ailleurs** : plus de 30 villes (États-Unis, Canada, Australie) utilisent Archistar (S099) ; Los Angeles, Austin et Honolulu ont adopté ce type d'outil en 2024-2025 (S100).
+- **Avantage propre** : ta compagne architecte ; ta connaissance de l'achat public (les communes achètent par marché public).
+- **Risques** : les règles wallonnes (CoDT, guides, règlements communaux) sont difficiles à formaliser ; cycle de vente long auprès des communes ; aucune preuve d'achat européenne trouvée.
+
+### Classement (jugement)
+1. **Pari 1** : marché mondial, preuve d'investissement, démarrage possible en service autofinancé, forte adéquation.
+2. **Pari 2** : actif unique déjà construit, mais déclencheur encore lointain.
+3. **Pari 3** : séduisant, mais vente aux communes longue et règles complexes.
+
+**Ce que ces paris exigent et que tu n'as pas encore** : une compétence technique en IA (associé, freelance ou partenariat de recherche) ; du temps commercial auprès d'entrepreneurs. Avec 10 000 € et sans levée de fonds, seul un démarrage « service d'abord » paraît réaliste (jugement).
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
