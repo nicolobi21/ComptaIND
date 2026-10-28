@@ -520,6 +520,52 @@ Contrôle d'exhaustivité (`analysis/archi_verif.py`, sortie `analysis/archi/arc
 
 Concurrence passée (S048, 11 à 15 lots par groupe : intervalles très larges) : part des lots à 0-1 offre de 9 % pour « services d'architecte pour les bâtiments » (CPV 7122) et de 27 % pour le CPV général 7100. C'est un indice d'une concurrence plus forte qu'en électricité, pas une mesure précise.
 
+## Exploration — Entreprise à fort potentiel depuis Charleroi (28/10/2026)
+
+Cadre donné par l'utilisateur :
+- démarrage en complémentaire, puis plein temps ;
+- **autofinancement uniquement** ;
+- profil scripts / no-code / IA, sans développement d'application complète ;
+- terrains ouverts : SaaS B2B, bâtiment / rénovation, produit physique, projet avec sa compagne architecte.
+
+Critères de tri (jugement) :
+1. une obligation ou une douleur qui force l'achat, et qui revient ;
+2. un marché national puis européen ;
+3. un produit faisable sans levée de fonds ;
+4. un avantage déjà acquis (données construites dans cette étude, architecte associée, Charleroi).
+
+| Rang | Piste | Moteur (MESURÉ) | Taille / portée | Avantage propre | Principaux risques |
+|---|---|---|---|---|---|
+| 1 | **Conformité « air intérieur »** : capteur CO2 conforme, tableau de bord, dossier analyse de risques et plan d'action, puis label | Loi du 6/11/2022 : phase volontaire depuis le 1/10/2024 ; « From 1 January 2027, these measures will gradually become mandatory » ; extension à **tous** les lieux fermés accessibles au public d'ici fin 2037 (S028). Exigences sanitaires imposées aux fabricants et **importateurs** de capteurs CO2 vendus en Belgique (S028) | Horeca : 32 417 établissements avec caisse enregistreuse en 2023 (S031, plus de 24 mois) + sport, culture, commerces, écoles, soins | Piste n° 1 du scoring B2B (QAI 3,65) ; profil informatique + gestion ; abonnement récurrent | Arrêté royal 2027 non publié : catégories et dates inconnues. Outil public **gratuit** pour l'analyse de risques (S028). Capteurs déjà banalisés |
+| 2 | **Rénovation obligatoire** : estimation chiffrée du coût de mise en conformité au moment de l'achat, puis plan de travaux, avec ta compagne comme experte | Wallonie : achats dès 2028, PEB D sous 5 ans ; tout le parc F en 2031 ; parc certifié d'ici 2030 (S055). Flandre : obligation **en vigueur depuis 2023**, délai de 6 ans, plafonnée au label D (S058) | Toutes les ventes de logements en Wallonie à partir de 2028. Selon PEB Connect, 46 % des logements certifiés sont en F ou G (S059, ESTIMÉ) | Architecte associée ; intérêt pour le bâtiment ; ingénieur de gestion | Calendrier wallon pas encore définitif. La Flandre a déjà **assoupli** le sien (S058). Concurrence de services publics et de plateformes gratuites (PEB Connect, S059). Métiers agréés (certificateur, auditeur) |
+| 3 | **Intelligence marchés publics** : alertes, mesure de la concurrence par acheteur et par CPV, résumé IA des cahiers des charges | Peu d'offres par lot (sections précédentes : jusqu'à 56 % d'offres uniques) | 29 appels d'architecture en français en 2 mois (S053) ; 6 786 architectes francophones et germanophones (S057) | Chaîne de données déjà construite et testée dans cette étude | Marché encombré : plan gratuit et offres à 79-149 €/mois selon un concurrent (S056, ESTIMÉ). Droit de réutilisation commerciale des données de publicprocurement.be **non vérifié** |
+
+**Recommandation (jugement)** : tester d'abord la **piste 1**.
+- Sa date déclencheuse est la plus proche (1/1/2027).
+- Elle combine matériel et abonnement, sans grosse équipe technique.
+- Elle se vend localement (horeca et salles de sport de Charleroi) avant de passer par des revendeurs.
+
+La piste 2 a le plus gros marché, mais ses déclencheurs sont plus lointains et politiquement mouvants. Elle peut être préparée en parallèle avec ta compagne.
+
+**Avocat du diable**
+- Aucune preuve d'achat n'est mesurée pour l'instant : ce classement repose sur des moteurs réglementaires, pas sur des clients qui paient.
+- Un moteur réglementaire peut être retardé ou assoupli, comme la Flandre l'a fait (S058).
+- Un « gouffre à argent » autofinancé suppose une marge brute élevée et une acquisition de clients peu coûteuse ; aucune des deux n'est mesurée.
+
+**Je ne sais pas**
+- Contenu de l'arrêté royal 2027 : catégories visées, date, obligations exactes.
+- Prix que les exploitants sont prêts à payer.
+- Coût et conditions de mise en conformité d'un capteur importé.
+- Nombre annuel de ventes de logements en Wallonie (Statbel non consultable ; baromètre des notaires non lu en brut).
+- Droit de réutiliser commercialement les données de publicprocurement.be.
+
+**Prochaine phase proposée (sur OK)** : tests de preuve d'achat pour la piste 1.
+- Lire l'arrêté royal ou son projet, et le guide officiel des capteurs.
+- Dresser la liste des capteurs conformes et de leurs prix.
+- Mener 15 entretiens d'exploitants à Charleroi (horeca, sport).
+- Mettre en ligne une page de précommande.
+- Calculer les marges.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
