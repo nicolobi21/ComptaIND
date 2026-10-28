@@ -669,6 +669,27 @@ Méthode : passer en revue les obligations européennes et belges **déjà en vi
 - Inviter plus d'entreprises ne garantit pas plus d'offres (les cahiers des charges lus en électricité exigent souvent une visite obligatoire, etc.).
 - La concurrence côté acheteurs n'est pas mesurée ; il faut vérifier la licence des données BOSA pour un usage commercial (je ne sais pas).
 
+## Exploration 4 — SaaS « prouvés ailleurs » à adapter à la Belgique (28/10/2026)
+Méthode : partir de logiciels qui se vendent déjà (France, Pays-Bas, États-Unis), puis chercher un **trou belge**. Ce trou vient de règles propres au pays (TVA, Peppol, organismes régionaux), de la langue, ou de l'absence de version belge.
+
+| Idée | Preuve ailleurs | Pourquoi un trou en Belgique (HYPOTHÈSE) | Base belge | Adéquation (jugement) |
+|---|---|---|---|---|
+| **1. Devis et factures pour artisans du bâtiment, version belge** (FR + NL) : TVA à 6 % en rénovation avec attestation, autoliquidation (cocontractant), Peppol, contrôles 30bis, Checkinatwork, devis assisté par IA (photos, dictée) | France : Obat dès 25 €/mois, Tolteck dès 22,71 €/mois et plus de 30 000 artisans revendiqués (S094, ESTIMÉ) | Règles fiscales et sociales belges spécifiques ; **Peppol obligatoire depuis le 1/1/2026** (S090) ; aucune version belge des leaders français trouvée | 81 500 indépendants et 217 400 salariés dans la construction (S093) | **Très forte** : bâtiment + gestion + informatique ; vente sur le terrain à Charleroi |
+| 2. Gestion de cabinet pour architectes (temps, honoraires, rentabilité par projet) | États-Unis : Monograph (S095, ESTIMÉ) | Logiciels anglo-saxons peu adaptés (langue, barèmes, TVA) | 6 786 architectes francophones et germanophones, 9 199 flamands (S057) | Forte (ta compagne) ; mais ArchiSnapper, belge, couvre déjà les rapports de chantier |
+| 3. Gestion des entreprises de titres-services (planning, chèques, règles régionales) | Système uniquement belge | Réformes régionales fréquentes (Wallonie 2024, comparateur 2026) | 2 711 entreprises en 2012 (S096, données anciennes) | Moyenne ; éditeurs en place non identifiés |
+| 4. Gestion de crèches (ONE, Kind en Gezin) | France : Meeko, Kidizz (non vérifié) | Réforme MILAC, inscriptions centralisées ONE depuis 2025 | Inconnue (S097) | Moyenne ; ABCrèche existe déjà (2020) |
+| Rappel des explorations 2 et 3 | Outil pour acheteurs publics (A) ; caisses SCE 2.0 ; faisabilité de parcelles | | | |
+
+**Recommandation (jugement)** : l'idée 1 combine les quatre conditions recherchées. Le modèle se vend ailleurs, une obligation belge est en vigueur (Peppol), la base de clients est mesurée et l'adéquation avec ton profil est forte. Les idées 1 et A peuvent aussi se compléter : les artisans équipés pourraient recevoir les marchés publics adaptés à leur métier.
+
+**Avocat du diable (idée 1)**
+- Des logiciels Peppol génériques et peu chers existent déjà (Accountable, Billit, Odoo… S090). L'artisan peut s'en contenter.
+- Les éditeurs belges spécialisés construction n'ont **pas** été identifiés par la recherche : ce n'est pas une preuve qu'ils n'existent pas.
+- Les artisans changent rarement d'outil et sont difficiles à joindre. La vente sur le terrain coûte du temps.
+- Les règles fiscales (6 %, attestations) engagent la responsabilité de l'éditeur en cas d'erreur.
+
+**Je ne sais pas** : liste des éditeurs belges de devis pour la construction et leurs prix ; part des artisans déjà équipés ; nombre actuel d'entreprises de titres-services et de crèches.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
