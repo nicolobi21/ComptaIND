@@ -634,6 +634,22 @@ Canaux possibles (HYPOTHÈSE) : installateurs de ventilation, services externes 
 - les maisons de repos flamandes : plan de ventilation au 31/12/2025, rapport au 31/12/2026 (S074, à confirmer sur le texte officiel) ;
 - les lieux de travail soumis au Code du bien-être au travail (S060).
 
+## Exploration 2 — Autres idées (28/10/2026), après abandon de la piste « air intérieur »
+Critère ajouté : **obligation déjà en vigueur ou clients qui paient déjà** (leçon de la piste QAI).
+
+| Rang (jugement) | Idée | Preuve que le marché existe (MESURÉ sauf mention) | Pour toi | Principaux risques / inconnues |
+|---|---|---|---|---|
+| 1 | **Intégrateur-installateur de caisses certifiées SCE 2.0 pour l'horeca (Hainaut, puis Wallonie)** : vente, installation, formation, support, contrat d'entretien, en partenariat avec un ou plusieurs éditeurs certifiés | Obligation **en vigueur** depuis le 1/7/2026 ; **toutes** les caisses existantes doivent migrer d'ici le 1/7/2027, le 1/7/2028 ou le 1/1/2029 selon leur date d'achat (S078). Offre « insuffisante » selon le SPF (S079). Élargissement à d'autres établissements horeca « très avancé » (S079). 32 417 établissements équipés en 2023 (S031, plus de 24 mois) | Informatique, démonstration chez le client, voiture, Charleroi ; peu de stock (revente) | 35 logiciels certifiés (32 éditeurs) dont des géants comme Lightspeed et Odoo (S080). Marges et commissions de revendeur : **je ne sais pas**. Part des établissements déjà migrés : inconnue. Vague limitée dans le temps (2029), ensuite marché de remplacement et de support |
+| 2 | **Analyse de faisabilité de parcelles** (Wallonie, puis Bruxelles) : zonage, contraintes, potentiel constructible, avec ta compagne comme experte. Clients : promoteurs, marchands de biens, agents, notaires, architectes | Des clients paient déjà en **France** pour des outils de ce type (Kel Foncier, IZIRED, Proplab, Fonciable… S084, ESTIMÉ) ; aucun équivalent wallon ou flamand trouvé. Le plan cadastral belge est réutilisable commercialement (licence avec attribution, S082) | Profil informatique + architecte associée ; scalable (logiciel) ; marché proche (bâtiment) | Règles d'urbanisme wallonnes peu « lisibles » par machine (gros travail). Prix de vente des biens non ouverts en Belgique. Nombre de clients potentiels et prix acceptés : **je ne sais pas**. Licence du plan de secteur non vérifiée |
+| 3 | Inventaires amiante / logiciel pour experts amiante | Flandre : obligation **en vigueur**, 500 000 attestations = 17 % de plus de 2,3 millions de bâtiments d'ici 2032 (S083) | — | Marché flamand (néerlandais), expert certifié requis ; Wallonie et Bruxelles : encore au stade de projet (presse, non vérifié) → même piège que l'air intérieur |
+| — | Écartée : logiciel de réponse aux marchés publics | — | Données déjà prêtes | Marché encombré (S056) |
+
+**Avocat du diable**
+- Idée 1 : c'est un métier de services (installation, support le soir et le week-end), pas un « gouffre à argent » logiciel ; la croissance passe par l'embauche de techniciens. Les grands éditeurs vendent en direct.
+- Idée 2 : la preuve d'achat vient de France, pas de Belgique. Le marché belge des promoteurs est plus petit. Un outil faux sur l'urbanisme engage la responsabilité.
+
+**Je ne sais pas** : commissions des éditeurs de caisses ; nombre d'établissements horeca dans le Hainaut (Statbel non consultable) ; prix des outils français de faisabilité ; existence d'acteurs belges non trouvés par la recherche.
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
