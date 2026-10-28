@@ -650,6 +650,25 @@ Critère ajouté : **obligation déjà en vigueur ou clients qui paient déjà**
 
 **Je ne sais pas** : commissions des éditeurs de caisses ; nombre d'établissements horeca dans le Hainaut (Statbel non consultable) ; prix des outils français de faisabilité ; existence d'acteurs belges non trouvés par la recherche.
 
+## Exploration 3 — Grand angle (28/10/2026)
+Méthode : passer en revue les obligations européennes et belges **déjà en vigueur** qui forcent des entreprises à acheter, les marchés en forte croissance, et les actifs propres déjà construits dans cette étude.
+
+| Idée | Déclencheur | Preuve | Adéquation (jugement) | Verdict |
+|---|---|---|---|---|
+| **A. Outil pour acheteurs publics** : trouver les entreprises à inviter, savoir combien d'offres attendre et quel prix est normal (à partir des avis d'attribution eForms) | Problème reconnu : Belgique, 22 % de procédures à soumissionnaire unique en 2024, référence UE 28 % (S086, ESTIMÉ) ; mesuré ici : jusqu'à 56 % d'offres uniques sur des lots locaux. L'acheteur choisit lui-même qui il consulte sous 143 k€ (S047) | Données TED réutilisables commercialement (S087, ESTIMÉ). Un concurrent vend déjà une offre « acheteurs » (S056, ESTIMÉ) | **Très forte** : chaîne de données déjà construite ; format eForms commun à toute l'UE → duplicable | **À creuser (n° 1)** |
+| B. Intégrateur de caisses SCE 2.0 (horeca) | Obligation en vigueur, migration jusqu'en 2029 (S078) | Offre insuffisante (S079) | Forte, mais métier de service | À creuser (n° 2, revenus rapides) |
+| C. Faisabilité de parcelles (avec ta compagne) | — (marché libre) | Outils payants en France (S084, ESTIMÉ) ; cadastre réutilisable (S082) | Forte | À creuser (n° 3) |
+| D. Accessibilité des sites marchands (European Accessibility Act) | En vigueur depuis le 28/06/2025 pour le commerce électronique (S088, ESTIMÉ) | Contrôle et sanctions belges non trouvés | Bonne (expérience Shopify) ; marché UE | Possible ; manque une preuve de contrôle |
+| E. Préparation NIS2 / CyFun pour PME | Certification attendue au 18/04/2027 (S089, ESTIMÉ) | Environ 7 380 organisations enregistrées (S089, ESTIMÉ) | Moyenne (sécurité = expertise pointue ; seuls des organismes accrédités certifient) | Écartée pour l'instant |
+| F. Facturation Peppol | En vigueur depuis le 1/1/2026 (S090, ESTIMÉ) | Aucune amende au 3/08/2026 | Faible : marché déjà couvert par les logiciels comptables | Écartée |
+| G. Chaîne d'approvisionnement défense | Budget fédéral de 34,2 Md€ sur 2026-2034 (S092, ESTIMÉ) | Wallonie : 1,8 Md€ de CA, environ 100 entreprises (S085) | Faible sans expérience défense ; cycles longs | À surveiller |
+| H. Passeport batterie | Obligatoire au 18/02/2027 (S091, ESTIMÉ) | Importateurs de vélos électriques, stockage | Moyenne ; gros éditeurs déjà positionnés | À surveiller |
+
+**Avocat du diable (idée A)**
+- Les acheteurs publics achètent lentement, souvent par marché public eux-mêmes. Sous 30 000 € HTVA, la procédure est cependant souple (S047).
+- Inviter plus d'entreprises ne garantit pas plus d'offres (les cahiers des charges lus en électricité exigent souvent une visite obligatoire, etc.).
+- La concurrence côté acheteurs n'est pas mesurée ; il faut vérifier la licence des données BOSA pour un usage commercial (je ne sais pas).
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
