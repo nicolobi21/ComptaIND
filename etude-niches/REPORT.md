@@ -727,6 +727,38 @@ Demande : aller au-delà des petits logiciels administratifs locaux. Critères :
 
 **Ce que ces paris exigent et que tu n'as pas encore** : une compétence technique en IA (associé, freelance ou partenariat de recherche) ; du temps commercial auprès d'entrepreneurs. Avec 10 000 € et sans levée de fonds, seul un démarrage « service d'abord » paraît réaliste (jugement).
 
+## Avis — Le programme de l'utilisateur pour faciliter les permis d'urbanisme des architectes (28/10/2026)
+### Déclencheur réglementaire **en vigueur** (MESURÉ, S106)
+| Date | Dépôt **électronique obligatoire** pour… |
+|---|---|
+| 31/05/2026 | permis relevant du fonctionnaire délégué ou du Gouvernement, dans les 20 communes du groupe A (dont Mons, Tournai, Mouscron, Ath, Dour, Namur, Sambreville) |
+| 1/02/2027 | idem pour les groupes A + B ; et permis du **collège communal** dans le groupe A |
+| 1/10/2027 | permis du collège communal dans le groupe B |
+| 1/01/2028 | permis d'urbanisation et certificats d'urbanisme n° 2 |
+| **1/09/2028** | **toutes** les demandes de permis, d'urbanisation et de certificats ; seuls les permis **sans architecte** peuvent rester sur papier |
+
+Conséquence : d'ici le 1/09/2028, **tous les architectes wallons** devront déposer leurs permis par voie électronique.
+
+Le SPW écrit lui-même que l'incomplétude des dossiers est « une cause fréquente d'allongement du délai de traitement » (S107).
+
+### Avis (jugement)
+- **Pour** :
+  - un déclencheur légal daté, déjà en vigueur ;
+  - un utilisateur captif (l'architecte, obligé) ;
+  - une douleur reconnue officiellement (dossiers incomplets) ;
+  - ta compagne comme première utilisatrice ;
+  - 20 communes pilotes, dont plusieurs dans le Hainaut, où les architectes déposent **déjà** en électronique : ce sont les premiers clients naturels.
+- **Extension possible** : Bruxelles (MyPermit, plus de 7 500 demandes par an, S108, ESTIMÉ), Flandre (Omgevingsloket, non vérifié), France (téléprocédure obligatoire depuis 2022, environ 1,5 million de demandes par an, S109, ESTIMÉ).
+- **Contre / risques** :
+  - la plateforme officielle de dépôt est **gratuite** et intègre déjà une check-list par type de permis (S107). Le programme doit apporter **plus** : contrôle de complétude et de cohérence avant dépôt, préparation des pièces, suivi multi-dossiers, rappels de délais. Sinon il fait doublon ;
+  - accès technique à la plateforme du SPW (API ? dépôt par un logiciel tiers ?) : **je ne sais pas** ;
+  - les communes utilisent déjà NOTICe, Urb@web (CIVADIS) ou ia.Urban (IMIO) côté instruction : ces éditeurs peuvent s'étendre côté architecte ;
+  - marché wallon limité (environ 6 786 architectes francophones et germanophones, S057) : la croissance passe par Bruxelles, la Flandre puis la France ;
+  - responsabilité en cas d'erreur de contrôle.
+
+### Questions ouvertes à l'utilisateur
+Que fait exactement le programme aujourd'hui ? Pour quelle étape (préparation, formulaires, contrôle des plans, suivi) ? Testé avec quels architectes ?
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
