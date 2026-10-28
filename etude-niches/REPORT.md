@@ -759,6 +759,39 @@ Le SPW écrit lui-même que l'incomplétude des dossiers est « une cause fréqu
 ### Questions ouvertes à l'utilisateur
 Que fait exactement le programme aujourd'hui ? Pour quelle étape (préparation, formulaires, contrôle des plans, suivi) ? Testé avec quels architectes ?
 
+### Outils existants autour du permis d'urbanisme wallon (28/10/2026)
+**Côté public (gratuit, officiel)** — S110 à S114
+| Outil | Rôle | Qui l'utilise |
+|---|---|---|
+| **Mon Espace** (monespace.wallonie.be) | Guichet unique de dépôt : formulaire unique qui « s'adapte automatiquement » au projet, pièces jointes, signature, paiement, suivi, réponses aux compléments, recours (depuis le 1/09/2026) | Architectes, citoyens (connexion eID, itsme ou eIDAS) |
+| Gesper | Traitement des permis par la Région | SPW (fonctionnaire délégué) |
+| Urb@web (Civadis) / iA-Urban (iMio) | Logiciels d'urbanisme des communes, interconnectés | Communes (iMio : 240 communes membres, S115, ESTIMÉ) |
+| Notice (SPW) | Pour les communes non équipées et les instances d'avis | Communes, administrations |
+| COSI | Signature électronique | Tous |
+
+**Règles de dépôt imposées aux architectes** (S112, S113) :
+- PDF uniquement, aplatis (sans calques) ;
+- 20 Mo maximum par fichier ;
+- un seul élément par fichier ;
+- nommage codé obligatoire (SIT_, IMP_xx, SE/SP/SD_BATxx_PL/CO/EL/DEM/DET/EG/3D/AU, VOI_, SRI_…) ;
+- « un fichier mal nommé peut être considéré comme manquant ».
+
+**Côté privé (architectes)** :
+- Aucun outil trouvé qui prépare automatiquement un dossier conforme (découpage, aplatissement, renommage, contrôle de complétude), ni en Wallonie, ni pour l'Omgevingsloket flamand (recherches FR et NL).
+- Les logiciels de dessin (Archicad, Revit…) exportent des plans, mais rien de documenté pour ces conventions.
+- **Absence dans les résultats ≠ absence sur le marché.**
+
+**Conséquence pour le programme de l'utilisateur (jugement)** :
+- **À ne pas refaire** (Mon Espace le fait gratuitement) : le formulaire, le dépôt, le suivi.
+- **Créneau libre apparent** : préparer, en amont, un dossier **conforme et complet** :
+  - découper les PDF multi-plans en un fichier par élément ;
+  - aplatir les calques ;
+  - compresser sous 20 Mo ;
+  - renommer selon la convention, en proposant le code par reconnaissance du contenu du plan (IA) ;
+  - contrôler les pièces exigées selon le type de permis ;
+  - générer la table des matières.
+- **Risque** : le SPW pourrait ajouter ces contrôles dans Mon Espace ; aucune API publique trouvée pour déposer depuis un logiciel tiers (je ne sais pas si elle existe).
+
 ## 4. Dossiers du top 3
 _Phase 3._
 
