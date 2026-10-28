@@ -615,6 +615,25 @@ Canaux possibles (HYPOTHÈSE) : installateurs de ventilation, services externes 
    - **Continuer** si au moins 3 pilotes payants sont signés.
    - **Arrêter** si les catégories de 2027 excluent ces lieux, ou si aucun pilote n'est payé après 15 rencontres.
 
+### 6. Catégories de lieux visées en 2027 : état au 28/10/2026
+**Conclusion : la liste n'est pas publiée.** Ni le SPF (page mise à jour le 11/08/2026, S060) ni Arizo (23/10/2026, S070) ne la donnent ; aucun arrêté désignant des lieux n'a été trouvé (recherche FR/NL, miroir du Moniteur, presse, fédérations).
+
+**Ce que dit exactement la loi** (S068, art. 8 de la loi du 18/05/2024) : le Roi « doit déterminer […] les lieux […] soumis aux obligations de la loi, et ce **à partir du** 1er janvier 2027, avec la possibilité de le faire en plusieurs phases ou non », tous les lieux devant être couverts **au plus tard le 31/12/2037**. Interprétation (à confirmer par un juriste ou le SPF) : **tant qu'aucun arrêté n'est publié, aucun exploitant n'est obligé**, même après le 1/1/2027 ; la désignation peut intervenir n'importe quand d'ici 2037.
+
+**Premiers secteurs probables (HYPOTHÈSE fondée sur 3 indices concordants)** : horeca (établissements de boissons et de restauration), discothèques et dancings, bâtiments sportifs, culture et événements (dont cinémas).
+- Ce sont les secteurs nommés dans le projet initial de 2022 (S072, S073) ;
+- ceux visés par les arrêtés préparés en 2024 « in de eerste fase » (S071) ;
+- ceux déjà soumis au CO2-mètre pendant le Covid (S066).
+
+**Contre-indices (délai probable)**
+- Ces secteurs ont obtenu en 2024 le passage au volontariat par leur lobbying (S071, S076).
+- L'arrêté doit passer en Conseil des ministres ; aucun projet n'est public à 2 mois de l'échéance.
+- Le même ministère vient de reporter une autre mesure prévue au 1/1/2027 après des remarques du Conseil d'État (tabac en terrasse, S077 — sujet différent).
+
+**Conséquence pour le projet** : ne pas compter sur un pic de demande au 1/1/2027. Les premiers secteurs probables sont aussi ceux qui sont **déjà équipés** (Covid) et les plus opposés. Deux marchés ont des obligations **déjà en vigueur**, indépendantes de cet arrêté, et sont à vérifier en priorité :
+- les maisons de repos flamandes : plan de ventilation au 31/12/2025, rapport au 31/12/2026 (S074, à confirmer sur le texte officiel) ;
+- les lieux de travail soumis au Code du bien-être au travail (S060).
+
 ## 4. Dossiers du top 3
 _Phase 3._
 

@@ -1,0 +1,319 @@
+
+<!DOCTYPE HTML>
+<html lang='nl'>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='Description' content="">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	
+		<meta property='og:title' content="Binnenluchtkwaliteit - Centrum voor Jeugdtoerisme" />
+		<meta property='og:type' content='website' />
+		<meta property='og:url' content='https://cjt.be/binnenluchtkwaliteit' />
+		
+	<title>Binnenluchtkwaliteit - Centrum voor Jeugdtoerisme</title>
+	<base href='https://cjt.be/'>
+	<link rel='shortcut icon' type='image/ico' href='/favicon.ico' />
+
+	<link rel='stylesheet' type='text/css' href='/_css/css.php?v=2026.02'>
+	
+	<link rel='preconnect' href='https://fonts.googleapis.com'>
+	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+	<link href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&family=Poppins:wght@300;600;700;800&display=swap' rel='stylesheet'>
+	
+	<script src='https://kit.fontawesome.com/d7718b6b1c.js' crossorigin='anonymous'></script>
+	<script src='https://www.google.com/recaptcha/api.js?hl=nl'></script>
+	
+	<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAkFbQWzfPkcs0_EaSDwSnlDFlliw15X1c&language=nl'></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+	<script src='/_scripts/jquery-ui.min.js'></script>
+	<script src='/_scripts/swiper.min.js'></script>
+	<script src='/_scripts/wow.min.js'></script>
+	<script src='/_scripts/fresco.js'></script>
+	<script src='/_scripts/javascript.js'></script>
+
+	<script>
+		
+		// animation
+		
+		new WOW().init();
+		
+		$(window).load(function() {
+			
+			
+			
+		});
+		
+		$(document).ready(function() {
+			
+			
+					$('#query').autocomplete({
+						source: '/_scripts/autocomplete.php?site=algemeen',
+						minLength: 2,
+						focus: function(event, ui) {
+							$('#search').val(ui.item.label);
+							return false;
+						}, 
+						select: function(event, ui) {
+							$('#direct_search_url').attr('value', ui.item.id);				
+							$('#search_form').submit();
+						},
+						position: {
+							my: 'left top-1', at: 'left bottom'
+						}, 
+						appendTo: '.search_form'
+					});
+					
+					
+			$('.hamburger').click(function() {
+				$('ul.nav').slideToggle(400);
+				$('.hamburger').toggleClass('is-active');
+				return false;
+			});
+					
+			$('.activity_filter_toggle').click(function() {
+				$('.activity_filter').slideToggle(400);
+				
+				if ($('#activity_filter_toggle_label').text() == 'tonen') {
+					$('#activity_filter_toggle_label').text('verbergen');
+				} else {
+					$('#activity_filter_toggle_label').text('tonen');
+				}
+				
+				return false;
+			});
+			
+			$('a.anchorLink').click(function(e) {	
+			
+				elementClick = $(this).attr('href');
+				
+				destination = $(elementClick).offset().top;
+				$('html:not(:animated),body:not(:animated)').animate({scrollTop: destination}, 650);
+				
+				e.preventDefault();
+				return false;
+				
+			});
+					
+		});
+				
+		
+		
+	</script>
+	
+		<!-- Google Tag Manager Quoted -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-5WJB4T3');</script>
+		<!-- End Google Tag Manager -->
+		
+</head>
+
+<body class='algemeen binnenluchtkwaliteit'>
+
+		<!-- Google Tag Manager Quoted (noscript) -->
+		<noscript><div class='responsive_iframe_wrapper'><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-5WJB4T3'	height='0' width='0' style='display:none;visibility:hidden'></iframe></div></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		
+	<div class='container'>
+		
+		
+		<div class='header'>
+			<div class='wrapper'>
+				<div class='controls'>
+				
+						<form id='search_form' name='search_form' class='search_form' method='get' action='/' autocomplete='off'>
+							<input type='hidden' name='direct_search_url' id='direct_search_url' value='' />
+							<input type='hidden' name='redirect' value='/binnenluchtkwaliteit' />
+							<input type='text' name='query' id='query' class='query' value='' placeholder='Zoeken' />
+							<button type='submit'></button>
+						</form>
+							
+				</div>	
+				
+					<a href='/'><img src='/_graphics/logo_baseline.svg' class='logo' alt='Home' title='Home' /></a>
+									
+					<button class='hamburger hamburger--squeeze' type='button'>
+						<span class='hamburger-box'>
+							<span class='hamburger-inner'></span>
+						</span>
+					</button>
+					
+						<a href='/inloggen/' class='login'>Aanmelden</a>
+						
+					<ul class='nav'>
+					
+							<li class='nav_home'>
+								<a href='https://cjt.be/'>Home</a>
+							</li>
+							
+								<li class='nav_themas'>
+									<a href='/themas/'>Thema's</a><ul>
+												<li>
+													<a href='/themas/uitbating/'>Uitbating</a>
+												</li>
+												
+												<li>
+													<a href='/themas/infrastructuur/'>Infrastructuur</a>
+												</li>
+												
+												<li>
+													<a href='/themas/mensen/'>Mensen</a>
+												</li>
+												
+												<li>
+													<a href='/themas/financieel/'>Financieel</a>
+												</li>
+												
+												<li>
+													<a href='/themas/kampas/'>Kampas</a>
+												</li>
+												
+												<li>
+													<a href='/themas/nieuwe-uitbater/'>Nieuwe uitbater</a>
+												</li>
+												</ul>										
+								</li>
+								
+								<li class='nav_nieuws'>
+									<a href='/nieuws/'>Nieuws<b>5</b></a>										
+								</li>
+								
+								<li class='nav_kalender'>
+									<a href='/kalender/'>Kalender</a>										
+								</li>
+								
+								<li class='nav_publicaties'>
+									<a href='/publicaties/'>Publicaties</a>										
+								</li>
+								
+								<li class='nav_over-ons'>
+									<a href='/over-ons/'>Over ons</a><ul>
+												<li>
+													<a href='/over-ons/team/'>Wie we zijn</a>
+												</li>
+												
+												<li>
+													<a href='/over-ons/missie/'>Missie, visie & waarden</a>
+												</li>
+												</ul>										
+								</li>
+								
+								<li class='nav_contact'>
+									<a href='/contact/'>Contact</a>										
+								</li>
+								
+					</ul>
+					
+			</div>
+		</div>
+		
+		<div class='content'>
+		
+<div class='wrapper'>
+	<div class='text_left'>
+		<h1>Binnenluchtkwaliteit</h1>
+
+<p>Op initiatief van minister van volksgezondheid Vandenbroucke gaat op 10 december 2022 de <a href="https://www.health.belgium.be/nl/naar-een-wettelijk-kader-voor-binnenluchtkwaliteit" target="_blank">wet "betreffende de verbetering van de binnenluchtkwaliteit&nbsp;in&nbsp;gesloten plaatsen die publiek toegankelijk zijn"</a>, in. De wet heeft betrekking op “gesloten plaatsen die publiek toegankelijk zijn” en zal in eerste instantie gelden voor de sectoren die tijdens de coronapandemie reeds verplicht werden om de luchtkwaliteit te meten: horeca, sport, evenementensector en nachtleven, met inbegrip van culture gelegenheden en bioscopen. Jeugdlokalen en ook jeugdverblijven in zelfkook vallen dus niet onder dit toepassingsgebied. Jeugdverblijven in volpension&nbsp;vallen onder de horeca en dus ook onder de nieuwe wet.</p>
+
+<p>Bijzonder is dat de wetgeving&nbsp;geen enkele verplichting bevat om goede binnenluchtkwaliteit te bereiken, enkel een verplichting om waardes bekend te maken voor bezoekers. Daartoe zullen labels ontwikkeld worden in verschillende kleuren.&nbsp;Voor het bepalen van de score kan men kiezen tussen meting van CO2 of het aanwezige ventilatiedebiet (cf. coronaverplichtingen in de horeca). De normering wordt binnenkort reeds bekendgemaakt, zodat iedereen zich kan voorbereiden. Maar de uitrol van de labels is dus pas voor later.</p>
+
+<p>Voor de volpensionhuizen die onder de nieuwe wet vallen, is een termijn van één jaar voorzien om zich te conformeren aan de nieuwe wet. Concreet is het vanaf 10 december 2023 verplicht om CO2-meters te gebruiken en&nbsp;een&nbsp;risicoanalyse&nbsp;en een&nbsp;actieplan&nbsp;te ontwikkelen en beschikbaar te stellen. Vanaf 1 januari 2025 wordt&nbsp;het dan ook verplicht om een certificering aan te vragen en het op basis hiervan toegekende label te afficheren.</p>
+
+<p>Er zal gewerkt worden met twee referentieniveaus:</p>
+
+<ol>
+	<li>Referentieniveau A: ofwel een minimumdebiet aan ventilatie en luchtzuivering van 40 m³/u per persoon waarvan minstens 25 m³/u per persoon aan ventilatie met buitenlucht; ofwel een CO2-concentratie die gewoonlijk* lager ligt dan 900 ppm</li>
+	<li>Referentieniveau B: ofwel een minimumdebiet aan ventilatie met buitenlucht van 25&nbsp;m³/u per persoon; ofwel een CO2-concentratie die gewoonlijk* lager ligt dan 1200 ppm</li>
+</ol>
+
+<p>* Met "gewoonlijk" wordt bedoeld: minstens 95 % van de tijd dat de ruimte in gebruik is, waarmee occasionele pieken dus worden uitgesloten</p>
+
+<p>De vraag&nbsp;in hoeverre verluchten en ventileren tijdens de wintermaanden te rijmen valt met het besparen van energie, is meer dan actueel. Het is in ieder geval een uitdaging om thermisch comfort en luchtkwaliteit op elkaar af te stemmen. Gaan naar zeer lage CO2-waarden door maximaal te verluchten is compleet onbetaalbaar met de huidige energieprijzen, er dient een&nbsp;evenwicht in kosten-batenanalyse gevonden te worden. Dit kan met&nbsp;energiezuinige ventilatietechnieken (maar deze zijn duurder in aankoop en onderhoud). Warmterecuperatie (inkomende buitenlucht wordt opgewarmd door buitengaande binnenlucht) en vraagsturing (bij lage bezetting niet het volledige ventilatiesysteem benutten) zijn dan de kernbegrippen.</p>
+
+<p>Samen met de koepels van het jeugdwerk is CJT lid van het nieuwe platform binnenluchtkwaliteit en volgen we dit de komende maanden verder op. Want ook al is meten op zich voldoende, ook dat zorgt weer voor extra werk en, in geval van een zwakke score, voor onnodige stigmatisering. En de wetgeving binnenluchtkwaliteit mag de klimaatdoelstellingen niet in de weg staan.</p>
+
+	</div>
+	
+	<div class='text_right'>
+	
+	</div>
+</div>
+
+		</div>	
+	</div>
+		
+	<div class='footer'>
+		<div class='wrapper'>
+		
+				<div class='footer_block'>
+					<strong>CJT vzw</strong>
+					
+					<table cellspacing='0' cellpadding='0'>
+						<tr>
+							<td class='icon'><i class='fas fa-map-marker-alt'></i></td>
+							<td class='text'><a href='https://google.be/maps/?q=Bergstraat 16, 9820 Merelbeke-Melle' target='_blank'>Bergstraat 16, 9820 Merelbeke-Melle</a></td>
+						</tr>
+						<tr>
+							<td class='icon'><i class='fas fa-mobile-alt'></i></td>
+							<td class='text'><a href='tel:+32 9 210 57 75'>+32 9 210 57 75</a></td>
+						</tr>
+						<tr>
+							<td class='icon'><i class='far fa-envelope'></i></td>
+							<td class='text'><a href='mailto:info@cjt.be'>info@cjt.be</a></td>
+						</tr>
+					</table>
+				</div>
+				
+				<div class='footer_block'>
+					<strong>Nieuwsbrief</strong>
+					<p class='small'>Abonneer je hier op de sectornieuwsbrief voor uitbaters van jeugdverblijven en kampeerterreinen in Vlaanderen.</p>
+					
+	<div class='form newsletter'>
+		<form method='post' action='/binnenluchtkwaliteit/'>
+			<input type='text' name='first_name' value='' class='first_name' />
+			<input type='text' name='email_newsletter' id='email_newsletter' class='text' value='' maxlength='100' placeholder='E-mail' />
+			<button type='submit'><i class='far fa-angle-right'></i></button>
+			<br class='clear' />
+				
+	<span class='checkbox style='margin-bottom: 5px;''>
+		<label style='cursor: pointer;'><input type='checkbox' name='accept_privacy_newsletter' id='checkbox_accept_privacy_newsletter' class='checkbox' value='1' checked /> Ik aanvaard de <a href='/privacy-policy/' target='_blank'>privacy policy</a></label>
+	</span>
+	
+			<br class='clear' />
+			<div class='g-recaptcha' data-sitekey='6LcWrYwUAAAAAL_CvimjQkYGyj1UpoKe1Z-aZqMP'></div>
+			<br />
+			<input type='hidden' name='submit_newsletter_form' value='1' />		
+		</form>
+	</div>
+	
+				</div>
+				
+				<div class='footer_block'>
+				
+						<strong>Blijf op de hoogte</strong>
+						
+						<a href='https://www.facebook.com/CJTvzw' target='_blank'><i class='fab fa-facebook-f fa-fw'></i></a>&nbsp;
+						
+						<a href='https://www.linkedin.com/company/centrum-voor-jeugdtoerisme' target='_blank'><i class='fab fa-linkedin-in fa-fw'></i></a>&nbsp;
+						
+				</div>
+				
+				<div class='footer_block'>
+				
+							<img src='/_images/labels/_small/1.png' class='label' alt="Vlaamse Overheid" title="Vlaamse Overheid" />
+							
+				</div>			
+				
+		</div>
+	</div>	
+
+	<div class='copyrights'>
+		© 2026 CJT vzw • BE 0409.153.027 • 
+		<a href='https://cjt.be/privacy-policy/'>privacyverklaring</a> • <a href='https://cjt.be/cookie-policy/'>cookiepolicy</a> • <a href='https://cjt.be/sitemap/'>sitemap</a>
+		<a href='http://quoted.be/' target='_blank'><img src='/_graphics/quoted.png' class='quoted' alt='Quoted.be' title='Quoted.be' /></a>
+	</div>
+		
+</body>
+</html>
